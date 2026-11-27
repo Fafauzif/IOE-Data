@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+	/* =========================
+	LANGUAGE SWITCH FLEX SAFE
+	========================= */
+
+	.nav-lang-wrapper {
+		margin-left: 15px;
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
+    	border-left: 1px solid #ddd;
+	}
+
+	.nav-lang-switch {
+		display: flex;
+		gap: 6px;
+	}
+
+	.lang-btn {
+		padding: 4px 10px;
+		font-size: 12px;
+		font-weight: 600;
+		border-radius: 20px;
+		border: 1px solid #003366;
+		text-decoration: none;
+		color: #003366;
+		background: #ffffff;
+		transition: 0.2s ease;
+	}
+
+	.lang-btn:hover {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.lang-btn.active {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		background: none !important;
+	}
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: auto;
+		background: transparent !important;
+		border: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+	}
+
+	.carousel-control-prev:focus,
+	.carousel-control-next:focus,
+	.carousel-control-prev:active,
+	.carousel-control-next:active {
+		outline: none !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+</style>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/style.css">
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/bootstrap.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700|Work+Sans&display=swap" rel="stylesheet">
+	<!-- Optional JavaScript -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<title>Jakarta International Container Terminal</title>
+</head>
+
+<body>
+	<section class="page-navbar" id="navbar">
+		<div class="page-navbar-wrapper wrapper">
+			<nav class="navbar-style fixed-top navbar-expand-xl">
+				<a class="navbar-brand pt-2 pb-2" href="https://www.jict.co.id/home">
+					<img class="navbar-logo" src="https://www.jict.co.id/assets/img/navbar/JICT-Logo.png" alt="JICT Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle Navigation">
+					<div class="navbar-toggler-menu center">
+						<img class="navbar-toggler-logo" src="https://www.jict.co.id/assets/img/navbar/menu.png" alt="Menu Icon">
+					</div>
+				</button>
+				<div class="navbar-link-area navbar-collapse collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav text-center">
+						<a class="nav-link link-text" href="https://www.jict.co.id/about">About JICT</a>
+						<a class="nav-link" href="https://www.jict.co.id/facilities-operations">Facilities & Operations Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/news">News</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/online-services">Online Services</a>
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/vgm-certificate">VGM Certificate</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/shipping-document">Shipping Document</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/rate">Rate (USD)</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id/simulasiTarif.php" target="_blank">Calculate</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/container-tracking">Container Tracking</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/invoice-tracking">Invoice Tracking</a> -->
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/document-billing-tracking">Document Billing Tracking</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/reprint-eir">Reprint EIR</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/vessel-schedule">Vessel Schedule</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/e-do">e-DO</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id" target="_blank">KIOS</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/csr">CSR</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/gcg-overview">
+								GCG
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-overview">
+									Governance Overview
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-framework">
+									Governance Framework & Corporate Organs
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-policies">
+									Policies & Codes
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-board">
+									Board Committee
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-wbs">
+									WBS
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-gms">
+									GMS & Report
+								</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/sustainability-governance">
+								Sustainability
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-governance">
+									Governance
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-tjsl">
+									TJSL
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-k3">
+									K3
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-environment">
+									Environment
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-publication">
+									Publication
+								</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/procurement">Procurement Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/vacancy">Vacancy</a>
+											</div>
+				</div>
+			</nav>
+		</div>
+	</section>	<section class="about-jict-header" id="about-jict-header">
+		<div class="about-jict-header-wrapper wrapper">
+			<div class="about-jict-header about-jict-background"></div>
+			<h3 class="about-jict-header-title">ABOUT JICT</h3>
+		</div>
+	</section>
+
+	<section class="jict-in-brief" id="jict-in-brief">
+		<div class="container text-center">
+			<h4 class="jict-in-brief-title section-title">JICT IN BRIEF</h4>
+							<p class="description"><p style="text-align:justify">Jakarta International Container Terminal (JICT), a joint venture between Hutchison Port and Pelabuhan Indonesia (Persero) is the largest container terminal in Indonesia. JICT operates container service for ocean going vessels at Tanjung Priok seaport and strategically located at the industrial heartland of Java. Since established at 1999, JICT has been commited to serve as nation&#39;s gateway with major deep-sea and short sea shipping lines.</p>
+
+<p style="text-align:justify">JICT is accredited to ISO 9002 standards and aims to provide excellent services through the dedication of our experienced workforce and the application of the latest cutting edge technology.</p>
+
+<p style="text-align:justify">Besides the pioneer of 100 percent sterile Terminal that endow with security, safety and clean in every line of its environment, JICT provides quality services to more than 20 shipping lines with direct routes to more than 25 countries and is committed to providing fast, efficient and reliable services 24 hours a day, all year round.</p>
+</p>
+				<!-- <br> -->
+					</div>
+	</section>
+
+	<style>
+		/* ===========================
+		DIRECTOR MODAL PREMIUM STYLE
+		=========================== */
+
+		.director-modal {
+			border-radius: 14px;
+			overflow: hidden;
+			border: none;
+			box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+		}
+
+		/* Header */
+		.director-modal .modal-header {
+			background: #ffffff;
+			border-bottom: 1px solid #eaeaea;
+			padding: 15px 20px;
+		}
+
+		.director-modal .modal-title {
+			font-size: 18px;
+			font-weight: 700;
+			margin: 0;
+		}
+
+		/* Body */
+		.director-modal-body {
+			padding: 0 !important;
+		}
+
+		/* LEFT PANEL (background grey + gradient tipis) */
+		.director-left-panel {
+			padding: 18px;
+		}
+
+		/* Wrapper foto + frame */
+		.director-photo-wrapper {
+			position: relative;
+			width: 100%;
+			padding: 10px;
+			border-radius: 12px;
+			background: #ffffff;
+			border: 1px solid #e1e1e1;
+			box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.10);
+			overflow: hidden;
+		}
+
+		/* Foto kotak */
+		.director-photo-rect {
+			width: 100%;
+			height: 360px;
+			object-fit: cover;
+			border-radius: 10px;
+			display: block;
+		}
+
+		/* Overlay Nama + Position */
+		.director-overlay {
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			bottom: 10px;
+			padding: 12px 14px;
+			border-radius: 10px;
+			background: rgba(0, 0, 0, 0.55);
+			backdrop-filter: blur(4px);
+			color: #fff;
+		}
+
+		/* Text overlay */
+		.director-overlay-name {
+			font-size: 15px;
+			font-weight: 700;
+			letter-spacing: 0.3px;
+		}
+
+		.director-overlay-position {
+			font-size: 12px;
+			opacity: 0.9;
+		}
+
+		/* RIGHT PANEL */
+		.director-right-panel {
+			background: #ffffff;
+			padding: 18px;
+		}
+
+		/* CV Content */
+		.director-cv {
+			max-height: 420px;
+			overflow-y: auto;
+			padding-right: 10px;
+			font-size: 14px;
+			line-height: 1.85;
+			text-align: justify;
+			color: #212529;
+		}
+
+		/* paragraf */
+		.director-cv p {
+			margin-bottom: 12px;
+		}
+
+		/* heading CKEditor */
+		.director-cv h1,
+		.director-cv h2,
+		.director-cv h3,
+		.director-cv h4,
+		.director-cv h5 {
+			font-weight: 700;
+			margin-top: 15px;
+			margin-bottom: 10px;
+			color: #0d6efd;
+			text-align: left;
+		}
+
+		/* bold */
+		.director-cv strong {
+			color: #0d6efd;
+		}
+
+		/* list */
+		.director-cv ul,
+		.director-cv ol {
+			padding-left: 20px;
+			margin-bottom: 12px;
+		}
+
+		.director-cv li {
+			margin-bottom: 6px;
+		}
+
+		/* hr */
+		.director-cv hr {
+			border: 0;
+			border-top: 1px solid #eaeaea;
+			margin: 15px 0;
+		}
+
+		/* scrollbar */
+		.director-cv::-webkit-scrollbar {
+			width: 7px;
+		}
+
+		.director-cv::-webkit-scrollbar-track {
+			background: #f1f1f1;
+		}
+
+		.director-cv::-webkit-scrollbar-thumb {
+			background: #cfcfcf;
+			border-radius: 10px;
+		}
+
+		.director-cv::-webkit-scrollbar-thumb:hover {
+			background: #a8a8a8;
+		}
+
+		/* Responsive */
+		@media (max-width: 768px) {
+
+			.director-left-panel {
+				border-right: none;
+				border-bottom: 1px solid #eaeaea;
+				padding: 15px;
+			}
+
+			.director-photo-rect {
+				height: 250px;
+			}
+
+			.director-right-panel {
+				padding: 15px;
+			}
+
+			.director-cv {
+				max-height: none;
+			}
+
+			.director-modal-header-clean {
+				background: #ffffff;
+				border-bottom: 1px solid #eaeaea;
+				padding: 10px 15px;
+			}
+
+		}
+
+	</style>
+
+	<section class="management-profile" id="management-profile">
+		<!-- <div class="container text-center mb-5">
+			<h4 class="management-profile-title section-title">COMMISSIONERS</h4>
+			<div class="management-profile-row-1 row">
+								<div class="col text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/6e3b69e868eab5877bf1146b68a41d62.jpg" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner1" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">President Commissioner<br>Wibowo Suseno Wirjawan</h6>
+				</div>
+								<div class="col text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/1b7bfe971b3ee088316d893f13f23410.JPG" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner2" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Vice President Commissioner<br>M. Adji</h6>
+				</div>
+							</div>
+			<div class="row justify-content-center">
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/6d875ab031a9b95f8b568d172f8a3dae.JPG" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner4" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Stephen Ashworth</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/314238571834b2f647c075a5bc1c7c44.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner6" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Diana Tung Wan Lee</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/704e30df971fccc37c8f450742e49673.jpg" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner7" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Seto Baskoro</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/92358fda225beefcb3582b371b45e7e9.JPG" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner8" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Retno Soelistianti</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/e14c8bbcf6c1568685a72d55fed24d3a.jpg" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner9" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Vivi Yulaswati</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/a61717fe0e5f674ffa62ace3608eb993.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#commissioner10" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Commissioner<br>Agus Teddy Sumantri</h6>
+				</div>
+							</div>
+
+							<div class="modal fade" id="commissioner1" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/6e3b69e868eab5877bf1146b68a41d62.jpg"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Wibowo Suseno Wirjawan</h6>
+												<small class="director-overlay-position">President Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p>Born in Jakarta, January 08th 1961.</p>
+
+<p><strong>Education</strong></p>
+
+<p>S1 - Universitas Padjajaran Bandung, Accounting<br />
+<br />
+<strong>Career</strong></p>
+
+<p>Previously as Advisor PT Hutchison Ports Indonesia (August 2009 - Present)<br />
+President Director PT Benakat Integra Tbk. (Oct 2013 - 2016)<br />
+President Commissioner PT Jakarta International Container Terminal (2016 - Present)</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner2" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/1b7bfe971b3ee088316d893f13f23410.JPG"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">M. Adji</h6>
+												<small class="director-overlay-position">Vice President Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p>Born in&nbsp;Boyolali, 03 Oktober 1969</p>
+
+<p><strong>Education</strong></p>
+
+<ul>
+	<li>S2 APEC Belgium, Master of Port Management &amp; Harbour Adm</li>
+	<li>S1 Institut Teknologi Bandung, Teknik Sipil</li>
+</ul>
+
+<p><br />
+<strong>Career</strong></p>
+
+<ul>
+	<li>Direktur Operasi dan Komersial&nbsp;PT Pelindo IV (Persero)</li>
+	<li>Direktur Utama PT IPC Terminal Petikemas</li>
+	<li>Direktur Operasi PT Pelabuhan Tanjung Priok - PT Pelindo II (Persero)</li>
+	<li>Wakil General Manager Cabang Pelabuhan Tanjung Priok -&nbsp;PT Pelindo II (Persero)</li>
+	<li>PMO Leader Kantor Pusat PT Pelindo II (Persero)</li>
+	<li>Direktur Komersial JICT</li>
+	<li>Kepala Biro Strategi Perusahaan Kantor Pusat PT Pelindo II (Persero)</li>
+	<li>ASM Perencanaan dan Perngembangan Fasilitas PT Pelindo II (Persero)</li>
+	<li>ASM Perencanaan dan Rancang Bangun PT Pelindo II (Persero)</li>
+	<li>Manager Teknik dan Sistem Informasi PT Pelindo II (Persero) Banten</li>
+	<li>Kabid Penyiapan Bangunan Bangunan Pengganti Proyek Koja</li>
+	<li>Kepala Bidang Perencanaan Teknik Proyek Koja</li>
+	<li>Asisten Manager Teknik Sipil Cabang Pontianak</li>
+</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner4" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/6d875ab031a9b95f8b568d172f8a3dae.JPG"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Stephen Ashworth</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p>Stephen was appointed Managing Director, South East Asia &amp; Australia for Hutchison Ports in January 2026. Prior to his current position, he was Managing Director, South East Asia and served as Chief Executive Officer of Hutchison Ports Indonesia between 2010 and 2014. He previously worked for Cheung Kong Hutchison Holdings and Hutchison Ports between 1992 and 2001 in a number of senior finance and management positions, including JICT Finance Director between 1999 and 2001.</p>
+
+<p>Between 2002 and 2010, Stephen was Asia Pacific Chief Financial Officer for the Constituency Management Group (CMG), the marketing communications division of the US-listed Interpublic Group. During his time with CMG, he had overall responsibility for its finance function in the Asia Pacific region.</p>
+
+<p>He is a member of the Institute of Chartered Accountants in England and Wales and the Hong Kong Institute of Certified Public Accountants and holds a BA Degree in Economics from the University of Leeds in the U.K.</p>
+
+<p>Stephen also holds an Honorary Doctorate in Philosophy from the Faculty of International Maritime Studies, Kasetsart University in Thailand.</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner6" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/314238571834b2f647c075a5bc1c7c44.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Diana Tung Wan Lee</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><span style="color:#000000"><strong>Education</strong></span></p>
+
+<ul>
+	<li>University of Melbourne, Bachelor of Commerce</li>
+</ul>
+
+<p><span style="color:#000000"><strong>Career</strong></span><br />
+Previously as</p>
+
+<ul>
+	<li>Finance and Legal Director - Yantian International Container Terminals</li>
+	<li>Deputy Chief Financial Officer of the Trustee-Manager Hutchison Ports (Feb 2011)</li>
+	<li>Chief Financial Officer and Investor Relations Officer of the Trustee-Manager - Hutchison Ports (May 2016)</li>
+	<li>Group Chief Financial Officer - Hutchison Port Holdings Limited</li>
+	<li>Non-Executive Director - Hutchison Port Holdings Management Pte. Limited (2022)</li>
+	<li>Commissioner - PT Jakarta International Container Terminal (Feb 2022 - Present</li>
+</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner7" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/704e30df971fccc37c8f450742e49673.jpg"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Seto Baskoro</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Education&nbsp;</strong></p>
+
+<p>Graduated from Faculty of Law, Trisakti University, Indonesia.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Carrer</strong></p>
+
+<p>&bull;&nbsp;&nbsp; &nbsp;I was working as a corporate lawyer at a law firm after graduating and continued as a corporate lawyer at foreign investment company.</p>
+
+<p>&bull;&nbsp;&nbsp; &nbsp;As from 2011 up to present, I have been joining at PT. Hutchison Ports Indonesia as a Head of Legal.</p>
+
+<p>&bull;&nbsp;&nbsp; &nbsp;From 2012 up to 2023, I was appointed as the member of Supervisory Board of Kerjasama Operasi Terminal Petikemas Koja.&nbsp;</p>
+
+<p>&bull;&nbsp;&nbsp; &nbsp;In October 2023 up to present, I have been appointed as the Chief Executive Officer of PT. Hutchison Ports Indonesia.</p>
+
+<p>&bull;&nbsp;&nbsp; &nbsp;In December 2023 up to present, I have been appointed as the member of Commissioner of PT Jakarta International Container Terminal&nbsp;</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner8" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/92358fda225beefcb3582b371b45e7e9.JPG"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Retno Soelistianti</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Education</strong></p>
+
+<p>S1 Teknik Arsitektur , Jakarta - 1996</p>
+
+<p>S2 Hydraulic Engineering , Delft &ndash; 2001</p>
+
+<p>S2 Executive MBA, Laussane - 2017</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Career</strong></p>
+
+<p>Direktur Komersial PT. Jakarta International Container Terminal (PT JICT)</p>
+
+<p>Direktur Komersial PT. Pelabuhan Tanjung Priok (PT. PTP)</p>
+
+<p>Direktur Utama PT. Pengembang Pelabuhan Indonesia (PT. PPI)</p>
+
+<p>SVP Transformasi &amp; Pengembangan Bisnis PT. Pelabuhan Indonesia II (Persero)</p>
+
+<p>EVP Strategi Korporasi PT. Pelabuhan Indonesia II (Persero)</p>
+
+<p>Direktur Strategi dan Pengembangan Bisnis PT. Pelindo Sinergi Lokaseva (PT. PSL)</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner9" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/e14c8bbcf6c1568685a72d55fed24d3a.jpg"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Vivi Yulaswati</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p>Vivi Yulaswati is the Deputy Minister for Economic Affairs and Digital Transformation at the Ministry of National Development Planning/Bappenas.</p>
+
+<p>She has been involved/lead in the Indonesia&rsquo;s Golden Vision 2045 development, particularly in regards to digital transformation, energy transition, low carbon development initiatives, and green/blue economy framework and strategies. She had long experience in developing SDGs road map, Voluntary National Review, as well as social protection and subsidy reforms. Currently, she is leading in digital government master plan, road map for digital economy as well as digital infrastructure and ecosystem, and some national strategic projects.</p>
+
+<p>She holds PhD in Planning and Development from University of Southern California (2004), Master in Urban and Regional Planning from University of Wisconsin-Madison, USA (1999), bachelor from University of Indonesia (1991); and took many courses in evaluation, digital transformation, and change management in HKS and LSE. She received an Outstanding Public Social Innovation Award from Schwab Foundation World Economic Forum in 2024.</p>
+
+<p>&nbsp;</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+							<div class="modal fade" id="commissioner10" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/a61717fe0e5f674ffa62ace3608eb993.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Agus Teddy Sumantri</h6>
+												<small class="director-overlay-position">Commissioner</small>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p>Born in Jakarta, 22 March 1972<br />
+<br />
+<strong>Education</strong><br />
+Bachelor of Engineering in Electrical Engineering,<strong>&nbsp;</strong>National Institute of Science and Technology (ISTN) University, Jakarta - Indonesia<br />
+Professional Engineer Program in Industrial Engineering,&nbsp;Muslim University of Indonesia, Makassar - Indonesia<br />
+<br />
+<strong>Career</strong><br />
+Vice President of Network Operations (Fiber &amp; Submarine),&nbsp;PT.Indosat , Tbk (2022 - Present)<br />
+General Manager Sumatera Region,&nbsp;PT. Indosat, Tbk / Hutchison 3 Indonesia (2019 - 2022)<br />
+Deputy General Manager Southern Sumatera,&nbsp;PT. Indosat, Tbk / Hutchison 3 Indonesia (2014 - 2019)<br />
+Technical Branch Manager Jabo Area,&nbsp;PT. Indosat, Tbk / Hutchison 3 Indonesia (2010 - 2014)<br />
+Technical Branch Manager West Java Area,&nbsp;PT. Indosat, Tbk / Hutchison 3 Indonesia (2004&nbsp;- 2010)</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			
+		</div> -->
+
+		<div class="container text-center mt-5">
+			<h4 class="management-profile-title section-title">DIRECTORS</h4>
+			<div class="management-profile-row-1 row">
+								<div class="col text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/500af4957f2d1c902c31f8cd1d6a9b63.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director1" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">President Director<br>Ade Hartono</h6>
+				</div>
+								<div class="col text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/f0452a541e5f0a97cff1cd6e2ddc06f5.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director2" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Vice President Director<br>P Thavaneswaran </h6>
+				</div>
+							</div>
+			<div class="row justify-content-center">
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/profile-max-suswendi.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director3" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Finance Director<br>Max Suswendi</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/profile-henry-naldi.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director4" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Administrative Director<br>Henry Naldi</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/359c334b595673ee1472beafaaad2047.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director5" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Human Resources Director<br>Sandhy Wijaya</h6>
+				</div>
+								<div class="col-md-3 col-lg-3 text-center">
+					<img class="management-profile-circle-profile rounded-circle" src="https://www.jict.co.id/assets/img/about/profile-doni-budiono.png" alt="Profile Image" style="max-width: 150px; max-height: 150px;" data-toggle="modal" data-target="#director6" onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+					<h6 class="management-profile-name">Operation & Engineering Director<br>Doni Budiono</h6>
+				</div>
+							</div>
+
+						<!-- Modal -->
+				<div class="modal fade" id="director1" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/500af4957f2d1c902c31f8cd1d6a9b63.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Ade Hartono</h6>
+												<small class="director-overlay-position">President Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Education</strong></p>
+
+<p>Kuhne Logistic University, Hamburg &ndash; Germany</p>
+
+<p>&bull; Master Business Administration</p>
+
+<p>Yohohama National Univesity, Yokohama - Jepang</p>
+
+<p>&bull; Master of Infrastruktur</p>
+
+<p>Universitas Indonesia</p>
+
+<p>&bull; Bachelor of Civil Engineering</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Career</strong></p>
+
+<p>2020&ndash; current</p>
+
+<p>President Director &bull; PT Jakarta International Container Terminal &bull;</p>
+
+<p>2019&ndash;2020</p>
+
+<p>President Director &bull; PT Indonesia Kendaraan Terminal Tbk&bull;</p>
+
+<p>2017-2019</p>
+
+<p>General Manager &bull; Terminal Petikemas KOJA &bull;</p>
+
+<p>2014-2017</p>
+
+<p>Senior Manager Construction &bull;PT Pelabuhan Indonesia II (Persero)</p>
+
+<p>2013-2014</p>
+
+<p>General Manager &bull; Terminal Petikemas KOJA &bull;</p>
+
+<p>2012-2013</p>
+
+<p>Project Management Officers (PMO)&bull;PT Pelabuhan Indonesia II (Persero)</p>
+
+<p>2010-2012</p>
+
+<p>General Manager &bull; Pelabuhan Bengkulu</p>
+
+<p>2008&ndash;2010</p>
+
+<p>Project Engineer &bull; PT Jakarta International Container Terminal</p>
+
+<p>2006-2008</p>
+
+<p>Assistant Senior Manager Engineering Department &bull; PT Pelabuhan Indonesia II (Persero)</p>
+
+<p>2006</p>
+
+<p>Project Leader Car Terminal, Tanjung Priok</p>
+
+<p>2004-2006</p>
+
+<p>Auditor (Internal Audit) &bull; PT Pelabuhan Indonesia II (Persero)</p>
+
+<p>1996-2004</p>
+
+<p>Engineer &bull;PT Pelabuhan Indonesia II (Persero)&bull;</p>
+
+<p>&nbsp;</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						<!-- Modal -->
+				<div class="modal fade" id="director2" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/f0452a541e5f0a97cff1cd6e2ddc06f5.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">P Thavaneswaran </h6>
+												<small class="director-overlay-position">Vice President Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif"><strong>Date of birth</strong>: 1st November 1973</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif"><strong>Education</strong></span></span></p>
+
+<ol>
+	<li><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Bachelor of Business – majoring in Accounting (2000)</span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Edith Cowan University, Western Australia</span></span></p>
+
+<p>&nbsp;</p>
+
+<ol start="2">
+	<li><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Associate Diploma in Commerce (1995)</span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Australian Institute of Uni. Studies, Western Australia</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif"><strong>Career</strong></span></span></p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif"><strong>PT. Jakarta International Container Terminal (PT&nbsp;JICT)</strong></span></span></p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Vice President Director October 2026 – Present</span></span></p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Operation Director July 2019 – October 2024</span></span></p>
+
+<p>&nbsp;</p>
+
+<ol>
+</ol>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">TPK KOJA CONTAINER TERMINAL JAKARTA</span></span></p>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Deputy General Manager – Operations &amp; Commercial&nbsp;&nbsp;March 2015 to June 2019</span></span></p>
+
+<p>&nbsp;</p>
+
+<h2><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">PELABUHAN TEGAR INDONESIA</span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Operations Director&nbsp;October 2014 to March 2015</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<h2><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">JURONG PORT PTE LTD</span></span></h2>
+
+<h2><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Deputy Manager&nbsp;December 2012 to Oct 2014</span></span></h2>
+
+<p><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; </span></span></p>
+
+<h2><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">WESTPORT MALAYSIA</span></span></h2>
+
+<h2><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">Key Acc. Mgr + Ops Planning Mgr + Yard Planning Exec.&nbsp;May 2001 to November 2012</span></span></h2>
+<script data-ts="1792583651166" src="https://cdn.n1ed.com/widgets.js?apiKey=FLMNFLMN"></script>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						<!-- Modal -->
+				<div class="modal fade" id="director3" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/profile-max-suswendi.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Max Suswendi</h6>
+												<small class="director-overlay-position">Finance Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Education</strong><br />
+Master of Business Administration, Leadership and Logistics 2014 - 2016<br />
+K&uuml;hne Logistics University l Hamburg., Germany<br />
+Master of Business Administration, Strategic Management 2006 - 2010<br />
+Universitas Gadjah Mada l Yogyakarta., Indonesia<br />
+Bachelor of Commerce, Accounting &amp; Finance 1996 - 2000<br />
+Deakin University l Melbourne., Australia</p>
+
+<p><strong>Career</strong><br />
+<strong>PT Jakarta International Container Terminal (PT JICT)</strong><br />
+Finance Director, Jan 2025 - Present<br />
+Senior Manager of Accounting and Tax, Jul 2024 - Jan 2025<br />
+Senior Manager of Supply Chain, Aug 2022 - Jun 2024<br />
+Apr 2016 - Nov 2020 (Acting)<br />
+Senior Manager of Corporate Finance and Risk Management, Jan 2016 - Jul 2022<br />
+Senior Manager of Financial Accounting and Services, Aug 2014 - Dec 2015<br />
+Cash Management and Treasury Manager, May 2013 - Jul 2014<br />
+Tax Planning and Compliance Manager, Apr 2010 - Apr 2013<br />
+Senior Staff Corporate Tax, Sep 2002 - Mar 2010<br />
+Tax Accountant, Aug 2000 - Aug 2002</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						<!-- Modal -->
+				<div class="modal fade" id="director4" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/profile-henry-naldi.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Henry Naldi</h6>
+												<small class="director-overlay-position">Administrative Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>&nbsp;Education&nbsp;</strong></p>
+
+<p>Magister Management, Universitas Sumatera Utara - Medan - 2021</p>
+
+<p>Bachelor in Civil Engineering, Bandung Institute of Technology (ITB) Bandung - 1992</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Career</strong><br />
+Direktur Administratif PT. JICT (2022 - saat ini)</p>
+
+<p>Komisaris Utama PT Prima Husada Cipta Medan (2021 - 2023)</p>
+
+<p>Direktur SDM dan Umum PT Pelindo 1 (Persero) (2020 - 2021)</p>
+
+<p>SVP Perencanaan &amp; Pengembangan Bisnis PT Pelindo 1 (Persero) (2020 - 2020)</p>
+
+<p>SVP Manajemen Transformasi PT Pelindo 1 (Persero) (2019 - 2020)</p>
+
+<p>Kepala Strategic Management Office PT Pelindo 1 (Persero) (2015 - 2019)</p>
+
+<p>SM Teknologi Informasi PT Pelindo 1 (Persero) (2009 - 2015)</p>
+
+<p>SM Manajemen Mutu &amp; Manajemen Risiko PT Pelindo 1 (Persero) (2008 - 2009)</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						<!-- Modal -->
+				<div class="modal fade" id="director5" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/359c334b595673ee1472beafaaad2047.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Sandhy Wijaya</h6>
+												<small class="director-overlay-position">Human Resources Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Education</strong></p>
+
+<p>World Maritime University, Malmo, Sweden - M.Sc (Master of Science)</p>
+
+<p>Gadjah Mada University, Yogyakarta, Indonesia - M.M (Magister Management)</p>
+
+<p>Universitas Sumatera Utara, Medan, Indonesia &ndash; S.E (Sarjana Ekonomi)</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Career</strong></p>
+
+<p>Human Resource Director PT Jakarta International Container Terminal (2023 &ndash; Saat ini)</p>
+
+<p>Direktur Utama PT Prima Terminal Petikemas, anak perusahaan PT Pelabuhan Indonesia I. (2021 &ndash; 2023).</p>
+
+<p>Direktur PT Prima Husada Cipta Medan, anak perusahaan PT Pelabuhan Indonesia I. (2020 &ndash; 2021).</p>
+
+<p>Direktur Bisnis PT Prima Indonesia Logistik, anak perusahaan PT Pelabuhan Indonesia I. (2018 &ndash; 2020).</p>
+
+<p>Senior Menejer Pemasaran PT Pelabuhan Indonesia I (Persero) (2018 &ndash; 2018).</p>
+
+<p>Koordinator Project Management Office Pengembangan Bisnis I PT Pelabuhan Indonesia I (Persero), untuk pelabuhan Dumai, Pekanbaru, Lhokseumawe, Sibolga, dan Tanjung Balai Asahan. (2016 &ndash; 2018).</p>
+
+<p>Koordinator Project Management Office PT Pelabuhan Indonesia I (Persero) untuk Pengembangan Bisnis Pelabuhan Dumai. (2016 &ndash; 2016).</p>
+
+<p>Corporate Secretary PT Pelabuhan Indonesia I (Persero). (2011 &ndash; 2016).</p>
+
+<p>Asisten Senior Menejer Pemasaran untuk Kerjasama Usaha PT Pelabuhan Indonesia I (Persero). (2010 &ndash; 2011).</p>
+
+<p>Asisten Senior Menejer Pemasaran untuk Pengkajian Pasar PT Pelabuhan Indonesia I (Persero). (2009 &ndash; 2010).</p>
+
+<p>Asisten Corporate Secretary untuk Hubungan Internasional dan Antar Lembaga PT Pelabuhan Indonesia I (Persero). (2009 &ndash; 2009).</p>
+
+<p>Staff Pemasaran Senior pada Bidang Pemasaran PT Pelabuhan Indonesia I (Persero). (2008 &ndash; 2009).</p>
+
+<p>Asisten Menejer Aneka Usaha Cabang Pelabuhan Belawan PT Pelabuhan Indonesia I (Persero). (2004 &ndash; 2007).</p>
+
+<p>Staff Pengkajian Pasar Bidang Pemasaran PT Pelabuhan Indonesia I (Persero). (2002 &ndash; 2004).</p>
+
+<p>Staff Pengembangan Fasilitas dan Usaha Pokok Pelabuhan PT Pelabuhan Indonesia I (Persero). (1999 &ndash; 2002).</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						<!-- Modal -->
+				<div class="modal fade" id="director6" tabindex="-1" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<div class="modal-content director-modal">
+
+							<div class="modal-header director-modal-header-clean">
+								<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body director-modal-body">
+								<div class="row no-gutters">
+
+									<!-- LEFT COLUMN -->
+									<div class="col-md-4 director-left-panel px-2">
+										<div class="director-photo-wrapper">
+											<img src="https://www.jict.co.id/assets/img/about/profile-doni-budiono.png"
+												class="director-photo-rect"
+												alt="Profile Image"
+												onerror="this.onerror=null;this.src='https://www.jict.co.id/assets/img/about/default.jpg';this.dataset.img=this.src;">
+
+											<!-- Overlay -->
+											<div class="director-overlay">
+												<h6 class="director-overlay-name mb-0">Doni Budiono</h6>
+												<small class="director-overlay-position">Operation & Engineering Director</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- RIGHT COLUMN -->
+									<div class="col-md-8 director-right-panel">
+										<div class="director-cv ck-content px-3">
+											<p><strong>Date of birth</strong>: 13 Feb 1974</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Education</strong></p>
+
+<p>BPLP Semarang</p>
+
+<p>Port &amp; Shipping Management 1992-1995</p>
+
+<p>STIE Kampus Ungu</p>
+
+<p>Sea Transportation Management 2006-2007</p>
+
+<p>Institut Teknologi Sepuluh Nopember Surabaya</p>
+
+<p>Magister of Management Technology 2020-2022</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Career<br />
+PT Jakarta International Container Terminal (PT JICT)</strong></p>
+
+<p>Tallyman (1996-1998)</p>
+
+<p>Control Tower (1998-1999)</p>
+
+<p>Ship &amp; Berth Planner (1999-2002)</p>
+
+<p>Ship Planner Supervisor (2002-2006)</p>
+
+<p>Ship &amp; Berth Planning Manager (2006-2007)</p>
+
+<p>Operations Manager (2007-2011)</p>
+
+<p>Day Shift Manager (2011-2015)</p>
+
+<p>Research Manager (2015-2017)</p>
+
+<p>Senior Manager Operations (2017-2025)</p>
+
+<p>Operations Director (2025-present)</p>
+
+<p>&nbsp;</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</section>
+
+	<section class="achievements" id="achievements">
+		<div class="container text-center">
+			<h4 class="achievements-title section-title">ACHIEVEMENTS</h4>
+			<div class="achievements-card-deck card-deck">
+				<div class="achievements-card card">
+					<img class="achievements-card-img-top img-fluid" src="https://www.jict.co.id/assets/img/about/medal.png" alt="Medal Icon">
+					<div class="achievements-card-body card-body text-center">
+						<h5 class="achievements-card-title card-title font-1">"Terminal Operator of The Year"</h4>
+							<p class="achievements-card-text card-text">INSA AWARD<br><br>2010</p>
+					</div>
+				</div>
+				<div class="achievements-card card">
+					<img class="achievements-card-img-top img-fluid" src="https://www.jict.co.id/assets/img/about/medal.png" alt="Medal Icon">
+					<div class="achievements-card-body card-body text-center">
+						<h5 class="achievements-card-title card-title">"Terminal Operator of The Year"</h4>
+							<p class="achievements-card-text card-text">INSA AWARD<br><br>2011</p>
+					</div>
+				</div>
+				<div class="achievements-card card">
+					<img class="achievements-card-img-top img-fluid" src="https://www.jict.co.id/assets/img/about/medal.png" alt="Medal Icon">
+					<div class="achievements-card-body card-body text-center">
+						<h5 class="achievements-card-title card-title">"The Best Container Terminal"</h4>
+							<p class="achievements-card-text card-text">AFSCA AWARD<br><br>2011</p>
+					</div>
+				</div>
+				<div class="achievements-card card">
+					<img class="achievements-card-img-top img-fluid" src="https://www.jict.co.id/assets/img/about/medal.png">
+					<div class="achievements-card-body card-body text-center">
+						<h5 class="achievements-card-title card-title">"The Best Container Terminal"</h4>
+							<p class="achievements-card-text">AFSCA AWARD<br><br>2012</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="our-culture" id="our-culture">
+		<div class="our-culture-container container text-center">
+			<h4 class="achievements-title section-title">OUR VALUES</h4>
+			<div class="container">
+				<div class="col-md-8 px-0 mx-auto">
+					<img src="https://www.jict.co.id/assets/img/about/AKHLAK.png" class="img-fluid">
+				</div>
+			</div> 
+			<br>
+			<div class="container">
+				<div class="col-md-12 px-0 mx-auto">
+					<img src="https://www.jict.co.id/assets/img/about/maklumat.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section><section class="footer" id="footer">
+	<div class="footer-credit">
+		<div class="footer-credit-container container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 footer-credit-logo-1-col pt-3 pb-3">
+					<a href="https://www.ckh.com.hk" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/CK-Logo.png" alt="CK Logo" style="max-width: 250px;">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-12 footer-credit-logo-1-col pt-3 pb-3" style="margin-left:20px;">
+					<a href="https://hutchisonports.com/" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/hph-logo.png" alt="HPH Logo" style="max-width: 120px;">
+						<!-- <img class="footer-credit-logo-1" src="https://hutchisonports.com/media/g/src/logo-en.svg?key=000000000016965563510406Huc0" alt="HPH Logo" style="max-width: 120px;"> -->
+					</a>
+				</div>
+				<div class="col-lg-2 col-md-1 col-sm-1 col-12 footer-credit-logo-2-col pt-3 pb-3" style="margin-left:-20px;">
+					<a href="https://pelindo.co.id/" target="_blank">
+						<img class="footer-credit-logo-2" src="https://pelindo.co.id/uploads/config/MdO1jALfvFLVuhy81XVHr8LnxnHBI9riZImH7CCD.png" alt="IPC Logo" style="min-width: 80px;">
+						<!-- <img class="footer-credit-logo-2" src="" alt="IPC Logo"> -->
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-12 footer-credit-link-col" style="margin-left:-10px;margin-top:-12px;">
+					<a class="footer-credit-link footer-credit-link-1" href="https://www.jict.co.id/home">Home</a>
+					<a class="footer-credit-link" href="https://www.jict.co.id/contact-us">Contact Us</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright pt-3 pb-2 text-center">
+		<h6 class="footer-copyright-text">Copyright @2019 Jakarta International Container Terminal</h6>
+	</div>
+</section>
+
+</body>
+
+</html>

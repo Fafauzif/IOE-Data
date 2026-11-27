@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/shortcut.png" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>GEOFABRIK // Legal Notice and Privacy Statement</title>
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+</head>
+<body>
+
+<div id="gTop">
+   <nobr><a href="/en/index.html"><img src="/img/gG72-white.png" border="0" title="Geofabrik Home" alt="Geofabrik" id="gLogo"></a></nobr>
+   <div id="open-menu-icon" class="menu-button-closed" width="23" height="23">
+      <span></span>
+      <span></span>
+      <span></span>
+   </div>
+</div>
+
+
+<!-- Menu //-->
+<nav id="gMenu">
+    <ul><li class="gmenu"><a href="index.html" class="gActive">GEOFABRIK</a></li>
+<li class="gmenu"><a href="../data/">Data</a></li>
+<li class="gmenu"><a href="../maps/">Maps</a></li>
+<li class="gmenu"><a href="../services/">Services</a></li>
+<li class="gmenu"><a href="../projects/">Portfolio</a></li>
+<li class="gmenu"><a href="contact.html">Contact</a></li>
+<li class="gmenu"><a href="https://blog.geofabrik.de/en/">Blog</a></li>
+</ul>
+
+    <!-- Sprachswitch //-->
+    <div id="gLang">
+        <a href="/de/geofabrik/imprint.html">
+        
+        
+            <svg class="languageFlag" id="flagDE" role="img" aria-label="Flagge der Bundesrepublik Deutschland, Link zur deutschen Version der Seite" width="27" height="16" viewBox="0 0 5 3"><title>Flagge der Bundesrepublik Deutschland</title><desc>Link zur deutschen Version</desc><rect width="5" height="3" y="0" x="0" fill="#000"/><rect width="5" height="2" y="1" x="0" fill="#D00"/><rect id="gold_stripe" width="5" height="1" y="2" x="0" fill="#FFCE00"/></svg>
+            <div class="langLabel">Deutsch</div>
+        
+        </a>
+    </div>
+</nav>
+<script type="text/javascript">
+var menuOpen = false;
+var gMenu = document.getElementById('gMenu');
+var hamburger = document.getElementById('open-menu-icon');
+var closeMenu = function() {
+    console.log('close');
+    gMenu.classList.add('menuHide');
+    gMenu.classList.remove('menuShow');
+    hamburger.classList.add('menu-button-closed');
+    hamburger.classList.remove('menu-button-open');
+    menuOpen = false;
+}
+
+function openCloseMenu(event, onlyClose) {
+    if (menuOpen) {
+        closeMenu(event);
+    } else if (!menuOpen && !onlyClose) {
+        console.log('open');
+        gMenu.classList.remove('menuHide');
+        gMenu.classList.add('menuShow');
+        hamburger.classList.add('menu-button-open');
+        hamburger.classList.remove('menu-button-closed');
+        menuOpen = true;
+    }
+    // don't allow the element to propagagte on
+    event.stopPropagation();
+};
+
+hamburger.addEventListener('click', function(event){openCloseMenu(event, false);});
+gMenu.addEventListener('click', function(event){event.stopPropagation();});
+document.body.addEventListener('click', function(event){openCloseMenu(event, true);});
+</script>
+
+<!-- Main Content //-->
+<div id="gMain">
+
+<h1>Legal Notice</h1>
+
+This web site is operated by:</h1>
+
+<p>Geofabrik GmbH<br/>
+Amalienstra&szlig;e 44<br/>
+76133 Karlsruhe<br/>
+Germany
+</p>
+
+<p><a href="mailto:info@geofabrik.de">info@geofabrik.de</a><br/>
+
+Telephone: +49 721 180 3560-0<br/>
+Fax: +49 721 180 3560-9
+
+
+</p>
+
+<p>Managing Directors: Christine Karch &amp; Frederik Ramm
+<br>HRB Mannheim 703657
+<br>USt-Id DE222535480</p>
+
+<!-- ============================================================================================ -->
+
+<h1>Privacy Statement</h1>
+
+
+
+<p>Contents:</p>
+<ol>
+<li>Geofabrik Website and Blog</li>
+<li>Geofabrik Services</li>
+<li>Geofabrik OpenStreetMap Downloads</li>
+<li>Contacting Geofabrik</li>
+<li>Your Rights as a Data Subject</li>
+<li>Other Online Presences</li>
+</ol>
+
+
+<!-- ============================================================================================ -->
+
+<h2 id="website_and_blog">Geofabrik Website and Blog</h2>
+
+<p>
+
+
+If you access our web site (www.geofabrik.de, tools.geofabrik.de) or our blog (blog.geofabrik.de), we will record the following <u>access data</u> and store it for 90 days:
+
+</p>
+
+<ul>
+
+
+  <li><em>partial IP address</em> from where the site was accessed. That usually reveals which Internet provider you are using. For IPv4 addresses, we store the first three bytes; for IPv6 addresses, seven bytes. This is not sufficient to identify an individual person.</li>
+  <li><em>time stamp</em> of the access (with second precision)</li>
+  <li><em>URL</em> that was accessed</li>
+  <li><em>referrer,</em> i.e. the web site from which you have followed a link to our site</li>
+  <li><em>user agent,</em> a string added by the web browser or other software used to access the site, and that identifies the name and version of the software. Sometimes this string also contains the operating system or other information deemed useful by the developer of the client software.
+  <li><em>HTTP status code</em> that records if the access was successful. 
+
+</ul>
+
+<p>
+
+
+In recording and processing this data, we are pursuing our legitimate interests as a data controller on the <u>legal basis</u> of Article 6 (1)(f) of the GDPR. We are using the data to detect problems with or misuse of our web pages, and to generate statistics about their use.
+
+</p>
+
+<p>
+
+
+After 90 days the data about individual accesses is deleted, and only summaries (which page was accessed how often on which day) are kept for longer.
+
+</p>
+
+<p>
+
+
+We don't use <u>cookies</u> and we don't knowingly embed third-party services that do either. However, our "Map Compare" site (tools.geofabrik.de/mc) embeds map tiles from various third party providers (e.g. Google, Bing), and we have no control over the design of their map offerings. If you use the "Map Compare" service, these third-party providers could transmit cookies and/or log your access.
+
+</p>
+
+
+
+
+
+
+<p>
+
+
+You do not have the right to request <u>erasure</u> of log files created in the pursuit of our legitimate interests, however if you should have reason to believe that your privacy is impacted in any way, please talk to us and we'll endeavour to solve the problem above and beyond our legal duties.
+
+</p>
+
+<p>
+
+
+Data recorded in this fashion will not be used for other purposes than those described here. In particular, the data will not be used for marketing purposes, and only passed on to third parties where there is a legal requirement to do so.
+
+</p>
+
+<p>
+
+
+All servers operated by Geofabrik are located with major hosting providers in the European Union, and only accessible to authorized personnel.
+
+</p>
+
+<!-- ============================================================================================ -->
+
+<h2 id="geofabrik_services">Geofabrik Services</h2>
+
+<p>
+
+
+Geofabrik offers a couple of paid services based on OpenStreetMap data:
+
+</p>
+
+<ul>
+
+
+  <li>tile server (for map tiles)</li>
+  <li>geocoding (using e.g. Nominatim, Photon)</li>
+  <li>routing (using e.g. OSRM, GraphHopper)</li>
+  <li>WMS server (for map images)</li>
+  <li>Overpass server (serving OSM data)</li>
+
+</ul>
+
+<p>
+
+
+If you access these services, or if you access one of our customers' web sites that use these services, the statements above apply accordingly. In these cases, we use the web server log files within our legitimate interests for the following purposes: 
+
+</p>
+
+<ul>
+
+
+  <li>matching of accesses to customers using the access key, for billing purposes</li>
+  <li>investigation of abuse or unauthorized use of our customers' API keys, where we reserve the right to share any insights gained on cases of abuse with the respective customer</li>
+  <li>counting of requests in order to match server resources with demand</li>
+  <li>statistics about the popularity of map styles and regions in order to improve our product offerings</li>
+
+</ul>
+
+<!-- ============================================================================================ -->
+<h2 id="geofabrik_downloads">Geofabrik OpenStreetMap Downloads</h2>
+
+<p>
+
+
+If you access data on our download server (download.geofabrik.de), the statements above (under "Geofabrik Web Site and Blog") apply accordingly.
+
+</p>
+
+<p>
+
+
+A portion of our download offer (from osm-internal.download.geofabrik.de) is only available for registered OpenStreetMap users. If you access data on this server, we additionally log the fact that the download happened with an OpenStreetMap authentication, but not the identity used. The OpenStreetMap login also creates a cookie in your browser that contains the following information:
+
+</p>
+
+<ul>
+
+
+  <li>OAuth access token</li>
+  <li>OAuth access token secret</li>
+  <li>time when you will next have to prove that your OpenStreetMap account is still valid</li>
+  <li>selector for the cryptographic key used for signing the cookie contents</li>
+  <li>login status (logged in, or logged out)</li>
+
+</ul>
+
+<p>
+
+
+Cookies are only saved in your browser, and not on our servers.
+
+</p>
+
+<p>
+
+
+If you use the internal download service we have to redirect you to the OpenStreetMap web site for the OAuth process. The operator of openstreetmap.org (the OpenStreetMap Foundation) can therefore see from their log files that you are using Geofabrik's internal download service. You can read all about data collected and processed by the OpenStreetMap Foundation in <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">their privacy policy.</a> The registered address of the OpenStreetMap Foundation is: 
+
+St John's Innovation Centre, Cowley Road, Cambridge CB4 0WS, United Kingdom.
+</p>
+
+<p>
+
+
+If you contribute data to OpenStreetMap, this will not only add geodata, but also record your user account and a changeset id in OpenStreetMap. This information can potentially be used to deduce activities of an individual person. This information is not available publicly from the Geofabrik server. The internal server that is only accessible for authenticated OpenStreetMap users carries this information because it is necessary to pursue legitimate OpenStreetMap interests, especially quality assurance and the protection against vandalism. More about this data, and your rights to information and deletion, can be found in the <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OSMF privacy policy.</a>
+
+</p>
+ 
+<!-- ============================================================================================ -->
+<h2 id="contact">Making Contact</h2>
+
+<p>
+
+
+If you communicate with us by email, we will store any messages sent to us, including your name and email address, to comply with legal retention rules (from German law, § 257 HGB, § 147 par. 1 no. 2 and 3 AO).
+</p><p>
+We will only ever use this information to communicate with you in the matter at hand. Specifically, we will not use the data for marketing purposes, and pass it on to third parties only when required by law.
+
+</p>
+
+<!-- ============================================================================================ -->
+<h2 id="your_rights">Your Rights as a Data Subject</h2>
+
+<p>
+
+
+As mandated by Article 13 GDPR, here is a list of your rights concerning our recording and processing of data:
+
+</p>
+
+<ul>
+
+
+<li>Article 15 GDPR gives you the right to obtain from us confirmation as to whether or not personal data concerning you is being processed, and, where that is the case, access to the personal data and further information about the processing.</li>
+<li>Article 16 GDPR gives you the right to request the rectification of inaccurate personal data concerning you, and the right to have incomplete personal data completed.</li>
+<li>Articles 17, 18 GDPR give you a conditional right to have your personal data erased, or to have its processing restricted.</li>
+<li>Article 20 GDPR gives you the right to data portability, i.e. you may request a copy of your personal data in a common, machine-readable format.</li>
+<li>Article 21 GDPR gives you the right to object to the processing of your personal data according to Article 6(1)(f).</li>
+<li>Article 77 GDPR gives you the right to lodge a complaint with a supervisory authority. The authority responsible in this case is: Der Landesbeauftragte für Datenschutz und Informationsfreiheit Baden-Württemberg (LfDI BW), Königstrasse 10a, 70173 Stuttgart, Telephone: (0711) 615541-0, email: poststelle@lfdi.bwl.de</li>
+
+</ul>
+
+<!-- ============================================================================================ -->
+<h2 id="social_media">Other Online Presences</h2>
+
+<p>
+
+
+In addition to our own web servers, we have accounts or profiles on a number of social media like Facebook, Twitter, or GitHub. If you use these platforms, you do so subject to the terms of use and privacy policies of the respective operators. We have no control over the processing of data collected in the course of such use of third-party platforms.
+
+</p>
+
+
+
+
+</div>
+
+<!-- Bottom //-->
+<div id="gBottomContainer">
+<div id="gBottom">
+    <div class="gLinks gLinksSpaceRight">
+        <h4 class="bottomHeading">Service</h4>
+        <ul class="footerList">
+            
+            
+            
+                <li><a href="http://tools.geofabrik.de/"><img src="/img/tools-en.min.svg" alt="Geofabrik Tools" title="Geofabrik Tools" width="134" height="13"></a></li>
+                <li><a href="http://download.geofabrik.de/"><img src="/img/downloads-en.min.svg" alt="Geofabrik Download" title="Geofabrik Download" width="183" height="13"></a></li>
+            
+        </ul>
+    </div>
+    <div class="gLinks gLinksSpaceRight">
+	    <h4 class="bottomHeading">External Links</h4>
+        <ul class="footerList">
+            <li><a href="http://www.openstreetmap.de">German OSM project page</a></li>
+            <li><a href="http://www.openstreetmap.org">International OSM project page</a></li>
+            <li><a href="http://bestofosm.org/">Best of OSM</a></li>
+        </ul>
+    </div>
+
+    <div class="gSitemap">
+        <h4 class="bottomHeading">Sitemap</h4>
+        <ul id="sitemap" class="footerList"><li class="sitemapGroupHeading"><a href="index.html">GEOFABRIK</a>
+<ul class='sitemapGroup'>
+<li><a href="geofabrik.html">About Geofabrik</a></li>
+<li><a href="openstreetmap.html">About OpenStreetMap</a></li>
+<li><a href="digital-sovereignty.html">Digital Sovereignity</a></li>
+<li><a href="free.html">About Open Data</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="press.html">Press</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="students.html">Students</a></li>
+</ul>
+</li>
+<li class="sitemapGroupHeading"><a href="../data/">Data</a>
+<ul class='sitemapGroup'>
+<li><a href="../data/download.html">Downloads</a></li>
+<li><a href="../data/vector-data.html">Vector Data Exports</a></li>
+<li><a href="../data/routeable-vector-data.html">Routeable Data</a></li>
+<li><a href="../data/admin-polygons.html">Boundary Polygons</a></li>
+<li><a href="../data/energy-networks.html">Power Networks</a></li>
+<li><a href="../data/postalcodes.html">Postal Codes</a></li>
+<li><a href="../data/shapefiles.html">Shape Files</a></li>
+<li><a href="../data/geocoding.html">Geocoding</a></li>
+<li><a href="../data/routing.html">Routing</a></li>
+<li><a href="../data/overpass-api.html">Overpass API</a></li>
+</ul>
+</li>
+<li class="sitemapGroupHeading"><a href="../maps/">Maps</a>
+<ul class='sitemapGroup'>
+<li><a href="../maps/rendering.html">Map Styles</a></li>
+<li><a href="../maps/rastertiles.html">Raster Tile Server</a></li>
+<li><a href="../maps/vectortiles.html">Vector Tile Server</a></li>
+<li><a href="../maps/tile-packages.html">Tile Packages</a></li>
+<li><a href="../maps/printed.html">Printed Maps</a></li>
+<li><a href="../maps/wms.html">WMS Server</a></li>
+<li><a href="../maps/hillshade-contours.html">Contour Lines and Hillshade</a></li>
+</ul>
+</li>
+<li class="sitemapGroupHeading"><a href="../services/">Services</a>
+<ul class='sitemapGroup'>
+<li><a href="../services/consulting.html">Consulting</a></li>
+<li><a href="../services/training.html">Training</a></li>
+<li><a href="../services/software.html">Software</a></li>
+<li><a href="../services/server.html">Server</a></li>
+</ul>
+</li>
+<li class="sitemapGroupHeading"><a href="../projects/">Portfolio</a></li>
+<li class="sitemapGroupHeading"><a href="contact.html">Contact</a>
+<ul class='sitemapGroup'>
+<li><a rel="me" href="https://en.osm.town/@geofabrik">Mastodon</a></li>
+</ul>
+</li>
+<li class="sitemapGroupHeading"><a href="https://blog.geofabrik.de/en/">Blog</a></li>
+</ul>
+
+    </div>
+
+    <div id="gBottomMeta">
+        <ul>
+            <li>&copy; 2026 Geofabrik GmbH, Karlsruhe</li>
+
+
+  <li>Geofabrik is a proud member of the <a href="http://osmfoundation.org/">OpenStreetMap Foundation</a> and <a href="https://www.openstreetmap.de/foerderer/">supporter of OpenStreetMap Germany.</a></li>
+            <li>Map data from OpenStreetMap, ODbL 1.0</li>
+            <li><a href="imprint.html">Legal Notice and Privacy Statement</a></li>
+
+        </ul>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>

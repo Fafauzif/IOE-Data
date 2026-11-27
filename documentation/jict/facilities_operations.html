@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+	/* =========================
+	LANGUAGE SWITCH FLEX SAFE
+	========================= */
+
+	.nav-lang-wrapper {
+		margin-left: 15px;
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
+    	border-left: 1px solid #ddd;
+	}
+
+	.nav-lang-switch {
+		display: flex;
+		gap: 6px;
+	}
+
+	.lang-btn {
+		padding: 4px 10px;
+		font-size: 12px;
+		font-weight: 600;
+		border-radius: 20px;
+		border: 1px solid #003366;
+		text-decoration: none;
+		color: #003366;
+		background: #ffffff;
+		transition: 0.2s ease;
+	}
+
+	.lang-btn:hover {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.lang-btn.active {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		background: none !important;
+	}
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: auto;
+		background: transparent !important;
+		border: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+	}
+
+	.carousel-control-prev:focus,
+	.carousel-control-next:focus,
+	.carousel-control-prev:active,
+	.carousel-control-next:active {
+		outline: none !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+</style>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/style.css">
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/bootstrap.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700|Work+Sans&display=swap" rel="stylesheet">
+	<!-- Optional JavaScript -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<title>Jakarta International Container Terminal</title>
+</head>
+
+<body>
+	<section class="page-navbar" id="navbar">
+		<div class="page-navbar-wrapper wrapper">
+			<nav class="navbar-style fixed-top navbar-expand-xl">
+				<a class="navbar-brand pt-2 pb-2" href="https://www.jict.co.id/home">
+					<img class="navbar-logo" src="https://www.jict.co.id/assets/img/navbar/JICT-Logo.png" alt="JICT Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle Navigation">
+					<div class="navbar-toggler-menu center">
+						<img class="navbar-toggler-logo" src="https://www.jict.co.id/assets/img/navbar/menu.png" alt="Menu Icon">
+					</div>
+				</button>
+				<div class="navbar-link-area navbar-collapse collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav text-center">
+						<a class="nav-link link-text" href="https://www.jict.co.id/about">About JICT</a>
+						<a class="nav-link" href="https://www.jict.co.id/facilities-operations">Facilities & Operations Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/news">News</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/online-services">Online Services</a>
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/vgm-certificate">VGM Certificate</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/shipping-document">Shipping Document</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/rate">Rate (USD)</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id/simulasiTarif.php" target="_blank">Calculate</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/container-tracking">Container Tracking</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/invoice-tracking">Invoice Tracking</a> -->
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/document-billing-tracking">Document Billing Tracking</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/reprint-eir">Reprint EIR</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/vessel-schedule">Vessel Schedule</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/e-do">e-DO</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id" target="_blank">KIOS</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/csr">CSR</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/gcg-overview">
+								GCG
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-overview">
+									Governance Overview
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-framework">
+									Governance Framework & Corporate Organs
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-policies">
+									Policies & Codes
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-board">
+									Board Committee
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-wbs">
+									WBS
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/gcg-gms">
+									GMS & Report
+								</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/sustainability-governance">
+								Sustainability
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-governance">
+									Governance
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-tjsl">
+									TJSL
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-k3">
+									K3
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-environment">
+									Environment
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/sustainability-publication">
+									Publication
+								</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/procurement">Procurement Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/vacancy">Vacancy</a>
+											</div>
+				</div>
+			</nav>
+		</div>
+	</section>﻿	<section class="facilities-header" id="facilities-header">
+		<div class="facilities-header-wrapper wrapper">
+			<div class="facilities-header facilities-header-background"></div>
+			<h3 class="facilities-header-title">FACILITIES & OPERATIONS<br>INFORMATION</h3>
+		</div>
+	</section>
+
+	<section class="our-facilities" id="our-facilities">
+		<div class="our-facilities-wrapper wrapper">
+			<div class="our-facilities-container container">
+				<div class="our-facilities-title text-center">
+					<h4 class="our-facilities-title-text">OUR FACILITIES</h4>
+				</div>
+				<div class="our-facilities-card-deck card-deck">
+					<div class="our-facilities-card card">
+						<div class="our-facilities-card-body card-body text-center">
+							<div class="our-facilities-card-title">
+								<h5 class="our-facilities-card-title-text card-title">Berth</h5>
+							</div>
+							<h6 class="our-facilities-card-subtitle card-text">Quantity</h6>
+							<p class="our-facilities-card-text card-text">6</p>
+							<h6 class="our-facilities-card-subtitle card-text">Length</h6>
+							<p class="our-facilities-card-text card-text">1635 M</p>
+							<h6 class="our-facilities-card-subtitle card-text">Width</h6>
+							<p class="our-facilities-card-text card-text">26.5 - 34.9 M</p>
+							<h6 class="our-facilities-card-subtitle card-text">Depth Alongside</h6>
+							<p class="our-facilities-card-text card-text">12 - 16 M</p>
+						</div>
+					</div>
+					<div class="our-facilities-card card">
+						<div class="our-facilities-card-body card-body text-center">
+							<div class="our-facilities-card-title">
+								<h5 class="our-facilities-card-title-text card-title">Container Yard</h5>
+							</div>
+							<h6 class="our-facilities-card-subtitle card-text">Area</h6>
+							<p class="our-facilities-card-text card-text">83.50 Ha</p>
+							<h6 class="our-facilities-card-subtitle card-text">Capacity</h6>
+							<p class="our-facilities-card-text card-text">2.5 Mio TEUs/Year</p>
+							<h6 class="our-facilities-card-subtitle card-text">DG Yard</h6>
+							<p class="our-facilities-card-text card-text">846 TEUs</p>
+							<h6 class="our-facilities-card-subtitle card-text">Reefer 380 V</h6>
+							<p class="our-facilities-card-text card-text">880 Plugs</p>
+						</div>
+					</div>
+				</div>
+				<div class="our-facilities-card-deck card-deck">
+					<div class="our-facilities-card card">
+						<div class="our-facilities-card-body card-body text-center">
+							<div class="our-facilities-card-title">
+								<h5 class="our-facilities-card-title-text card-title">Equipments</h5>
+							</div>
+							<div class="our-facilities-card-row row">
+								<div class="our-facilities-card-col col-xl-3 col-lg-3 col-md-3">
+									<h6 class="our-facilities-card-subtitle card-text">Quay Crane Container</h6>
+									<p class="our-facilities-card-text card-text">14 Units</p>
+								</div>
+								<div class="our-facilities-card-col col-xl-3 col-lg-3 col-md-3">
+									<h6 class="our-facilities-card-subtitle card-text">Forklift Diesel</h6>
+									<p class="our-facilities-card-text card-text">16 Units</p>
+								</div>
+								<div class="our-facilities-card-col col-xl-3 col-lg-3 col-md-3">
+									<h6 class="our-facilities-card-subtitle card-text">Head Truck</h6>
+									<p class="our-facilities-card-text card-text">105 Units</p>
+								</div>
+								<div class="our-facilities-card-col col-xl-3 col-lg-3 col-md-3">
+									<h6 class="our-facilities-card-subtitle card-text">Chassis / Trailer</h6>
+									<p class="our-facilities-card-text card-text">105 Units</p>
+								</div>
+							</div>
+							<div class="our-facilities-card-row row">
+								<div class="our-facilities-card-col col-xl-4 col-lg-4 col-md-4">
+									<h6 class="our-facilities-card-subtitle card-text">Reach Stacker</h6>
+									<p class="our-facilities-card-text card-text">4 Units</p>
+								</div>
+								<div class="our-facilities-card-col col-xl-4 col-lg-4 col-md-4">
+									<h6 class="our-facilities-card-subtitle card-text">Rubber Tyres Gantry Crane</h6>
+									<p class="our-facilities-card-text card-text">60 Units</p>
+								</div>
+								<div class="our-facilities-card-col col-xl-4 col-lg-4 col-md-4">
+									<h6 class="our-facilities-card-subtitle card-text">Side Loader</h6>
+									<p class="our-facilities-card-text card-text">6 Units</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service-map" id="service-map">
+		<div class="service-map-wrapper wrapper">
+			<div class="service-map-container container">
+				<div class="service-map-title text-center">
+					<h4 class="service-map-title-text">OUR SERVICE AREA</h4>
+				</div>
+				<div class="service-map-image text-center">
+					<img class="service-map-img w-75" src="https://www.jict.co.id/assets/img/facilities/jict_services.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="safety-policy" id="safety-policy">
+		<div class="safety-policy-wrapper wrapper">
+			<div class="safety-policy-container container">
+				<div class="safety-policy-title text-center">
+					<h4 class="safety-policy-title-text">SAFETY POLICY</h4>
+				</div>
+				<div class="safety-policy-desc text-center">
+					<p class="safety-policy-desc-text">
+						<!-- The Management of PT. Jakarta International Container Terminal has put occupational Safety and Health in high priority. Our Policy commitment on the occupational Safety and Health is as follow:<br><br>“We are committed to providing Safety oriented workplace and under fully controlled risks in which all operational activities of PT Jakarta International Container Terminal are carried out under a strict framework on the implementation of the occupational Safety and Health policy and on obligation to implement it for assuring a safe operation.”<br><br>“Occupational Safety and Health in the organization’s collective responsibility without any exception and the only acceptable performance is that which can avoid any injury and accident.”<br><br>The Management commitment in the occupational Safety and Health is implemented through its active and direct involvement and participation.<br><br>Jakarta, April 2002<br>PT. JAKARTA INTERNATIONAL CONTAINER TERMINAL -->
+						OCCUPATIONAL HEALTH, SAFETY AND ENVIRONMENT POLICY<br><br>
+						As employees and management of PT JAKARTA INTERNATIONAL CONTAINER TERMINAL, <br>we are committed to:<br><br>
+						• Ensure occupational health and safety well implemented for all workers <br>and stakeholders who work in PT JICT.<br>
+						• Strive to manage the environment through controlling environmental impact on water, soil, and air pollution as well as hazardous and toxic materials in the working area of PT JICT.<br>
+						• Comply with all applicable government laws, regulations, and other requirements related to the implementation of occupational health and safety, and environment in the working area of PT JICT.<br>
+						• Apply a continual improvement program through ISO 14001:2015 of environmental management system and ISO 45001:2018 and PP 50/2012 of occupational health and safety management system.<br>
+						• Create and maintain harmonious relationship with stakeholders in the business environment to build mutually beneficial cooperation.<br><br>
+						This policy is applied to all employees, contractors, visitors, vendors, authorities, and truckers entering working area of PT JICT.<br><br>
+						Jakarta, 11 July 2023<br>
+						PT Jakarta International Container Terminal<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="operation-workflow" id="operation-workflow">
+		<div class="operation-workflow-wrapper wrapper">
+			<div class="operation-workflow-container container">
+				<div class="operation-workflow-title text-center">
+					<h4 class="operation-workflow-title-text">OPERATIONS WORKFLOW</h4>
+				</div>
+				<div class="operation-workflow-card-deck card-deck">
+					<a class="operation-workflow-link" href="#receiving-operation" data-toggle="modal">
+						<div class="operation-workflow-card card text-center">
+							<div class="operation-workflow-card-body card-body">
+								<h6 class="operation-workflow-card-title card-title">Receiving<br>Operation</h6>
+							</div>
+						</div>
+					</a>
+					<a class="operation-workflow-link" href="#unloading-loading-operation" data-toggle="modal">
+						<div class="operation-workflow-card card text-center">
+							<div class="operation-workflow-card-body card-body">
+								<h6 class="operation-workflow-card-title card-title">Unloading /<br>Loading<br>Operation</h6>
+							</div>
+						</div>
+					</a>
+					<a class="operation-workflow-link" href="#delivery-operation" data-toggle="modal">
+						<div class="operation-workflow-card card text-center">
+							<div class="operation-workflow-card-body card-body">
+								<h6 class="operation-workflow-card-title card-title">Delivery<br>Operation</h6>
+							</div>
+						</div>
+					</a>
+					<a class="operation-workflow-link" href="#berthing-contract" data-toggle="modal">
+						<div class="operation-workflow-card card text-center">
+							<div class="operation-workflow-card-body card-body">
+								<h6 class="operation-workflow-card-title card-title">Berthing<br>Contract</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="operation-workflow-modal modal fade" id="receiving-operation" tabindex="-1" role="dialog" aria-labelledby="receiving-operation" aria-hidden="true">
+					<div class="operation-workflow-modal-dialog modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+						<div class="operation-workflow-modal-content modal-content">
+							<div class="operation-workflow-modal-header modal-header">
+								<h5 class="operation-workflow-modal-title modal-title" id="our-focus-modal-title">Receiving Operation</h5>
+								<button type="button" class="operation-workflow-modal-button-close close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="operation-workflow-modal-body modal-body text-center">
+								<img class="operation-workflow-modal-img" src="https://www.jict.co.id/assets/img/facilities/operation-workflow-modal-img-1.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="operation-workflow-modal modal fade" id="unloading-loading-operation" tabindex="-1" role="dialog" aria-labelledby="unloading-loading-operation" aria-hidden="true">
+					<div class="operation-workflow-modal-dialog modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+						<div class="operation-workflow-modal-content modal-content">
+							<div class="operation-workflow-modal-header modal-header">
+								<h5 class="operation-workflow-modal-title modal-title" id="our-focus-modal-title">Unloading / Loading Operation</h5>
+								<button type="button" class="operation-workflow-modal-button-close close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="operation-workflow-modal-body modal-body text-center">
+								<img class="operation-workflow-modal-img" src="https://www.jict.co.id/assets/img/facilities/operation-workflow-modal-img-2.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="operation-workflow-modal modal fade" id="delivery-operation" tabindex="-1" role="dialog" aria-labelledby="delivery-operation" aria-hidden="true">
+					<div class="operation-workflow-modal-dialog modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+						<div class="operation-workflow-modal-content modal-content">
+							<div class="operation-workflow-modal-header modal-header">
+								<h5 class="operation-workflow-modal-title modal-title" id="our-focus-modal-title">Delivery Operation</h5>
+								<button type="button" class="operation-workflow-modal-button-close close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="operation-workflow-modal-body modal-body text-center">
+								<img class="operation-workflow-modal-img" src="https://www.jict.co.id/assets/img/facilities/operation-workflow-modal-img-3.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="operation-workflow-modal modal fade" id="berthing-contract" tabindex="-1" role="dialog" aria-labelledby="berthing-contract" aria-hidden="true">
+					<div class="operation-workflow-modal-dialog modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+						<div class="operation-workflow-modal-content modal-content">
+							<div class="operation-workflow-modal-header modal-header">
+								<h5 class="operation-workflow-modal-title modal-title" id="our-focus-modal-title">Berthing Contract</h5>
+								<button type="button" class="operation-workflow-modal-button-close close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="operation-workflow-modal-body modal-body text-center">
+								<img class="operation-workflow-modal-img" src="https://www.jict.co.id/assets/img/facilities/operation-workflow-modal-img-4.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><section class="footer" id="footer">
+	<div class="footer-credit">
+		<div class="footer-credit-container container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 footer-credit-logo-1-col pt-3 pb-3">
+					<a href="https://www.ckh.com.hk" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/CK-Logo.png" alt="CK Logo" style="max-width: 250px;">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-12 footer-credit-logo-1-col pt-3 pb-3" style="margin-left:20px;">
+					<a href="https://hutchisonports.com/" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/hph-logo.png" alt="HPH Logo" style="max-width: 120px;">
+						<!-- <img class="footer-credit-logo-1" src="https://hutchisonports.com/media/g/src/logo-en.svg?key=000000000016965563510406Huc0" alt="HPH Logo" style="max-width: 120px;"> -->
+					</a>
+				</div>
+				<div class="col-lg-2 col-md-1 col-sm-1 col-12 footer-credit-logo-2-col pt-3 pb-3" style="margin-left:-20px;">
+					<a href="https://pelindo.co.id/" target="_blank">
+						<img class="footer-credit-logo-2" src="https://pelindo.co.id/uploads/config/MdO1jALfvFLVuhy81XVHr8LnxnHBI9riZImH7CCD.png" alt="IPC Logo" style="min-width: 80px;">
+						<!-- <img class="footer-credit-logo-2" src="" alt="IPC Logo"> -->
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-12 footer-credit-link-col" style="margin-left:-10px;margin-top:-12px;">
+					<a class="footer-credit-link footer-credit-link-1" href="https://www.jict.co.id/home">Home</a>
+					<a class="footer-credit-link" href="https://www.jict.co.id/contact-us">Contact Us</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright pt-3 pb-2 text-center">
+		<h6 class="footer-copyright-text">Copyright @2019 Jakarta International Container Terminal</h6>
+	</div>
+</section>
+
+</body>
+
+</html>

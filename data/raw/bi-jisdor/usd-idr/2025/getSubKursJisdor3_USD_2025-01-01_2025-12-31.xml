@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_subkursasing" type="xs:int" minOccurs="0" />
+                <xs:element name="lnk_subkursasing" type="xs:int" minOccurs="0" />
+                <xs:element name="nil_subkursasing" type="xs:decimal" minOccurs="0" />
+                <xs:element name="beli_subkursasing" type="xs:decimal" minOccurs="0" />
+                <xs:element name="jual_subkursasing" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tgl_subkursasing" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="mts_subkursasing" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <id_subkursasing>2148</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16720.00</beli_subkursasing>
+        <jual_subkursasing>16720.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-31T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table2" msdata:rowOrder="1">
+        <id_subkursasing>2147</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16782.00</beli_subkursasing>
+        <jual_subkursasing>16782.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table3" msdata:rowOrder="2">
+        <id_subkursasing>2146</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16788.00</beli_subkursasing>
+        <jual_subkursasing>16788.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table4" msdata:rowOrder="3">
+        <id_subkursasing>2145</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16767.00</beli_subkursasing>
+        <jual_subkursasing>16767.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table5" msdata:rowOrder="4">
+        <id_subkursasing>2144</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16790.00</beli_subkursasing>
+        <jual_subkursasing>16790.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table6" msdata:rowOrder="5">
+        <id_subkursasing>2143</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16773.00</beli_subkursasing>
+        <jual_subkursasing>16773.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table7" msdata:rowOrder="6">
+        <id_subkursasing>2142</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16735.00</beli_subkursasing>
+        <jual_subkursasing>16735.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table8" msdata:rowOrder="7">
+        <id_subkursasing>2141</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16722.00</beli_subkursasing>
+        <jual_subkursasing>16722.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table9" msdata:rowOrder="8">
+        <id_subkursasing>2140</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16698.00</beli_subkursasing>
+        <jual_subkursasing>16698.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table10" msdata:rowOrder="9">
+        <id_subkursasing>2139</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16693.00</beli_subkursasing>
+        <jual_subkursasing>16693.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table11" msdata:rowOrder="10">
+        <id_subkursasing>2138</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16669.00</beli_subkursasing>
+        <jual_subkursasing>16669.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table12" msdata:rowOrder="11">
+        <id_subkursasing>2137</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16652.00</beli_subkursasing>
+        <jual_subkursasing>16652.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table13" msdata:rowOrder="12">
+        <id_subkursasing>2136</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16668.00</beli_subkursasing>
+        <jual_subkursasing>16668.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table14" msdata:rowOrder="13">
+        <id_subkursasing>2135</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16688.00</beli_subkursasing>
+        <jual_subkursasing>16688.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table15" msdata:rowOrder="14">
+        <id_subkursasing>2134</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16677.00</beli_subkursasing>
+        <jual_subkursasing>16677.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table16" msdata:rowOrder="15">
+        <id_subkursasing>2133</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16688.00</beli_subkursasing>
+        <jual_subkursasing>16688.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table17" msdata:rowOrder="16">
+        <id_subkursasing>2132</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16655.00</beli_subkursasing>
+        <jual_subkursasing>16655.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table18" msdata:rowOrder="17">
+        <id_subkursasing>2131</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16646.00</beli_subkursasing>
+        <jual_subkursasing>16646.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table19" msdata:rowOrder="18">
+        <id_subkursasing>2130</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16632.00</beli_subkursasing>
+        <jual_subkursasing>16632.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table20" msdata:rowOrder="19">
+        <id_subkursasing>2129</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16632.00</beli_subkursasing>
+        <jual_subkursasing>16632.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table21" msdata:rowOrder="20">
+        <id_subkursasing>2128</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16668.00</beli_subkursasing>
+        <jual_subkursasing>16668.00</jual_subkursasing>
+        <tgl_subkursasing>2025-12-01T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table22" msdata:rowOrder="21">
+        <id_subkursasing>2127</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16661.00</beli_subkursasing>
+        <jual_subkursasing>16661.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table23" msdata:rowOrder="22">
+        <id_subkursasing>2126</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16644.00</beli_subkursasing>
+        <jual_subkursasing>16644.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table24" msdata:rowOrder="23">
+        <id_subkursasing>2125</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16673.00</beli_subkursasing>
+        <jual_subkursasing>16673.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table25" msdata:rowOrder="24">
+        <id_subkursasing>2124</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16667.00</beli_subkursasing>
+        <jual_subkursasing>16667.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table26" msdata:rowOrder="25">
+        <id_subkursasing>2123</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16709.00</beli_subkursasing>
+        <jual_subkursasing>16709.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table27" msdata:rowOrder="26">
+        <id_subkursasing>2122</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16719.00</beli_subkursasing>
+        <jual_subkursasing>16719.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table28" msdata:rowOrder="27">
+        <id_subkursasing>2121</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16742.00</beli_subkursasing>
+        <jual_subkursasing>16742.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table29" msdata:rowOrder="28">
+        <id_subkursasing>2120</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16732.00</beli_subkursasing>
+        <jual_subkursasing>16732.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table30" msdata:rowOrder="29">
+        <id_subkursasing>2119</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16760.00</beli_subkursasing>
+        <jual_subkursasing>16760.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table31" msdata:rowOrder="30">
+        <id_subkursasing>2118</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16734.00</beli_subkursasing>
+        <jual_subkursasing>16734.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table32" msdata:rowOrder="31">
+        <id_subkursasing>2117</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16710.00</beli_subkursasing>
+        <jual_subkursasing>16710.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table33" msdata:rowOrder="32">
+        <id_subkursasing>2116</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16732.00</beli_subkursasing>
+        <jual_subkursasing>16732.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table34" msdata:rowOrder="33">
+        <id_subkursasing>2115</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16722.00</beli_subkursasing>
+        <jual_subkursasing>16722.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table35" msdata:rowOrder="34">
+        <id_subkursasing>2114</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16698.00</beli_subkursasing>
+        <jual_subkursasing>16698.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table36" msdata:rowOrder="35">
+        <id_subkursasing>2113</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16666.00</beli_subkursasing>
+        <jual_subkursasing>16666.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table37" msdata:rowOrder="36">
+        <id_subkursasing>2112</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16704.00</beli_subkursasing>
+        <jual_subkursasing>16704.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table38" msdata:rowOrder="37">
+        <id_subkursasing>2111</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16707.00</beli_subkursasing>
+        <jual_subkursasing>16707.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table39" msdata:rowOrder="38">
+        <id_subkursasing>2110</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16729.00</beli_subkursasing>
+        <jual_subkursasing>16729.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table40" msdata:rowOrder="39">
+        <id_subkursasing>2109</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16724.00</beli_subkursasing>
+        <jual_subkursasing>16724.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table41" msdata:rowOrder="40">
+        <id_subkursasing>2108</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16664.00</beli_subkursasing>
+        <jual_subkursasing>16664.00</jual_subkursasing>
+        <tgl_subkursasing>2025-11-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table42" msdata:rowOrder="41">
+        <id_subkursasing>2107</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16625.00</beli_subkursasing>
+        <jual_subkursasing>16625.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-31T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table43" msdata:rowOrder="42">
+        <id_subkursasing>2106</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16640.00</beli_subkursasing>
+        <jual_subkursasing>16640.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table44" msdata:rowOrder="43">
+        <id_subkursasing>2105</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16631.00</beli_subkursasing>
+        <jual_subkursasing>16631.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table45" msdata:rowOrder="44">
+        <id_subkursasing>2104</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16622.00</beli_subkursasing>
+        <jual_subkursasing>16622.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table46" msdata:rowOrder="45">
+        <id_subkursasing>2103</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16628.00</beli_subkursasing>
+        <jual_subkursasing>16628.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table47" msdata:rowOrder="46">
+        <id_subkursasing>2102</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16630.00</beli_subkursasing>
+        <jual_subkursasing>16630.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table48" msdata:rowOrder="47">
+        <id_subkursasing>2101</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16645.00</beli_subkursasing>
+        <jual_subkursasing>16645.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table49" msdata:rowOrder="48">
+        <id_subkursasing>2100</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16617.00</beli_subkursasing>
+        <jual_subkursasing>16617.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table50" msdata:rowOrder="49">
+        <id_subkursasing>2099</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16589.00</beli_subkursasing>
+        <jual_subkursasing>16589.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table51" msdata:rowOrder="50">
+        <id_subkursasing>2098</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16585.00</beli_subkursasing>
+        <jual_subkursasing>16585.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table52" msdata:rowOrder="51">
+        <id_subkursasing>2097</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16590.00</beli_subkursasing>
+        <jual_subkursasing>16590.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table53" msdata:rowOrder="52">
+        <id_subkursasing>2096</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16580.00</beli_subkursasing>
+        <jual_subkursasing>16580.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table54" msdata:rowOrder="53">
+        <id_subkursasing>2095</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16577.00</beli_subkursasing>
+        <jual_subkursasing>16577.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table55" msdata:rowOrder="54">
+        <id_subkursasing>2094</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16577.00</beli_subkursasing>
+        <jual_subkursasing>16577.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table56" msdata:rowOrder="55">
+        <id_subkursasing>2093</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16580.00</beli_subkursasing>
+        <jual_subkursasing>16580.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table57" msdata:rowOrder="56">
+        <id_subkursasing>2092</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16585.00</beli_subkursasing>
+        <jual_subkursasing>16585.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table58" msdata:rowOrder="57">
+        <id_subkursasing>2091</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16534.00</beli_subkursasing>
+        <jual_subkursasing>16534.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table59" msdata:rowOrder="58">
+        <id_subkursasing>2090</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16606.00</beli_subkursasing>
+        <jual_subkursasing>16606.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table60" msdata:rowOrder="59">
+        <id_subkursasing>2089</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16560.00</beli_subkursasing>
+        <jual_subkursasing>16560.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table61" msdata:rowOrder="60">
+        <id_subkursasing>2088</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16598.00</beli_subkursasing>
+        <jual_subkursasing>16598.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table62" msdata:rowOrder="61">
+        <id_subkursasing>2087</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16611.00</beli_subkursasing>
+        <jual_subkursasing>16611.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table63" msdata:rowOrder="62">
+        <id_subkursasing>2086</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16612.00</beli_subkursasing>
+        <jual_subkursasing>16612.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table64" msdata:rowOrder="63">
+        <id_subkursasing>2085</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16680.00</beli_subkursasing>
+        <jual_subkursasing>16680.00</jual_subkursasing>
+        <tgl_subkursasing>2025-10-01T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table65" msdata:rowOrder="64">
+        <id_subkursasing>2084</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16692.00</beli_subkursasing>
+        <jual_subkursasing>16692.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table66" msdata:rowOrder="65">
+        <id_subkursasing>2083</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16680.00</beli_subkursasing>
+        <jual_subkursasing>16680.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table67" msdata:rowOrder="66">
+        <id_subkursasing>2082</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16775.00</beli_subkursasing>
+        <jual_subkursasing>16775.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table68" msdata:rowOrder="67">
+        <id_subkursasing>2081</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16752.00</beli_subkursasing>
+        <jual_subkursasing>16752.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table69" msdata:rowOrder="68">
+        <id_subkursasing>2080</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16680.00</beli_subkursasing>
+        <jual_subkursasing>16680.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table70" msdata:rowOrder="69">
+        <id_subkursasing>2079</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16636.00</beli_subkursasing>
+        <jual_subkursasing>16636.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table71" msdata:rowOrder="70">
+        <id_subkursasing>2078</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16607.00</beli_subkursasing>
+        <jual_subkursasing>16607.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table72" msdata:rowOrder="71">
+        <id_subkursasing>2077</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16578.00</beli_subkursasing>
+        <jual_subkursasing>16578.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table73" msdata:rowOrder="72">
+        <id_subkursasing>2076</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16498.00</beli_subkursasing>
+        <jual_subkursasing>16498.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table74" msdata:rowOrder="73">
+        <id_subkursasing>2075</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16430.00</beli_subkursasing>
+        <jual_subkursasing>16430.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table75" msdata:rowOrder="74">
+        <id_subkursasing>2074</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16385.00</beli_subkursasing>
+        <jual_subkursasing>16385.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table76" msdata:rowOrder="75">
+        <id_subkursasing>2073</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16405.00</beli_subkursasing>
+        <jual_subkursasing>16405.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table77" msdata:rowOrder="76">
+        <id_subkursasing>2072</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16391.00</beli_subkursasing>
+        <jual_subkursasing>16391.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table78" msdata:rowOrder="77">
+        <id_subkursasing>2071</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16468.00</beli_subkursasing>
+        <jual_subkursasing>16468.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table79" msdata:rowOrder="78">
+        <id_subkursasing>2070</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16457.00</beli_subkursasing>
+        <jual_subkursasing>16457.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table80" msdata:rowOrder="79">
+        <id_subkursasing>2069</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16462.00</beli_subkursasing>
+        <jual_subkursasing>16462.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table81" msdata:rowOrder="80">
+        <id_subkursasing>2068</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16348.00</beli_subkursasing>
+        <jual_subkursasing>16348.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table82" msdata:rowOrder="81">
+        <id_subkursasing>2067</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16438.00</beli_subkursasing>
+        <jual_subkursasing>16438.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table83" msdata:rowOrder="82">
+        <id_subkursasing>2066</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16424.00</beli_subkursasing>
+        <jual_subkursasing>16424.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table84" msdata:rowOrder="83">
+        <id_subkursasing>2065</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16418.00</beli_subkursasing>
+        <jual_subkursasing>16418.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table85" msdata:rowOrder="84">
+        <id_subkursasing>2064</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16463.00</beli_subkursasing>
+        <jual_subkursasing>16463.00</jual_subkursasing>
+        <tgl_subkursasing>2025-09-01T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table86" msdata:rowOrder="85">
+        <id_subkursasing>2063</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16461.00</beli_subkursasing>
+        <jual_subkursasing>16461.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table87" msdata:rowOrder="86">
+        <id_subkursasing>2062</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16356.00</beli_subkursasing>
+        <jual_subkursasing>16356.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table88" msdata:rowOrder="87">
+        <id_subkursasing>2061</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16355.00</beli_subkursasing>
+        <jual_subkursasing>16355.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table89" msdata:rowOrder="88">
+        <id_subkursasing>2060</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16277.00</beli_subkursasing>
+        <jual_subkursasing>16277.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table90" msdata:rowOrder="89">
+        <id_subkursasing>2059</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16255.00</beli_subkursasing>
+        <jual_subkursasing>16255.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table91" msdata:rowOrder="90">
+        <id_subkursasing>2058</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16340.00</beli_subkursasing>
+        <jual_subkursasing>16340.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table92" msdata:rowOrder="91">
+        <id_subkursasing>2057</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16283.00</beli_subkursasing>
+        <jual_subkursasing>16283.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table93" msdata:rowOrder="92">
+        <id_subkursasing>2056</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16291.00</beli_subkursasing>
+        <jual_subkursasing>16291.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table94" msdata:rowOrder="93">
+        <id_subkursasing>2055</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16241.00</beli_subkursasing>
+        <jual_subkursasing>16241.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table95" msdata:rowOrder="94">
+        <id_subkursasing>2054</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16162.00</beli_subkursasing>
+        <jual_subkursasing>16162.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table96" msdata:rowOrder="95">
+        <id_subkursasing>2053</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16109.00</beli_subkursasing>
+        <jual_subkursasing>16109.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table97" msdata:rowOrder="96">
+        <id_subkursasing>2052</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16237.00</beli_subkursasing>
+        <jual_subkursasing>16237.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table98" msdata:rowOrder="97">
+        <id_subkursasing>2051</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16298.00</beli_subkursasing>
+        <jual_subkursasing>16298.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table99" msdata:rowOrder="98">
+        <id_subkursasing>2050</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16253.00</beli_subkursasing>
+        <jual_subkursasing>16253.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table100" msdata:rowOrder="99">
+        <id_subkursasing>2049</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16299.00</beli_subkursasing>
+        <jual_subkursasing>16299.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table101" msdata:rowOrder="100">
+        <id_subkursasing>2048</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16312.00</beli_subkursasing>
+        <jual_subkursasing>16312.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table102" msdata:rowOrder="101">
+        <id_subkursasing>2047</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16379.00</beli_subkursasing>
+        <jual_subkursasing>16379.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table103" msdata:rowOrder="102">
+        <id_subkursasing>2046</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16388.00</beli_subkursasing>
+        <jual_subkursasing>16388.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table104" msdata:rowOrder="103">
+        <id_subkursasing>2045</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16388.00</beli_subkursasing>
+        <jual_subkursasing>16388.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table105" msdata:rowOrder="104">
+        <id_subkursasing>2044</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16494.00</beli_subkursasing>
+        <jual_subkursasing>16494.00</jual_subkursasing>
+        <tgl_subkursasing>2025-08-01T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table106" msdata:rowOrder="105">
+        <id_subkursasing>2043</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16459.00</beli_subkursasing>
+        <jual_subkursasing>16459.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-31T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table107" msdata:rowOrder="106">
+        <id_subkursasing>2042</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16387.00</beli_subkursasing>
+        <jual_subkursasing>16387.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table108" msdata:rowOrder="107">
+        <id_subkursasing>2041</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16399.00</beli_subkursasing>
+        <jual_subkursasing>16399.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table109" msdata:rowOrder="108">
+        <id_subkursasing>2040</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16341.00</beli_subkursasing>
+        <jual_subkursasing>16341.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table110" msdata:rowOrder="109">
+        <id_subkursasing>2039</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16325.00</beli_subkursasing>
+        <jual_subkursasing>16325.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table111" msdata:rowOrder="110">
+        <id_subkursasing>2038</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16283.00</beli_subkursasing>
+        <jual_subkursasing>16283.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table112" msdata:rowOrder="111">
+        <id_subkursasing>2037</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16298.00</beli_subkursasing>
+        <jual_subkursasing>16298.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table113" msdata:rowOrder="112">
+        <id_subkursasing>2036</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16307.00</beli_subkursasing>
+        <jual_subkursasing>16307.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table114" msdata:rowOrder="113">
+        <id_subkursasing>2035</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16330.00</beli_subkursasing>
+        <jual_subkursasing>16330.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table115" msdata:rowOrder="114">
+        <id_subkursasing>2034</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16301.00</beli_subkursasing>
+        <jual_subkursasing>16301.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table116" msdata:rowOrder="115">
+        <id_subkursasing>2033</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16329.00</beli_subkursasing>
+        <jual_subkursasing>16329.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table117" msdata:rowOrder="116">
+        <id_subkursasing>2032</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16288.00</beli_subkursasing>
+        <jual_subkursasing>16288.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table118" msdata:rowOrder="117">
+        <id_subkursasing>2031</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16281.00</beli_subkursasing>
+        <jual_subkursasing>16281.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table119" msdata:rowOrder="118">
+        <id_subkursasing>2030</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16247.00</beli_subkursasing>
+        <jual_subkursasing>16247.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table120" msdata:rowOrder="119">
+        <id_subkursasing>2029</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16221.00</beli_subkursasing>
+        <jual_subkursasing>16221.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table121" msdata:rowOrder="120">
+        <id_subkursasing>2028</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16220.00</beli_subkursasing>
+        <jual_subkursasing>16220.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table122" msdata:rowOrder="121">
+        <id_subkursasing>2027</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16254.00</beli_subkursasing>
+        <jual_subkursasing>16254.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table123" msdata:rowOrder="122">
+        <id_subkursasing>2026</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16238.00</beli_subkursasing>
+        <jual_subkursasing>16238.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table124" msdata:rowOrder="123">
+        <id_subkursasing>2025</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16237.00</beli_subkursasing>
+        <jual_subkursasing>16237.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table125" msdata:rowOrder="124">
+        <id_subkursasing>2024</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16204.00</beli_subkursasing>
+        <jual_subkursasing>16204.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table126" msdata:rowOrder="125">
+        <id_subkursasing>2023</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16209.00</beli_subkursasing>
+        <jual_subkursasing>16209.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table127" msdata:rowOrder="126">
+        <id_subkursasing>2022</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16236.00</beli_subkursasing>
+        <jual_subkursasing>16236.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table128" msdata:rowOrder="127">
+        <id_subkursasing>2021</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16192.00</beli_subkursasing>
+        <jual_subkursasing>16192.00</jual_subkursasing>
+        <tgl_subkursasing>2025-07-01T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table129" msdata:rowOrder="128">
+        <id_subkursasing>2020</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16231.00</beli_subkursasing>
+        <jual_subkursasing>16231.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table130" msdata:rowOrder="129">
+        <id_subkursasing>2019</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16233.00</beli_subkursasing>
+        <jual_subkursasing>16233.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table131" msdata:rowOrder="130">
+        <id_subkursasing>2018</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16292.00</beli_subkursasing>
+        <jual_subkursasing>16292.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table132" msdata:rowOrder="131">
+        <id_subkursasing>2017</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16370.00</beli_subkursasing>
+        <jual_subkursasing>16370.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table133" msdata:rowOrder="132">
+        <id_subkursasing>2016</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16484.00</beli_subkursasing>
+        <jual_subkursasing>16484.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table134" msdata:rowOrder="133">
+        <id_subkursasing>2015</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16399.00</beli_subkursasing>
+        <jual_subkursasing>16399.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table135" msdata:rowOrder="134">
+        <id_subkursasing>2014</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16378.00</beli_subkursasing>
+        <jual_subkursasing>16378.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table136" msdata:rowOrder="135">
+        <id_subkursasing>2013</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16319.00</beli_subkursasing>
+        <jual_subkursasing>16319.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table137" msdata:rowOrder="136">
+        <id_subkursasing>2012</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16281.00</beli_subkursasing>
+        <jual_subkursasing>16281.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table138" msdata:rowOrder="137">
+        <id_subkursasing>2011</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16296.00</beli_subkursasing>
+        <jual_subkursasing>16296.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table139" msdata:rowOrder="138">
+        <id_subkursasing>2010</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16293.00</beli_subkursasing>
+        <jual_subkursasing>16293.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table140" msdata:rowOrder="139">
+        <id_subkursasing>2009</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16237.00</beli_subkursasing>
+        <jual_subkursasing>16237.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table141" msdata:rowOrder="140">
+        <id_subkursasing>2008</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16265.00</beli_subkursasing>
+        <jual_subkursasing>16265.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table142" msdata:rowOrder="141">
+        <id_subkursasing>2007</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16276.00</beli_subkursasing>
+        <jual_subkursasing>16276.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table143" msdata:rowOrder="142">
+        <id_subkursasing>2006</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16277.00</beli_subkursasing>
+        <jual_subkursasing>16277.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table144" msdata:rowOrder="143">
+        <id_subkursasing>2005</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16305.00</beli_subkursasing>
+        <jual_subkursasing>16305.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table145" msdata:rowOrder="144">
+        <id_subkursasing>2004</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16288.00</beli_subkursasing>
+        <jual_subkursasing>16288.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table146" msdata:rowOrder="145">
+        <id_subkursasing>2003</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16297.00</beli_subkursasing>
+        <jual_subkursasing>16297.00</jual_subkursasing>
+        <tgl_subkursasing>2025-06-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table147" msdata:rowOrder="146">
+        <id_subkursasing>2002</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16300.00</beli_subkursasing>
+        <jual_subkursasing>16300.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table148" msdata:rowOrder="147">
+        <id_subkursasing>2001</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16255.00</beli_subkursasing>
+        <jual_subkursasing>16255.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table149" msdata:rowOrder="148">
+        <id_subkursasing>2000</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16207.00</beli_subkursasing>
+        <jual_subkursasing>16207.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table150" msdata:rowOrder="149">
+        <id_subkursasing>1999</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16289.00</beli_subkursasing>
+        <jual_subkursasing>16289.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table151" msdata:rowOrder="150">
+        <id_subkursasing>1998</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16313.00</beli_subkursasing>
+        <jual_subkursasing>16313.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table152" msdata:rowOrder="151">
+        <id_subkursasing>1997</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16413.00</beli_subkursasing>
+        <jual_subkursasing>16413.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table153" msdata:rowOrder="152">
+        <id_subkursasing>1996</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16406.00</beli_subkursasing>
+        <jual_subkursasing>16406.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table154" msdata:rowOrder="153">
+        <id_subkursasing>1995</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16455.00</beli_subkursasing>
+        <jual_subkursasing>16455.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table155" msdata:rowOrder="154">
+        <id_subkursasing>1994</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16424.00</beli_subkursasing>
+        <jual_subkursasing>16424.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table156" msdata:rowOrder="155">
+        <id_subkursasing>1993</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16535.00</beli_subkursasing>
+        <jual_subkursasing>16535.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table157" msdata:rowOrder="156">
+        <id_subkursasing>1992</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16568.00</beli_subkursasing>
+        <jual_subkursasing>16568.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table158" msdata:rowOrder="157">
+        <id_subkursasing>1991</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16532.00</beli_subkursasing>
+        <jual_subkursasing>16532.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table159" msdata:rowOrder="158">
+        <id_subkursasing>1990</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16497.00</beli_subkursasing>
+        <jual_subkursasing>16497.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table160" msdata:rowOrder="159">
+        <id_subkursasing>1989</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16533.00</beli_subkursasing>
+        <jual_subkursasing>16533.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table161" msdata:rowOrder="160">
+        <id_subkursasing>1988</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16472.00</beli_subkursasing>
+        <jual_subkursasing>16472.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table162" msdata:rowOrder="161">
+        <id_subkursasing>1987</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16421.00</beli_subkursasing>
+        <jual_subkursasing>16421.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table163" msdata:rowOrder="162">
+        <id_subkursasing>1986</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16493.00</beli_subkursasing>
+        <jual_subkursasing>16493.00</jual_subkursasing>
+        <tgl_subkursasing>2025-05-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table164" msdata:rowOrder="163">
+        <id_subkursasing>1985</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16679.00</beli_subkursasing>
+        <jual_subkursasing>16679.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table165" msdata:rowOrder="164">
+        <id_subkursasing>1984</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16787.00</beli_subkursasing>
+        <jual_subkursasing>16787.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-29T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table166" msdata:rowOrder="165">
+        <id_subkursasing>1983</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16862.00</beli_subkursasing>
+        <jual_subkursasing>16862.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table167" msdata:rowOrder="166">
+        <id_subkursasing>1982</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16829.00</beli_subkursasing>
+        <jual_subkursasing>16829.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table168" msdata:rowOrder="167">
+        <id_subkursasing>1981</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16884.00</beli_subkursasing>
+        <jual_subkursasing>16884.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table169" msdata:rowOrder="168">
+        <id_subkursasing>1980</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16880.00</beli_subkursasing>
+        <jual_subkursasing>16880.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table170" msdata:rowOrder="169">
+        <id_subkursasing>1979</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16862.00</beli_subkursasing>
+        <jual_subkursasing>16862.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table171" msdata:rowOrder="170">
+        <id_subkursasing>1978</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16808.00</beli_subkursasing>
+        <jual_subkursasing>16808.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table172" msdata:rowOrder="171">
+        <id_subkursasing>1977</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16833.00</beli_subkursasing>
+        <jual_subkursasing>16833.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table173" msdata:rowOrder="172">
+        <id_subkursasing>1976</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16845.00</beli_subkursasing>
+        <jual_subkursasing>16845.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table174" msdata:rowOrder="173">
+        <id_subkursasing>1975</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16815.00</beli_subkursasing>
+        <jual_subkursasing>16815.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table175" msdata:rowOrder="174">
+        <id_subkursasing>1974</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16773.00</beli_subkursasing>
+        <jual_subkursasing>16773.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table176" msdata:rowOrder="175">
+        <id_subkursasing>1973</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16805.00</beli_subkursasing>
+        <jual_subkursasing>16805.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table177" msdata:rowOrder="176">
+        <id_subkursasing>1972</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16779.00</beli_subkursasing>
+        <jual_subkursasing>16779.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table178" msdata:rowOrder="177">
+        <id_subkursasing>1971</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16943.00</beli_subkursasing>
+        <jual_subkursasing>16943.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table179" msdata:rowOrder="178">
+        <id_subkursasing>1970</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16849.00</beli_subkursasing>
+        <jual_subkursasing>16849.00</jual_subkursasing>
+        <tgl_subkursasing>2025-04-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table180" msdata:rowOrder="179">
+        <id_subkursasing>1969</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16566.00</beli_subkursasing>
+        <jual_subkursasing>16566.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table181" msdata:rowOrder="180">
+        <id_subkursasing>1968</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16588.00</beli_subkursasing>
+        <jual_subkursasing>16588.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table182" msdata:rowOrder="181">
+        <id_subkursasing>1967</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16622.00</beli_subkursasing>
+        <jual_subkursasing>16622.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table183" msdata:rowOrder="182">
+        <id_subkursasing>1966</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16561.00</beli_subkursasing>
+        <jual_subkursasing>16561.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table184" msdata:rowOrder="183">
+        <id_subkursasing>1965</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16501.00</beli_subkursasing>
+        <jual_subkursasing>16501.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table185" msdata:rowOrder="184">
+        <id_subkursasing>1964</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16481.00</beli_subkursasing>
+        <jual_subkursasing>16481.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table186" msdata:rowOrder="185">
+        <id_subkursasing>1963</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16528.00</beli_subkursasing>
+        <jual_subkursasing>16528.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table187" msdata:rowOrder="186">
+        <id_subkursasing>1962</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16432.00</beli_subkursasing>
+        <jual_subkursasing>16432.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table188" msdata:rowOrder="187">
+        <id_subkursasing>1961</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16379.00</beli_subkursasing>
+        <jual_subkursasing>16379.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table189" msdata:rowOrder="188">
+        <id_subkursasing>1960</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16392.00</beli_subkursasing>
+        <jual_subkursasing>16392.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table190" msdata:rowOrder="189">
+        <id_subkursasing>1959</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16428.00</beli_subkursasing>
+        <jual_subkursasing>16428.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table191" msdata:rowOrder="190">
+        <id_subkursasing>1958</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16453.00</beli_subkursasing>
+        <jual_subkursasing>16453.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table192" msdata:rowOrder="191">
+        <id_subkursasing>1957</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16430.00</beli_subkursasing>
+        <jual_subkursasing>16430.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table193" msdata:rowOrder="192">
+        <id_subkursasing>1956</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16326.00</beli_subkursasing>
+        <jual_subkursasing>16326.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table194" msdata:rowOrder="193">
+        <id_subkursasing>1955</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16336.00</beli_subkursasing>
+        <jual_subkursasing>16336.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table195" msdata:rowOrder="194">
+        <id_subkursasing>1954</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16315.00</beli_subkursasing>
+        <jual_subkursasing>16315.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table196" msdata:rowOrder="195">
+        <id_subkursasing>1953</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16371.00</beli_subkursasing>
+        <jual_subkursasing>16371.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table197" msdata:rowOrder="196">
+        <id_subkursasing>1952</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16443.00</beli_subkursasing>
+        <jual_subkursasing>16443.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table198" msdata:rowOrder="197">
+        <id_subkursasing>1951</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16506.00</beli_subkursasing>
+        <jual_subkursasing>16506.00</jual_subkursasing>
+        <tgl_subkursasing>2025-03-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table199" msdata:rowOrder="198">
+        <id_subkursasing>1950</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16575.00</beli_subkursasing>
+        <jual_subkursasing>16575.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-28T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table200" msdata:rowOrder="199">
+        <id_subkursasing>1949</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16431.00</beli_subkursasing>
+        <jual_subkursasing>16431.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-27T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table201" msdata:rowOrder="200">
+        <id_subkursasing>1948</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16387.00</beli_subkursasing>
+        <jual_subkursasing>16387.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-26T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table202" msdata:rowOrder="201">
+        <id_subkursasing>1947</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16316.00</beli_subkursasing>
+        <jual_subkursasing>16316.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-25T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table203" msdata:rowOrder="202">
+        <id_subkursasing>1946</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16303.00</beli_subkursasing>
+        <jual_subkursasing>16303.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table204" msdata:rowOrder="203">
+        <id_subkursasing>1945</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16300.00</beli_subkursasing>
+        <jual_subkursasing>16300.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table205" msdata:rowOrder="204">
+        <id_subkursasing>1944</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16344.00</beli_subkursasing>
+        <jual_subkursasing>16344.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table206" msdata:rowOrder="205">
+        <id_subkursasing>1943</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16357.00</beli_subkursasing>
+        <jual_subkursasing>16357.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-19T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table207" msdata:rowOrder="206">
+        <id_subkursasing>1942</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16275.00</beli_subkursasing>
+        <jual_subkursasing>16275.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-18T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table208" msdata:rowOrder="207">
+        <id_subkursasing>1941</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16208.00</beli_subkursasing>
+        <jual_subkursasing>16208.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table209" msdata:rowOrder="208">
+        <id_subkursasing>1940</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16285.00</beli_subkursasing>
+        <jual_subkursasing>16285.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table210" msdata:rowOrder="209">
+        <id_subkursasing>1939</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16365.00</beli_subkursasing>
+        <jual_subkursasing>16365.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table211" msdata:rowOrder="210">
+        <id_subkursasing>1938</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16364.00</beli_subkursasing>
+        <jual_subkursasing>16364.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-12T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table212" msdata:rowOrder="211">
+        <id_subkursasing>1937</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16380.00</beli_subkursasing>
+        <jual_subkursasing>16380.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-11T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table213" msdata:rowOrder="212">
+        <id_subkursasing>1936</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16350.00</beli_subkursasing>
+        <jual_subkursasing>16350.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table214" msdata:rowOrder="213">
+        <id_subkursasing>1935</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16325.00</beli_subkursasing>
+        <jual_subkursasing>16325.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table215" msdata:rowOrder="214">
+        <id_subkursasing>1934</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16330.00</beli_subkursasing>
+        <jual_subkursasing>16330.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table216" msdata:rowOrder="215">
+        <id_subkursasing>1933</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16308.00</beli_subkursasing>
+        <jual_subkursasing>16308.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-05T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table217" msdata:rowOrder="216">
+        <id_subkursasing>1932</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16365.00</beli_subkursasing>
+        <jual_subkursasing>16365.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-04T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table218" msdata:rowOrder="217">
+        <id_subkursasing>1931</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16453.00</beli_subkursasing>
+        <jual_subkursasing>16453.00</jual_subkursasing>
+        <tgl_subkursasing>2025-02-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table219" msdata:rowOrder="218">
+        <id_subkursasing>1930</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16312.00</beli_subkursasing>
+        <jual_subkursasing>16312.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-31T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table220" msdata:rowOrder="219">
+        <id_subkursasing>1929</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16259.00</beli_subkursasing>
+        <jual_subkursasing>16259.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-30T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table221" msdata:rowOrder="220">
+        <id_subkursasing>1928</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16200.00</beli_subkursasing>
+        <jual_subkursasing>16200.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-24T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table222" msdata:rowOrder="221">
+        <id_subkursasing>1927</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16276.00</beli_subkursasing>
+        <jual_subkursasing>16276.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-23T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table223" msdata:rowOrder="222">
+        <id_subkursasing>1926</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16327.00</beli_subkursasing>
+        <jual_subkursasing>16327.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-22T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table224" msdata:rowOrder="223">
+        <id_subkursasing>1925</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16331.00</beli_subkursasing>
+        <jual_subkursasing>16331.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-21T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table225" msdata:rowOrder="224">
+        <id_subkursasing>1924</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16372.00</beli_subkursasing>
+        <jual_subkursasing>16372.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-20T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table226" msdata:rowOrder="225">
+        <id_subkursasing>1923</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16373.00</beli_subkursasing>
+        <jual_subkursasing>16373.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-17T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table227" msdata:rowOrder="226">
+        <id_subkursasing>1922</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16378.00</beli_subkursasing>
+        <jual_subkursasing>16378.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-16T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table228" msdata:rowOrder="227">
+        <id_subkursasing>1921</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16311.00</beli_subkursasing>
+        <jual_subkursasing>16311.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-15T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table229" msdata:rowOrder="228">
+        <id_subkursasing>1920</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16265.00</beli_subkursasing>
+        <jual_subkursasing>16265.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-14T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table230" msdata:rowOrder="229">
+        <id_subkursasing>1919</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16281.00</beli_subkursasing>
+        <jual_subkursasing>16281.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-13T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table231" msdata:rowOrder="230">
+        <id_subkursasing>1918</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16194.00</beli_subkursasing>
+        <jual_subkursasing>16194.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-10T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table232" msdata:rowOrder="231">
+        <id_subkursasing>1917</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16238.00</beli_subkursasing>
+        <jual_subkursasing>16238.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-09T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table233" msdata:rowOrder="232">
+        <id_subkursasing>1916</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16201.00</beli_subkursasing>
+        <jual_subkursasing>16201.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-08T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table234" msdata:rowOrder="233">
+        <id_subkursasing>1915</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16169.00</beli_subkursasing>
+        <jual_subkursasing>16169.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-07T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table235" msdata:rowOrder="234">
+        <id_subkursasing>1914</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16193.00</beli_subkursasing>
+        <jual_subkursasing>16193.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-06T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table236" msdata:rowOrder="235">
+        <id_subkursasing>1913</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16217.00</beli_subkursasing>
+        <jual_subkursasing>16217.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-03T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+      <Table diffgr:id="Table237" msdata:rowOrder="236">
+        <id_subkursasing>1912</id_subkursasing>
+        <lnk_subkursasing>23</lnk_subkursasing>
+        <nil_subkursasing>1.00</nil_subkursasing>
+        <beli_subkursasing>16236.00</beli_subkursasing>
+        <jual_subkursasing>16236.00</jual_subkursasing>
+        <tgl_subkursasing>2025-01-02T00:00:00+07:00</tgl_subkursasing>
+        <mts_subkursasing>USD  </mts_subkursasing>
+      </Table>
+    </NewDataSet>
+  </diffgr:diffgram>
+</DataSet>

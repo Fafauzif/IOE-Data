@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head id="head">
+<title>SEA LEVEL STATION MONITORING FACILITY</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/tooltip.css" >
+
+
+<script language="javascript" type="text/javascript" src="/js/tooltip.js"></script><script type="text/javascript">
+function showexpert(val)
+{
+ var ref = window.location.href;
+ if(!val) val='exp';
+ if(ref.indexOf('?',0)>0) ref=ref+'&audience='+val;
+ else ref=ref+'?audience=exp';
+ window.location.href=ref;
+}
+
+function openwindow(lnk){
+var monitorwindow= window.open(lnk,'monitorwindow','width=800,toolbar=0,location=0,resizable=1,scrollbars=1');
+monitorwindow.focus();
+}
+
+/* used in station.php */
+function showinfo(s){
+ confirm(s);
+}
+
+function newgraph(cmd){
+ if(document.graph) document.graph.src='images/button_loading.png';
+ if(cmd=='30')document.station.period.value=30;
+ else if(cmd=='7')document.station.period.value=7;
+ else if(cmd=='1')document.station.period.value=1;
+ else if(cmd=='0.5')document.station.period.value=0.5;
+ else if(cmd=='exp') document.station.audience.value='exp';
+ else if(cmd=='simple') document.station.audience.value='simple';
+ else if(cmd=='raw') document.station.displaylevel.value='raw';
+ else if(cmd=='rl') document.station.displaylevel.value='rl';
+ else if(cmd=='offset') document.station.displaylevel.value='offset';
+ else if(cmd=='battery') document.station.displaylevel.value='battery';
+ else if(cmd=='sw') document.station.displaylevel.value='sw';
+ else if(cmd=='filter') document.station.usefilter.checked = (document.station.usefilter.checked ? false : true);
+ if(document.station.code.value) document.station.action='station.php?code='+document.station.code.value;
+ document.station.submit();
+}
+</script>
+</head><body id="body" style="margin-top:0px;"  >	<table id="maintable">
+	<tr><td align="center">
+
+		<table border="0" cellpadding="0" cellspacing="0" width="980" bgcolor="#FFFFFF">
+		<tr><td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+			<tr><td><img hspace="10" vspace="5" src="/images/unescoiocsmall.png"></td>
+				<td align=center><div class="title">SEA LEVEL STATION MONITORING FACILITY</div></td></tr>
+			</table>
+		</td></tr>
+		<tr><td align="center">
+		</td></tr>
+		<tr><td>
+			<table cellspacing="0" cellpadding="0"  border="0" width="100%" align="center">
+			<tr><td ><table width="100%" border="0" cellspacing="0" celpadding="0"><tr><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/index.php">Intro</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/map.php">Map</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/list.php">Station lists</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/station.php">Station details</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/service.php">Services & FAQ</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/gloss.php">GLOSS</a></td><td class="A_navigatie" width="14%" ><a href="https://www.ioc-sealevelmonitoring.org/ssc">Catalog</a></td></tr></table></tr></table></tr>
+ <tr><td><div class="maincontent">
+ <h1>How to cite</h1>
+<p>Flanders Marine Institute (VLIZ); Intergovernmental Oceanographic Commission (IOC) (2026): Sea level station monitoring facility. Accessed at https://www.ioc-sealevelmonitoring.org on 2026-11-27 at VLIZ. DOI: <a href="https://doi.org/10.14284/482" target="_blank">10.14284/482</a></p>
+<h1>Disclaimer</h1>
+<p>The data presented under this service has not undergone any quality control and data is provided as received.<br />
+The main objective is to provide a fast status assessment of station availability and performance.<br />
+<p>UNESCO/IOC, the Flanders Marine Institute (VLIZ) and data suppliers accept no liability for any errors and/or delays in data or for interpretations, transactions, or any other use carried out on the basis thereof.</p>
+<p>UNESCO/IOC and the Flanders Marine Institute (VLIZ) do not guarantee that this web-site is available 24 hours/7 days a week.</p>
+<p>Please note that the sampling frequency and data transmission frequency varies for the stations.</p>
+
+<p>The Secretariat of UNESCO/IOC and the Flanders Marine Institute (VLIZ) do not guarantee the accuracy and
+reliability of advice, opinions, statements or other information or documentation provided to the Secretariat
+of UNESCO/IOC and/or to the Flanders Marine Institute (VLIZ) by Member States.</p>
+
+<p>The publication of such advice, opinions, statements, information or documentation on the website and/or
+in UNESCO/IOC working documents does not imply the expression of any opinion whatsoever by
+the Secretariat of UNESCO/IOC or the Flanders Marine Institute (VLIZ) on the legal status of any
+country, territory, city or region, or their authorities, or the delimitation of their respective borders.</p>
+
+<p>No information contained in the web-site and/or in working documents of
+UNESCO/IOC implies the expression of any opinion of the Secretariat of UNESCO/IOC and the Flanders
+Marine Institute (VLIZ) concerning the nature or the extent of the jurisdiction of coastal States in general or of any
+coastal State in particular.</p>
+
+<h1>Data policy</h1>
+
+<p>The data and products available through this web-site are made available in accordance with the
+<a href="doc/IOC_Oceanographic_Data_Exchange_Policy.pdf">IOC Oceanographic Data Exchange Policy as adopted by the 22nd session of IOC Assembly in Resolution 6</a>.
+Data and products available on this web-site may not be used for any commercial purposes. Commercial users should contact the relevant data originators.</p>
+
+<h1>Long-term mean sea level (MSL) data </h1>
+<p>This GLOSS data center focusses on collecting and redistributing high frequency, relative sea level data in real-time.<br />
+Most stations provide values every minute and are updated each 5 minutes.<br />
+The GLOSS data centers at the Permanent Service for Mean Sea Level (<a href="https://www.psmsl.org" target="_blank">PSMSL</a>), the British Oceanographic Data Center (<a href="https://www.bodc.ac.uk" target="_blank">BODC</a>) and the University of Hawaii Sea Level Center (<a href="https://uhslc.soest.hawaii.edu/aboutus/contact" target="_blank">UHSLC</a>) perform the additional processing steps needed to calculate long-term mean sea level (MSL) data at hourly, daily, monthly and yearly averages.<br />
+Where available, the station detail page links to these mean sea level data series</p> </div>
+ </td></tr>
+ <tr>
+  <td>
+  <hr>
+ 	<div class="footer_left">Site developed and maintained by <a href="http://www.vliz.be" target="_blank">VLIZ</a> for <a href="https://ioc.unesco.org" target="_blank">UNESCO/IOC</a></div>
+ 	<div class="footer_right"><a href="disclaimer.php">disclaimer</a> | <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#105;&#111;&#99;&#45;&#115;&#101;&#97;&#108;&#101;&#118;&#101;&#108;&#109;&#111;&#110;&#105;&#116;&#111;&#114;&#105;&#110;&#103;&#46;&#111;&#114;&#103;">contact</a></div>
+  </td>
+  </tr>
+ </table>
+</table>
+</body>
+</html>

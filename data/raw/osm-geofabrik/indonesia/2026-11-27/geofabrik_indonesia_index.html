@@ -1,0 +1,767 @@
+
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="https://www.geofabrik.de/favicon.ico" />
+<meta name="description" content="Download OpenStreetMap data for Indonesia (with East Timor), one of the regions served on Geofabrik&#39;s free download server. OSM PBF and Shapefiles available.">
+<meta name="og:description" property="og:description" content="Download OpenStreetMap data for Indonesia (with East Timor), one of the regions served on Geofabrik&#39;s free download server. OSM PBF and Shapefiles available.">
+<meta property="og:image" content="https://www.geofabrik.de/img/geofabrik_logo_notext.svg">
+<meta property="og:site_name" content="Geofabrik Download Server">
+<meta property="og:title" content="Download OpenStreetMap for Indonesia (with East Timor) | Geofabrik Download Server">
+<title>Download OpenStreetMap for Indonesia (with East Timor) | Geofabrik Download Server</title>
+<link rel="stylesheet" href="/static/leaflet/leaflet.css" />
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+<script type="importmap">
+{ "imports": { "leaflet": "/static/leaflet/leaflet.js" } }
+</script>
+</head>
+<body>
+<div id="donation">
+Do you find OpenStreetMap data useful? Consider giving something back in the OSMF's <a href="//supporting.openstreetmap.org">funding campaign!</a>
+</div>
+<div id="download-top">
+   <div id="download-top-right">
+      <img alt="header image" src="/static/img/geofabrik-downloads.png" height="20">
+   </div>
+</div>
+<div id="download-titlebar">
+<div class="download-main">
+<div class="leftColumn">
+
+<a href="/search.html" class="search">🔍</a>
+<h1 googl="true">Download OpenStreetMap data for this region:</h1>
+<h2>Indonesia (with East Timor)</h2>
+<nav class="breadcrumb">
+   <ol>
+      <li><a href="/">World</a></li>
+      
+      <li><a href="/asia">Asia</a></li>
+      
+      <li><b>Indonesia (with East Timor)</b></li>
+   </ol>
+</nav>
+
+
+
+<p class="isPublicInfo">
+   The OpenStreetMap data files provided on this server do <b>not</b> contain the user names, user IDs and changeset IDs of the OSM objects because these fields are assumed to contain personal information about the OpenStreetMap contributors and are therefore subject to data protection regulations in the European Union.
+   <br>
+   Extracts with full metadata are only available to OpenStreetMap contributors on the <a href="https://osm-internal.download.geofabrik.de/asia/indonesia.html">internal download server</a>.
+</p>
+
+
+
+
+<h3>Note</h3>
+<p>East Timor is included in the Indonesia extract.</p>
+
+
+<h3>Commonly Used Formats</h3>
+<ul>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/indonesia-latest.osm.pbf">indonesia-latest.osm.pbf</a>,
+
+   suitable for Osmium, Osmosis, imposm, osm2pgsql, mkgmap, and others.
+
+This file was last modified <time title="Friday, 27.11.2026, 03:36:10 UTC", datetime="2026-11-27T03:36:10+00:00">8 hours ago</time> and contains all OSM data up to <time title="Thursday, 26.11.2026, 21:21:01 UTC", datetime="2026-11-26T21:21:01+00:00">15 hours ago</time>. File size: 1.6&nbsp;GB.
+
+</li>
+
+
+<li>
+
+   <s>indonesia-latest-free.shp.zip</s>,
+
+   yields a number of ESRI compatible shape files when unzipped.
+   <a href="/static/osm-data-in-gis-formats-free.pdf">(Format description PDF)</a>
+
+</li>
+
+
+<li>
+
+   <s>indonesia-latest-free.gpkg.zip</s>,
+
+   same as shape file but in more modern Geopackage format.
+
+</li>
+
+</ul>
+
+<h3>Other Formats and Auxiliary Files</h3>
+<ul>
+
+
+<li>
+
+   <s>indonesia-internal.osh.pbf</s>
+
+
+   The history file contains personal data and is available on the <a href="https://osm-internal.download.geofabrik.de/asia/indonesia.html">internal server</a> only.
+   See notice above for further information.
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/indonesia.geojson">.geojson file</a>
+
+   that describes the extent of this region.
+</li>
+
+
+<li>
+
+   <s>experimental vector tiles package</s>
+
+   conforming to
+   <a href="https://shortbread-tiles.org/">Shortbread schema</a>
+   for use with MapLibre and other MVT capable software
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/updates">.osc.gz files</a>
+
+   that contain all changes in this region, suitable e.g. for Osmosis updates
+</li>
+
+
+
+<li><a href="https://taginfo.geofabrik.de/asia:indonesia">Taginfo statistics for this region</a></li>
+
+
+
+<li>
+   <a href="#" onclick="document.getElementById('details').style.display = document.getElementById('details').style.display === 'inline' ? 'none' : 'inline'">
+      raw directory index
+   </a>
+   allowing you to see and download older files
+</li>
+
+
+</ul>
+
+
+<div id="details" style="display: none;">
+   <table id="file_index">
+      <tbody>
+         <tr><th class="filename">Filename</th><th>Last modified</th><th>Filesize</th></tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-140101-free.shp.zip">indonesia-140101-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.04.2018, 04:20:27 UTC", datetime="2018-04-27T04:20:27+00:00">8 years ago</time></td>
+            <td>182&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-140101.osm.pbf">indonesia-140101.osm.pbf</a></td>
+            <td ><time title="Wednesday, 01.01.2014, 23:48:38 UTC", datetime="2014-01-01T23:48:38+00:00">12 years ago</time></td>
+            <td>90.2&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-150101-free.shp.zip">indonesia-150101-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.04.2018, 03:58:38 UTC", datetime="2018-04-27T03:58:38+00:00">8 years ago</time></td>
+            <td>244&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-150101.osm.pbf">indonesia-150101.osm.pbf</a></td>
+            <td ><time title="Friday, 02.01.2015, 01:12:16 UTC", datetime="2015-01-02T01:12:16+00:00">11 years ago</time></td>
+            <td>116&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-160101-free.shp.zip">indonesia-160101-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.04.2018, 04:13:51 UTC", datetime="2018-04-27T04:13:51+00:00">8 years ago</time></td>
+            <td>431&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-160101.osm.pbf">indonesia-160101.osm.pbf</a></td>
+            <td ><time title="Saturday, 02.01.2016, 01:21:53 UTC", datetime="2016-01-02T01:21:53+00:00">10 years ago</time></td>
+            <td>189&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-170101-free.shp.zip">indonesia-170101-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.04.2018, 03:48:59 UTC", datetime="2018-04-27T03:48:59+00:00">8 years ago</time></td>
+            <td>530&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-170101.osm.pbf">indonesia-170101.osm.pbf</a></td>
+            <td ><time title="Monday, 02.01.2017, 01:42:06 UTC", datetime="2017-01-02T01:42:06+00:00">9 years ago</time></td>
+            <td>230&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-180101-free.shp.zip">indonesia-180101-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.04.2018, 04:04:41 UTC", datetime="2018-04-27T04:04:41+00:00">8 years ago</time></td>
+            <td>1.0&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-180101.osm.pbf">indonesia-180101.osm.pbf</a></td>
+            <td ><time title="Monday, 01.01.2018, 23:43:43 UTC", datetime="2018-01-01T23:43:43+00:00">8 years ago</time></td>
+            <td>401&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-190101-free.shp.zip">indonesia-190101-free.shp.zip</a></td>
+            <td ><time title="Wednesday, 02.01.2019, 00:18:50 UTC", datetime="2019-01-02T00:18:50+00:00">7 years ago</time></td>
+            <td>2.1&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-190101.osm.pbf">indonesia-190101.osm.pbf</a></td>
+            <td ><time title="Tuesday, 01.01.2019, 23:40:55 UTC", datetime="2019-01-01T23:40:55+00:00">7 years ago</time></td>
+            <td>776&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-200101-free.shp.zip">indonesia-200101-free.shp.zip</a></td>
+            <td ><time title="Sunday, 03.05.2020, 01:17:49 UTC", datetime="2020-05-03T01:17:49+00:00">6 years ago</time></td>
+            <td>2.5&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-200101.osm.pbf">indonesia-200101.osm.pbf</a></td>
+            <td ><time title="Wednesday, 19.02.2020, 16:27:58 UTC", datetime="2020-02-19T16:27:58+00:00">6 years ago</time></td>
+            <td>969&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-210101-free.shp.zip">indonesia-210101-free.shp.zip</a></td>
+            <td ><time title="Saturday, 02.01.2021, 01:31:25 UTC", datetime="2021-01-02T01:31:25+00:00">5 years ago</time></td>
+            <td>3.0&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-210101.osm.pbf">indonesia-210101.osm.pbf</a></td>
+            <td ><time title="Saturday, 02.01.2021, 00:22:33 UTC", datetime="2021-01-02T00:22:33+00:00">5 years ago</time></td>
+            <td>1.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-220101.osm.pbf">indonesia-220101.osm.pbf</a></td>
+            <td ><time title="Sunday, 02.01.2022, 02:27:18 UTC", datetime="2022-01-02T02:27:18+00:00">4 years ago</time></td>
+            <td>1.3&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-230101.osm.pbf">indonesia-230101.osm.pbf</a></td>
+            <td ><time title="Monday, 02.01.2023, 01:11:13 UTC", datetime="2023-01-02T01:11:13+00:00">3 years ago</time></td>
+            <td>1.4&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-240101.osm.pbf">indonesia-240101.osm.pbf</a></td>
+            <td ><time title="Tuesday, 02.01.2024, 01:02:44 UTC", datetime="2024-01-02T01:02:44+00:00">2 years ago</time></td>
+            <td>1.5&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-250101.osm.pbf">indonesia-250101.osm.pbf</a></td>
+            <td ><time title="Thursday, 02.01.2025, 01:00:19 UTC", datetime="2025-01-02T01:00:19+00:00">1 year ago</time></td>
+            <td>1.5&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-260101.osm.pbf">indonesia-260101.osm.pbf</a></td>
+            <td ><time title="Thursday, 01.01.2026, 23:37:22 UTC", datetime="2026-01-01T23:37:22+00:00">10 months ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-260101.osm.pbf.md5">indonesia-260101.osm.pbf.md5</a></td>
+            <td ><time title="Thursday, 01.01.2026, 23:37:24 UTC", datetime="2026-01-01T23:37:24+00:00">10 months ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-260901.osm.pbf">indonesia-260901.osm.pbf</a></td>
+            <td ><time title="Wednesday, 02.09.2026, 05:29:39 UTC", datetime="2026-09-02T05:29:39+00:00">2 months ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-260901.osm.pbf.md5">indonesia-260901.osm.pbf.md5</a></td>
+            <td ><time title="Wednesday, 02.09.2026, 05:29:43 UTC", datetime="2026-09-02T05:29:43+00:00">2 months ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261001.osm.pbf">indonesia-261001.osm.pbf</a></td>
+            <td ><time title="Friday, 02.10.2026, 11:33:08 UTC", datetime="2026-10-02T11:33:08+00:00">1 month ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261001.osm.pbf.md5">indonesia-261001.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 02.10.2026, 11:33:13 UTC", datetime="2026-10-02T11:33:13+00:00">1 month ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261101.osm.pbf">indonesia-261101.osm.pbf</a></td>
+            <td ><time title="Monday, 02.11.2026, 04:33:56 UTC", datetime="2026-11-02T04:33:56+00:00">3 weeks ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261101.osm.pbf.md5">indonesia-261101.osm.pbf.md5</a></td>
+            <td ><time title="Monday, 02.11.2026, 04:33:58 UTC", datetime="2026-11-02T04:33:58+00:00">3 weeks ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261120.osm.pbf">indonesia-261120.osm.pbf</a></td>
+            <td ><time title="Saturday, 21.11.2026, 01:00:26 UTC", datetime="2026-11-21T01:00:26+00:00">6 days ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261120.osm.pbf.md5">indonesia-261120.osm.pbf.md5</a></td>
+            <td ><time title="Saturday, 21.11.2026, 01:00:29 UTC", datetime="2026-11-21T01:00:29+00:00">6 days ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261121.osm.pbf">indonesia-261121.osm.pbf</a></td>
+            <td ><time title="Sunday, 22.11.2026, 07:17:52 UTC", datetime="2026-11-22T07:17:52+00:00">5 days ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261121.osm.pbf.md5">indonesia-261121.osm.pbf.md5</a></td>
+            <td ><time title="Sunday, 22.11.2026, 07:17:55 UTC", datetime="2026-11-22T07:17:55+00:00">5 days ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261122.osm.pbf">indonesia-261122.osm.pbf</a></td>
+            <td ><time title="Sunday, 22.11.2026, 23:35:33 UTC", datetime="2026-11-22T23:35:33+00:00">4 days ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261122.osm.pbf.md5">indonesia-261122.osm.pbf.md5</a></td>
+            <td ><time title="Sunday, 22.11.2026, 23:35:35 UTC", datetime="2026-11-22T23:35:35+00:00">4 days ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261123.osm.pbf">indonesia-261123.osm.pbf</a></td>
+            <td ><time title="Monday, 23.11.2026, 23:44:57 UTC", datetime="2026-11-23T23:44:57+00:00">3 days ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261123.osm.pbf.md5">indonesia-261123.osm.pbf.md5</a></td>
+            <td ><time title="Monday, 23.11.2026, 23:44:59 UTC", datetime="2026-11-23T23:44:59+00:00">3 days ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261124.osm.pbf">indonesia-261124.osm.pbf</a></td>
+            <td ><time title="Tuesday, 24.11.2026, 23:43:12 UTC", datetime="2026-11-24T23:43:12+00:00">2 days ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261124.osm.pbf.md5">indonesia-261124.osm.pbf.md5</a></td>
+            <td ><time title="Tuesday, 24.11.2026, 23:43:14 UTC", datetime="2026-11-24T23:43:14+00:00">2 days ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261125.osm.pbf">indonesia-261125.osm.pbf</a></td>
+            <td ><time title="Thursday, 26.11.2026, 13:17:34 UTC", datetime="2026-11-26T13:17:34+00:00">23 hours ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261125.osm.pbf.md5">indonesia-261125.osm.pbf.md5</a></td>
+            <td ><time title="Thursday, 26.11.2026, 13:17:37 UTC", datetime="2026-11-26T13:17:37+00:00">23 hours ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261126.osm.pbf">indonesia-261126.osm.pbf</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:36:10 UTC", datetime="2026-11-27T03:36:10+00:00">8 hours ago</time></td>
+            <td>1.6&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-261126.osm.pbf.md5">indonesia-261126.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:36:12 UTC", datetime="2026-11-27T03:36:12+00:00">8 hours ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia-latest.osm.pbf.md5">indonesia-latest.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 27.11.2026, 11:45:24 UTC", datetime="2026-11-27T11:45:24+00:00">15 minutes ago</time></td>
+            <td>59.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia.geojson">indonesia.geojson</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:35:04 UTC", datetime="2026-11-27T03:35:04+00:00">8 hours ago</time></td>
+            <td>1.5&nbsp;KB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia.kml">indonesia.kml</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:36:15 UTC", datetime="2026-11-27T03:36:15+00:00">8 hours ago</time></td>
+            <td>1.8&nbsp;KB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/indonesia.poly">indonesia.poly</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:35:04 UTC", datetime="2026-11-27T03:35:04+00:00">8 hours ago</time></td>
+            <td>2.1&nbsp;KB</td>
+         </tr>
+         
+      </tbody>
+   </table>
+</div>
+
+
+
+<h3>Subregions</h3>
+
+<p>Click on the region name to see the overview page for that region, or select one of the
+file extension links for quick access.</p>
+
+<table id="subregions">
+   <tr>
+      <th class="subregion">Subregion</th>
+      <th colspan="3">Quick Links</th>
+   </tr>
+   <tr>
+      <th>&nbsp;</th>
+      <th colspan="2">.osm.pbf</th>
+      <th>.gpkg.zip</th>
+   </tr>
+   <!-- TODO: this sort does not work, since child is just a string -->
+   
+   
+<tr data-child-id="east-timor">
+   <td class="subregion">
+      <a href="/asia/east-timor/">East Timor</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/east-timor/east-timor-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (17.0&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/east-timor/east-timor-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="java">
+   <td class="subregion">
+      <a href="/asia/indonesia/java/">Java</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/java/java-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (858&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/java/java-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="kalimantan">
+   <td class="subregion">
+      <a href="/asia/indonesia/kalimantan/">Kalimantan</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/kalimantan/kalimantan-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (141&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/kalimantan/kalimantan-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="maluku">
+   <td class="subregion">
+      <a href="/asia/indonesia/maluku/">Maluku</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/maluku/maluku-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (25.6&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/maluku/maluku-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="nusa-tenggara">
+   <td class="subregion">
+      <a href="/asia/indonesia/nusa-tenggara/">Nusa-Tenggara</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/nusa-tenggara/nusa-tenggara-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (169&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/nusa-tenggara/nusa-tenggara-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="papua">
+   <td class="subregion">
+      <a href="/asia/indonesia/papua/">Papua</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/papua/papua-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (34.7&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/papua/papua-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="sulawesi">
+   <td class="subregion">
+      <a href="/asia/indonesia/sulawesi/">Sulawesi</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/sulawesi/sulawesi-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (151&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/sulawesi/sulawesi-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+   
+<tr data-child-id="sumatra">
+   <td class="subregion">
+      <a href="/asia/indonesia/sumatra/">Sumatra</a>
+   </td>
+   
+   
+   <td style="border-right: 0px; margin-right: 0px; padding-right: 0px;">
+      <a href="https://download.geofabrik.de/asia/indonesia/sumatra/sumatra-latest.osm.pbf">[.osm.pbf]</a>
+   </td>
+   <td style="border-left: 0px; margin-left: 0px; padding-left: 0px;">
+      (270&nbsp;MB)
+   </td>
+   
+   
+   
+   <td>
+      
+      <a href="https://download.geofabrik.de/asia/indonesia/sumatra/sumatra-latest-free.gpkg.zip">[.gpkg.zip]</a>
+      
+   </td>
+   
+</tr>
+
+   
+</table>
+
+
+
+
+</div>
+<div id="download-right">
+   <div id="noscroll">
+      
+      <div id="map"></div>
+      <script type="module">
+         import map from '/static/map.js';
+         import { GeoJSON } from 'leaflet';
+         
+   const geojson = {"coordinates": [[[[95.79392, 6.99933], [100.6619, 3.158571], [101.4414, 2.559672], [102.3939, 1.971537], [103.0911, 1.501979], [103.4479, 1.244872], [103.5797, 1.200853], [103.6636, 1.190558], [103.7436, 1.153144], [103.813, 1.182836], [104.037, 1.276811], [104.3541, 1.290624], [104.6023, 1.425089], [105.358, 3.243168], [108.1772, 5.259626], [109.7537, 2.34466], [109.6843, 1.80376], [109.7701, 1.589692], [110.1372, 1.275455], [110.5695, 0.926641], [110.8337, 1.023346], [111.1974, 1.106233], [111.6914, 1.075151], [112.0929, 1.185665], [112.1272, 1.420492], [112.3674, 1.60005], [112.8575, 1.621343], [113.0845, 1.568974], [113.1119, 1.489555], [113.63, 1.306535], [113.9113, 1.482649], [114.5221, 1.513726], [114.7005, 2.231817], [114.9269, 2.376776], [115.0058, 2.801209], [115.2083, 3.042688], [115.3695, 3.094426], [115.4965, 3.301354], [115.5548, 3.604769], [115.5479, 3.911527], [115.6612, 4.173388], [115.8602, 4.380058], [116.5395, 4.404166], [117.2495, 4.373165], [117.3956, 4.281464], [117.5024, 4.205274], [117.6233, 4.193986], [117.8383, 4.198219], [118.1416, 4.215412], [118.5705, 4.285381], [118.8332, 4.414538], [119.0637, 4.161586], [125.1379, 4.787087], [126.6128, 5.959082], [127.275, 5.058812], [129.2901, 3.324019], [134.6484, 1.120545], [140.4965, -1.939047], [141.0126, -2.566397], [141.0017, -6.297641], [141.0207, -6.881843], [141.0217, -9.189642], [140.995, -9.569642], [132.3276, -8.641955], [123.221, -11.60655], [102.7505, -8.327828], [92.76481, 5.206835], [95.79392, 6.99933]]]], "type": "MultiPolygon"};
+   const layer = new GeoJSON(geojson, {
+      style: { fillColor: '#ffcc66', color: '#ff9933', weight: 2, fillOpacity: 0.5 }
+   }).addTo(map);
+   map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+   const childrenGeo = {};
+   
+      
+         childrenGeo['east-timor'] = {"coordinates": [[[[125.2386, -9.690103], [125.0843, -9.46972], [125.0751, -9.44449], [125.0709, -9.390637], [125.0464, -9.364893], [125.045, -9.338131], [124.9916, -9.293919], [124.9793, -9.2497], [124.9763, -9.190226], [125.0129, -9.166501], [125.0531, -9.165484], [125.1578, -9.165823], [125.1793, -9.029543], [125.1163, -8.984953], [125.0824, -9.02717], [125.0047, -9.068704], [124.9788, -9.07006], [124.953, -9.060313], [124.9394, -9.048022], [124.9303, -9.027763], [124.9323, -8.996822], [124.9395, -8.978595], [124.9481, -8.958502], [124.9355, -8.932557], [124.9434, -8.507685], [125.3142, -8.367767], [125.3938, -8.24139], [125.6685, -8.057869], [125.8772, -8.259059], [126.4114, -8.193819], [127.2025, -8.17207], [127.5293, -8.33244], [127.5911, -8.423469], [127.5581, -8.606819], [126.8921, -9.09667], [125.2386, -9.690103]]], [[[124.6866, -8.502251], [124.4859, -9.175482], [124.4869, -9.197851], [124.4641, -9.307471], [124.4385, -9.335082], [124.3903, -9.360701], [124.3787, -9.37514], [124.3862, -9.389452], [124.3664, -9.461592], [124.3584, -9.490715], [124.2755, -9.512555], [124.2724, -9.495963], [124.2686, -9.437039], [124.2212, -9.381322], [124.1424, -9.445336], [124.0839, -9.407403], [124.0343, -9.333897], [123.7912, -8.771079], [124.6866, -8.502251]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['papua'] = {"coordinates": [[[[133.2925, 1.678134], [134.6484, 1.120545], [140.3349, -1.854482], [140.5085, -1.953689], [141.0126, -2.566397], [141.0017, -6.297641], [141.0207, -6.881843], [141.0217, -9.160827], [140.9779, -9.495116], [138.8507, -9.167173], [137.4829, -8.722213], [135.3625, -5.156593], [132.7588, -4.784463], [131.0339, -2.904633], [129.4794, -2.355898], [128.2819, -2.328458], [128.9603, -1.411598], [129.7211, -0.159299], [129.5563, 0.889862], [130.7428, 2.075967], [133.2925, 1.678134]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['java'] = {"coordinates": [[[[106.842, -4.932249], [109.0558, -3.951935], [110.2862, -4.532613], [113.9502, -5.069052], [114.5737, -4.882992], [116.5814, -5.304294], [116.4304, -7.623884], [114.9802, -7.558544], [114.5088, -8.032714], [114.4338, -8.093901], [114.4202, -8.164255], [114.4295, -8.275367], [114.5483, -8.443167], [114.8209, -8.597313], [114.9719, -8.985459], [115.0351, -9.541155], [105.4578, -7.917782], [104.1394, -6.511804], [105.179, -6.256601], [105.5717, -6.236124], [105.7324, -6.064086], [105.7928, -5.911799], [106.3229, -5.194891], [106.842, -4.932249]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['nusa-tenggara'] = {"coordinates": [[[[128.408, -9.917962], [123.221, -11.60655], [122.6571, -11.51623], [119.2566, -10.89803], [114.8923, -9.115651], [114.549, -8.54775], [114.413, -8.327006], [114.4089, -8.163575], [114.4188, -8.106477], [114.4278, -8.082684], [114.4707, -8.042232], [114.6142, -7.733445], [114.906, -7.400595], [116.3232, -7.455066], [116.8726, -7.874259], [122.1075, -7.743646], [122.102, -6.893696], [125.6396, -6.675509], [125.549, -8.072824], [126.4444, -8.086421], [127.2079, -8.173428], [127.5252, -8.344669], [128.408, -9.917962]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['maluku'] = {"coordinates": [[[[125.4948, -8.225082], [125.4831, -8.153039], [125.4584, -6.727345], [125.3979, -4.872037], [124.8047, -3.732697], [124.8431, -2.844285], [124.3762, -2.619321], [124.2059, -2.284545], [124.0425, -1.833029], [123.8928, -1.439055], [125.4446, 0.285646], [125.4666, 0.955769], [125.8649, 1.82068], [127.738, 3.727232], [129.7705, 2.855285], [129.7595, 0.834937], [129.8419, -0.219721], [129.2212, -1.142497], [128.7048, -2.125361], [129.6716, -2.191233], [130.7922, -2.597371], [131.4349, -2.964979], [132.9016, -4.625699], [134.632, -4.669499], [135.412, -5.025277], [135.0384, -7.743646], [128.1885, -9.524903], [127.5005, -8.40445], [127.2876, -8.279444], [126.9868, -8.223722], [126.5886, -8.229158], [126.443, -8.204693], [125.7852, -8.272649], [125.6534, -8.116674], [125.6153, -8.12789], [125.4948, -8.225082]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['kalimantan'] = {"coordinates": [[[[109.7332, 2.382612], [109.7537, 2.34466], [109.6843, 1.80376], [109.7701, 1.589692], [110.1372, 1.275455], [110.5695, 0.926641], [110.8337, 1.023346], [111.1974, 1.106233], [111.6914, 1.075151], [112.0929, 1.185665], [112.1272, 1.420492], [112.3674, 1.60005], [112.8575, 1.621343], [113.0845, 1.568974], [113.1119, 1.489555], [113.63, 1.306535], [113.9113, 1.482649], [114.5221, 1.513726], [114.7005, 2.231817], [114.9269, 2.376776], [115.0058, 2.801209], [115.2083, 3.042688], [115.3695, 3.094426], [115.4965, 3.301354], [115.5548, 3.604769], [115.5479, 3.911527], [115.6612, 4.173388], [115.8602, 4.380058], [116.5395, 4.404166], [117.2495, 4.373165], [117.3956, 4.281464], [117.5024, 4.205274], [117.6233, 4.193986], [117.8383, 4.198219], [117.9609, 4.205166], [118.2884, 4.128656], [119.9267, 1.614787], [118.4436, -1.768507], [117.8503, -3.919054], [116.6144, -5.59958], [114.6039, -4.997921], [113.8074, -5.397262], [109.7314, -4.674969], [109.0338, -4.160147], [106.7926, -5.145651], [106.5646, -4.167005], [106.2927, -3.165883], [106.1678, -2.980755], [105.8697, -2.873093], [105.8148, -2.649504], [105.6363, -2.344923], [105.5154, -2.301014], [105.0183, -2.24887], [104.9744, -2.125364], [104.9606, -1.557118], [104.9716, -1.073848], [106.1719, -0.318591], [108.056, -0.216977], [108.089, 0.497128], [108.2153, 1.098568], [108.6575, 1.867348], [109.0228, 2.185752], [109.3249, 2.32023], [109.7332, 2.382612]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['sulawesi'] = {"coordinates": [[[[125.0034, 4.773235], [125.1379, 4.787087], [125.7361, 5.262461], [126.6208, 5.948258], [127.275, 5.058812], [127.3977, 4.953185], [127.6501, 4.609284], [127.9523, 3.348927], [126.0681, 1.631255], [125.6012, 0.197759], [124.0356, -1.482983], [124.0906, -1.806946], [124.4366, -2.487616], [125.2441, -2.833306], [125.7385, -4.784458], [125.6342, -6.817347], [122.3712, -7.03547], [122.3492, -8.004831], [119.0698, -7.977632], [116.7187, -8.02115], [116.2518, -7.574877], [116.4551, -4.423085], [117.3889, -3.897133], [117.7954, -2.454688], [119.6576, 1.834409], [124.0301, 1.768523], [125.0034, 4.773235]]]], "type": "MultiPolygon"};
+      
+   
+      
+         childrenGeo['sumatra'] = {"coordinates": [[[[101.7149, 2.390798], [102.4503, 1.844013], [103.2358, 1.33472], [103.4291, 1.258407], [103.4479, 1.244872], [103.5487, 1.211209], [103.5662, 1.204288], [103.5723, 1.203337], [103.5797, 1.200853], [103.6173, 1.196238], [103.6642, 1.188842], [103.7398, 1.151084], [103.8768, 1.209093], [104.0376, 1.276837], [104.3541, 1.290624], [104.4372, 1.335637], [104.6043, 1.424643], [104.6475, 1.533779], [105.358, 3.243168], [108.1772, 5.259626], [109.5285, 2.761135], [109.7524, 2.33449], [109.7477, 2.298111], [109.2535, 2.163798], [108.88, 1.828918], [108.3527, 1.038157], [108.2483, 0.532835], [108.2867, -0.324089], [106.2158, -0.527331], [105.0787, -1.219385], [105.0162, -2.138403], [105.1138, -2.188493], [105.6603, -2.217997], [105.7503, -2.416275], [105.948, -2.853891], [106.2193, -2.962241], [106.3325, -3.163825], [106.9244, -5.049904], [106.4531, -5.190449], [106.3216, -5.520992], [105.8031, -5.92341], [105.7722, -6.084569], [105.6157, -6.285267], [104.6063, -6.535008], [101.8962, -7.169929], [92.76481, 5.206835], [95.79392, 6.99933], [100.6619, 3.158571], [101.4414, 2.559672], [101.7149, 2.390798]]]], "type": "MultiPolygon"};
+      
+   
+   
+
+   let activeLayer = null;
+   document.querySelectorAll('#subregions tr[data-child-id], #special_regions tr[data-child-id]').forEach(row => {
+      row.addEventListener('mouseover', () => {
+         const id = row.getAttribute('data-child-id');
+         if (!childrenGeo[id]) return;
+         if (activeLayer) map.removeLayer(activeLayer);
+         activeLayer = new GeoJSON(childrenGeo[id], {
+            style: { color: '#ff0000', weight: 0, fillOpacity: 0.6 }
+         }).addTo(map);
+      });
+      row.addEventListener('mouseout', () => {
+         if (activeLayer) { map.removeLayer(activeLayer); activeLayer = null; }
+      });
+   });
+
+      </script>
+      
+
+      <div class="customized_shapes">
+         <p>
+         <img alt="small flag of UK" src="/static/img/en.png">
+         Not what you were looking for?
+         Geofabrik is a consulting and software development firm based in Karlsruhe, Germany
+         specializing in OpenStreetMap services. We're happy to help you with data
+         preparation, processing, server setup and the like. <a href="http://www.geofabrik.de/data/shapefiles.html">Check out our web site</a>
+         and contact us if we can be of service.
+         </p>
+      </div>
+      <div class="customized_shapes">
+         <p>
+         <img alt="small flag of Germany" src="/static/img/de.png">
+         Nicht das Richtige dabei?
+         Die Geofabrik ist ein auf OpenStreetMap spezialisiertes Beratungs- und Softwareentwicklungsunternehmen in Karlsruhe.
+         Gern helfen wir Ihnen bei der Datenaufbereitung, Datenkonvertierung, Serverinstallation und &auml;hnlichen Aufgaben.
+         <a href="http://www.geofabrik.de/data/shapefiles.html">Besuchen Sie unsere Webseite</a> und sprechen Sie mit uns, wenn wir Ihnen
+         helfen k&ouml;nnen.
+         </p>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+<div id="download-copyright">
+Data processed by
+<a href="http://www.geofabrik.de/">Geofabrik GmbH</a>
+and created by
+<a href="http://www.openstreetmap.org/">OpenStreetMap Contributors</a>
+|
+<a href="http://opendatacommons.org/licenses/odbl/">License: ODbL 1.0</a>
+|
+<a href="http://www.geofabrik.de/geofabrik/contact.html">Contact</a>
+|
+<a href="http://www.geofabrik.de/geofabrik/imprint.html">Legal Notice/Privacy Policy</a>
+</div>
+</body>
+</html>

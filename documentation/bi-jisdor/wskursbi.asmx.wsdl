@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getSubKursAsing1">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubKursAsing1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursAsing1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tgl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursAsing2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="enddate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursAsing3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursAsing4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursAsing4Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal1">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubKursLokal1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursLokal1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tgl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursLokal2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="enddate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursLokal3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursLokal4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursLokal4Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor1">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubKursJisdor1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursJisdor1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tgl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursJisdor2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="startDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursJisdor3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursJisdor4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursJisdor4Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR1">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursNonUSD_IDR1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tgl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursNonUSD_IDR2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="enddate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursNonUSD_IDR3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startdate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubKursNonUSD_IDR4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubKursNonUSD_IDR4Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getSubKursAsing1SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing1" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing1SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing1Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing2" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing2Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing3" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing3Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing4" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursAsing4Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal1SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal1" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal1SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal1Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal2" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal2Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal3" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal3Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal4" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursLokal4Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor1SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor1" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor1SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor1Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor2" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor2Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor3" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor3Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor4" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursJisdor4Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR1SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR1" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR1SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR1Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR2" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR2Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR3" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR3Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4SoapIn">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR4" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4SoapOut">
+    <wsdl:part name="parameters" element="tns:getSubKursNonUSD_IDR4Response" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing1HttpGetIn" />
+  <wsdl:message name="getSubKursAsing1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2HttpGetIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3HttpGetIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4HttpGetIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal1HttpGetIn" />
+  <wsdl:message name="getSubKursLokal1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2HttpGetIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3HttpGetIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4HttpGetIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor1HttpGetIn" />
+  <wsdl:message name="getSubKursJisdor1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2HttpGetIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3HttpGetIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startDate" type="s:string" />
+    <wsdl:part name="endDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4HttpGetIn">
+    <wsdl:part name="startDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR1HttpGetIn" />
+  <wsdl:message name="getSubKursNonUSD_IDR1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2HttpGetIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3HttpGetIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4HttpGetIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing1HttpPostIn" />
+  <wsdl:message name="getSubKursAsing1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2HttpPostIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3HttpPostIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing3HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4HttpPostIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursAsing4HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal1HttpPostIn" />
+  <wsdl:message name="getSubKursLokal1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2HttpPostIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3HttpPostIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal3HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4HttpPostIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursLokal4HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor1HttpPostIn" />
+  <wsdl:message name="getSubKursJisdor1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2HttpPostIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3HttpPostIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startDate" type="s:string" />
+    <wsdl:part name="endDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor3HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4HttpPostIn">
+    <wsdl:part name="startDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursJisdor4HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR1HttpPostIn" />
+  <wsdl:message name="getSubKursNonUSD_IDR1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2HttpPostIn">
+    <wsdl:part name="tgl" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3HttpPostIn">
+    <wsdl:part name="mts" type="s:string" />
+    <wsdl:part name="startdate" type="s:string" />
+    <wsdl:part name="enddate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR3HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4HttpPostIn">
+    <wsdl:part name="startdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubKursNonUSD_IDR4HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="wsKursBISoap">
+    <wsdl:operation name="getSubKursAsing1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing1SoapIn" />
+      <wsdl:output message="tns:getSubKursAsing1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing2SoapIn" />
+      <wsdl:output message="tns:getSubKursAsing2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing3SoapIn" />
+      <wsdl:output message="tns:getSubKursAsing3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs UKA pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing4SoapIn" />
+      <wsdl:output message="tns:getSubKursAsing4SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Satu data Kurs Transaksi terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal1SoapIn" />
+      <wsdl:output message="tns:getSubKursLokal1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal2SoapIn" />
+      <wsdl:output message="tns:getSubKursLokal2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Transaksi berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal3SoapIn" />
+      <wsdl:output message="tns:getSubKursLokal3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal4SoapIn" />
+      <wsdl:output message="tns:getSubKursLokal4SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">14 Record pertama dari Kurs JISDOR</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor1SoapIn" />
+      <wsdl:output message="tns:getSubKursJisdor1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs JISDOR berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor2SoapIn" />
+      <wsdl:output message="tns:getSubKursJisdor2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR berdasarkan nama mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor3SoapIn" />
+      <wsdl:output message="tns:getSubKursJisdor3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR semua mata uang di tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor4SoapIn" />
+      <wsdl:output message="tns:getSubKursJisdor4SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR1SoapIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR2SoapIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR3SoapIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Acuan pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR4SoapIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR4SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsKursBIHttpGet">
+    <wsdl:operation name="getSubKursAsing1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing1HttpGetIn" />
+      <wsdl:output message="tns:getSubKursAsing1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing2HttpGetIn" />
+      <wsdl:output message="tns:getSubKursAsing2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing3HttpGetIn" />
+      <wsdl:output message="tns:getSubKursAsing3HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs UKA pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing4HttpGetIn" />
+      <wsdl:output message="tns:getSubKursAsing4HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Satu data Kurs Transaksi terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal1HttpGetIn" />
+      <wsdl:output message="tns:getSubKursLokal1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal2HttpGetIn" />
+      <wsdl:output message="tns:getSubKursLokal2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Transaksi berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal3HttpGetIn" />
+      <wsdl:output message="tns:getSubKursLokal3HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal4HttpGetIn" />
+      <wsdl:output message="tns:getSubKursLokal4HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">14 Record pertama dari Kurs JISDOR</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor1HttpGetIn" />
+      <wsdl:output message="tns:getSubKursJisdor1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs JISDOR berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor2HttpGetIn" />
+      <wsdl:output message="tns:getSubKursJisdor2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR berdasarkan nama mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor3HttpGetIn" />
+      <wsdl:output message="tns:getSubKursJisdor3HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR semua mata uang di tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor4HttpGetIn" />
+      <wsdl:output message="tns:getSubKursJisdor4HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR1HttpGetIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR2HttpGetIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR3HttpGetIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR3HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Acuan pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR4HttpGetIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR4HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsKursBIHttpPost">
+    <wsdl:operation name="getSubKursAsing1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing1HttpPostIn" />
+      <wsdl:output message="tns:getSubKursAsing1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing2HttpPostIn" />
+      <wsdl:output message="tns:getSubKursAsing2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs UKA berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing3HttpPostIn" />
+      <wsdl:output message="tns:getSubKursAsing3HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs UKA pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursAsing4HttpPostIn" />
+      <wsdl:output message="tns:getSubKursAsing4HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Satu data Kurs Transaksi terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal1HttpPostIn" />
+      <wsdl:output message="tns:getSubKursLokal1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal2HttpPostIn" />
+      <wsdl:output message="tns:getSubKursLokal2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Transaksi berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal3HttpPostIn" />
+      <wsdl:output message="tns:getSubKursLokal3HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Transaksi pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursLokal4HttpPostIn" />
+      <wsdl:output message="tns:getSubKursLokal4HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">14 Record pertama dari Kurs JISDOR</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor1HttpPostIn" />
+      <wsdl:output message="tns:getSubKursJisdor1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs JISDOR berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor2HttpPostIn" />
+      <wsdl:output message="tns:getSubKursJisdor2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR berdasarkan nama mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor3HttpPostIn" />
+      <wsdl:output message="tns:getSubKursJisdor3HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Kurs JISDOR semua mata uang di tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursJisdor4HttpPostIn" />
+      <wsdl:output message="tns:getSubKursJisdor4HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan terbaru</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR1HttpPostIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan parameter tanggal</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR2HttpPostIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data Kurs Acuan berdasarkan kode mata uang dan interval tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR3HttpPostIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR3HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Data semua Kurs Acuan pada tanggal tertentu</wsdl:documentation>
+      <wsdl:input message="tns:getSubKursNonUSD_IDR4HttpPostIn" />
+      <wsdl:output message="tns:getSubKursNonUSD_IDR4HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsKursBISoap" type="tns:wsKursBISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSubKursAsing1">
+      <soap:operation soapAction="http://tempuri.org/getSubKursAsing1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <soap:operation soapAction="http://tempuri.org/getSubKursAsing2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <soap:operation soapAction="http://tempuri.org/getSubKursAsing3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <soap:operation soapAction="http://tempuri.org/getSubKursAsing4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <soap:operation soapAction="http://tempuri.org/getSubKursLokal1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <soap:operation soapAction="http://tempuri.org/getSubKursLokal2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <soap:operation soapAction="http://tempuri.org/getSubKursLokal3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <soap:operation soapAction="http://tempuri.org/getSubKursLokal4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <soap:operation soapAction="http://tempuri.org/getSubKursJisdor1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <soap:operation soapAction="http://tempuri.org/getSubKursJisdor2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <soap:operation soapAction="http://tempuri.org/getSubKursJisdor3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <soap:operation soapAction="http://tempuri.org/getSubKursJisdor4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <soap:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <soap:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <soap:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <soap:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsKursBISoap12" type="tns:wsKursBISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSubKursAsing1">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursAsing1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursAsing2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursAsing3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursAsing4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursLokal1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursLokal2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursLokal3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursLokal4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursJisdor1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursJisdor2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursJisdor3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursJisdor4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <soap12:operation soapAction="http://tempuri.org/getSubKursNonUSD_IDR4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsKursBIHttpGet" type="tns:wsKursBIHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getSubKursAsing1">
+      <http:operation location="/getSubKursAsing1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <http:operation location="/getSubKursAsing2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <http:operation location="/getSubKursAsing3" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <http:operation location="/getSubKursAsing4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <http:operation location="/getSubKursLokal1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <http:operation location="/getSubKursLokal2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <http:operation location="/getSubKursLokal3" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <http:operation location="/getSubKursLokal4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <http:operation location="/getSubKursJisdor1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <http:operation location="/getSubKursJisdor2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <http:operation location="/getSubKursJisdor3" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <http:operation location="/getSubKursJisdor4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <http:operation location="/getSubKursNonUSD_IDR1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <http:operation location="/getSubKursNonUSD_IDR2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <http:operation location="/getSubKursNonUSD_IDR3" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <http:operation location="/getSubKursNonUSD_IDR4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsKursBIHttpPost" type="tns:wsKursBIHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getSubKursAsing1">
+      <http:operation location="/getSubKursAsing1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing2">
+      <http:operation location="/getSubKursAsing2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing3">
+      <http:operation location="/getSubKursAsing3" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursAsing4">
+      <http:operation location="/getSubKursAsing4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal1">
+      <http:operation location="/getSubKursLokal1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal2">
+      <http:operation location="/getSubKursLokal2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal3">
+      <http:operation location="/getSubKursLokal3" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursLokal4">
+      <http:operation location="/getSubKursLokal4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor1">
+      <http:operation location="/getSubKursJisdor1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor2">
+      <http:operation location="/getSubKursJisdor2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor3">
+      <http:operation location="/getSubKursJisdor3" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursJisdor4">
+      <http:operation location="/getSubKursJisdor4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR1">
+      <http:operation location="/getSubKursNonUSD_IDR1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR2">
+      <http:operation location="/getSubKursNonUSD_IDR2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR3">
+      <http:operation location="/getSubKursNonUSD_IDR3" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKursNonUSD_IDR4">
+      <http:operation location="/getSubKursNonUSD_IDR4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsKursBI">
+    <wsdl:port name="wsKursBISoap" binding="tns:wsKursBISoap">
+      <soap:address location="http://www.bi.go.id:9090/wskursbi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsKursBISoap12" binding="tns:wsKursBISoap12">
+      <soap12:address location="http://www.bi.go.id:9090/wskursbi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsKursBIHttpGet" binding="tns:wsKursBIHttpGet">
+      <http:address location="http://www.bi.go.id:9090/wskursbi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsKursBIHttpPost" binding="tns:wsKursBIHttpPost">
+      <http:address location="http://www.bi.go.id:9090/wskursbi.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

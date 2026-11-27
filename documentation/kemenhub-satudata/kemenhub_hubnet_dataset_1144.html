@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HUBNET - KEMENHUB - Hubnet</title>
+    <meta name="description" content="HUBNET - KEMENHUB | ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no , user-scalable=0">
+    <meta name="keywords" content="perhubungan,kementrian,dephub,kemenhub,transportation,ministry,indonesia,kemenhub,kementerian perhubungan" />
+    <meta name="author" content="PUSAT DATA DAN TEKNOLOGI INFORMASI | Kementerian Perhubungan" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://hubnet.kemenhub.go.id/images/logo-kemenhub.png">
+    
+    <!-- GOOGLE WEB FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- BASE CSS -->
+<link href="https://hubnet.kemenhub.go.id/portal_assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://hubnet.kemenhub.go.id/portal_assets/css/style.css" rel="stylesheet">
+<link href="https://hubnet.kemenhub.go.id/portal_assets/css/vendors.css" rel="stylesheet">
+<link href="https://hubnet.kemenhub.go.id/portal_assets/css/skins/square/grey.css" rel="stylesheet">
+<link href="https://hubnet.kemenhub.go.id/portal_assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+<link href="https://hubnet.kemenhub.go.id/dashboard_assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- YOUR CUSTOM CSS -->
+<link href="https://hubnet.kemenhub.go.id/css/custom.css" rel="stylesheet">
+
+<style>
+      a , p , button , h1, h2,h3,h4,h5,h6,div,span {
+         font-family: 'Poppins', sans-serif!important;
+      }
+
+      .mm-navbars-bottom{
+         display:none!important;
+      }
+
+      footer{
+         background-color: #fff;
+         color: #000!important;
+      }
+
+      footer h5 , footer h6{
+         color:#000!important;
+         margin-top:0px;
+      }
+
+      footer ul li, footer ul li a{
+         color: #000!important;
+      }
+
+      footer ul li a i {
+         margin-right: 10px;
+         color: #000;
+      }
+
+      .glass-white{
+         background: rgba(255, 255, 255, 0.2);
+         border-radius: 16px;
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .main-menu.background-glass{
+ 
+         border-radius:20px;
+         padding:0px 50px;
+
+         background: rgba(255, 255, 255, 0.2);
+         border-radius: 16px;
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+ @media  only screen and (min-width: 992px) {
+            .main-menu > ul > li span > a {
+                color: #fff;
+                padding: 16px 8px 10px 8px;
+                font-size: 14px;
+                font-size: 0.875rem;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+
+        @media  only screen and (min-width: 992px) {
+            .main-menu {
+                position: relative;
+                z-index: 9;
+                width: auto;
+                top: 0px;
+                
+                left: -50px;
+                float: right;
+                -moz-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                -webkit-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                color: #fff;
+            }
+        }
+
+      #top_menu .btn{
+         height:50px;
+         margin-top:2px;
+         line-height:35px;
+      }
+
+      .main-menu > ul > li span > a {
+         text-transform: none!important;
+         font-weight:500;
+      }
+
+      header.header.light{
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      header.header.dark.sticky{
+        
+         background: rgba(11, 1, 36, 0.6);
+        
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(9.5px);
+         -webkit-backdrop-filter: blur(9.5px);
+      }
+
+      header.header.light.sticky{
+         background: -webkit-linear-gradient(left, #fff, #fff) !important;
+         background: linear-gradient(to right, #fff, #fff) !important;
+      }
+
+      header.header.light{
+         background: -webkit-linear-gradient(left, #fff, #fff) !important;
+         background: linear-gradient(to right, #fff, #fff) !important;
+      }
+
+      header.header.light .main-menu > ul > li span > a{
+         color:#000;
+      }
+
+      
+
+      #hero_in.general{
+         border-bottom:none;
+      }
+
+     
+      #hero_in.moda{
+         height:600px;
+         background-repeat: no-repeat;
+         background-size: cover;
+        
+      }
+      
+      
+      #hero_in.moda .wrapper{
+         height: 100%;
+         background-color:rgba(255, 255, 255,0.7)
+      }
+
+
+      #hero_in.moda h1{
+         font-weight:600;
+         font-size:62px;
+         text-transform: none;
+         color:#3F4B80;
+      }
+
+      @media  only screen and (max-width: 600px) {
+         #hero_in.moda h1{
+            
+            font-size:40px;
+           
+         }
+      }
+
+      #hero_in.moda p{
+         font-size:18px;
+         color:#4A4A4A;
+         font-weight:500;
+         margin-bottom:20px;
+      }
+
+      .app-list-container{
+      
+         background-image:url("https://hubnet.kemenhub.go.id/images/background-dot.jpeg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+      }
+      .app-list-container .wrapper{
+         height: 100%;
+         background-color:rgba(11, 1, 36,0.7)
+      }
+      .white-section{
+         background-color:#fff!important;
+         background: url("https://hubnet.kemenhub.go.id/portal_assets/images/bg-left-big-shape.svg") left top no-repeat, url("https://hubnet.kemenhub.go.id/portal_assets/images/bg-right-bottom-shape.svg") right bottom no-repeat;
+        
+      }
+      .input-group-search input{
+         border-radius:20px;
+         border:1px solid #90C1FF;
+         padding-left:30px;
+      }
+
+      .input-group-search button{
+         border-radius:20px;
+         border:1px solid #0552B5;
+         background-color:#0552B5;
+         font-size:14px;
+         padding-left:20px;
+         padding-right:20px;
+      }
+
+      .main_title_2 .title h2::after , .main_title_2 .title h2::before{
+         content: "";
+         display: inline-block;
+         width: 30px;
+         height: 8px;
+         border-radius:10px;
+         background-color:#0552B5;
+      }
+
+      .main_title_2 .title h2{
+         display:flex;
+         align-items:center;
+         justify-content:center;
+         gap:20px;
+      }
+
+      .custom-search-input{
+         padding: 0;
+         max-width: 600px;
+         margin: 20px auto 0;
+         position: relative;
+         width:80%;
+      }
+
+      .border-radius{
+         border-radius:20px!important;
+         overflow:hidden;
+      }
+
+      .offside-card{
+         width: 100% ; top:-70px;
+         border-radius:20px!important;
+         overflow:hidden;
+      }
+
+      .offside-card .total_label{
+         color:#0552B5;
+      }
+
+      .offside-card .title{
+         font-weight:600;
+         font-size:16px;
+      }
+
+      .offside-card .total {
+         font-weight:600;
+         font-size:37px;
+      }
+
+      .chart-pie .title{
+         color:#0552B5;
+         font-weight:500;
+         font-size:18px;
+      }
+
+      .chart-pie .total {
+         font-weight:600;
+         font-size:37px;
+      }
+
+      .chart-pie .info {
+         font-weight:500;
+         font-size:14px;
+         font-style:italic;
+         color:#a6a6a6;
+      }
+
+      .legend-item-label {
+        display: inline-block;
+        min-width: 75px;
+        font-size: 14px;
+        color:#3969b8;
+      }
+
+      .legend-item-value {
+            color:#000;
+            font-weight:600;
+            font-size: 14px;
+      }
+
+   
+      .clickable{
+            cursor:pointer!important;
+      }
+      .clickable:hover{
+            background-color:#e8e8ff!important;
+      }
+
+      .title-section h2{
+         display:flex;
+         align-items:center;
+      }
+
+      .title-section h2::before{
+         content: "";
+         display: inline-block;
+         width: 30px;
+         height: 8px;
+         border-radius:10px;
+         background-color:#0552B5;
+         margin-right:20px;
+      }
+
+      .background-card-blue{
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image:url("https://hubnet.kemenhub.go.id/portal_assets/images/bg-card-blue.png");
+      }
+    
+
+      .light .hamburger-inner, .light .hamburger-inner::after, .light .hamburger-inner::before {
+            background-color:navy!important;
+      }
+
+      .svg-image-white{
+         -webkit-filter: grayscale(1) invert(1);
+         filter: grayscale(1) invert(1);
+      }
+
+     
+
+      .link-active{
+         color:#fff!important;
+       
+      }
+
+      .link-active a{
+         color:#fff!important;
+         border-bottom:5px solid #fff;
+    
+      }
+
+      .apexcharts-legend{
+         display: flex!important;
+         justify-content: safe center!important;
+         -webkit-align-items: flex-start;
+      }
+
+      .apexcharts-legend-safari{
+         display: flex!important;
+         justify-content: flex-start!important;
+   
+        
+        
+      }
+
+      .apexcharts-legend-series{
+            display:flex;
+            align-items:center;
+            position:relative;
+            width:150px!important;
+      }
+
+
+      .ellipse {
+            white-space: nowrap;
+            display:inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .two-lines {
+            -webkit-line-clamp: 2;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            white-space: normal;
+        }
+
+        .popover-body{
+            max-height:calc(100vh - 150px);
+            overflow-y:auto;
+        }
+
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: #fff !important;
+            background-color: #001A88 !important;
+        }
+        .nav-link{
+            color:#545965!important;
+            font-weight:600;
+        }
+
+        .popover-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1040;
+            backdrop-filter: blur(1px);
+        }
+
+        .popover {
+            max-width:500px;
+            
+        }
+
+        .header.light .logo-white{
+            display:none;
+        }
+
+        .header.dark .logo-black{
+            display:none;
+        }
+      
+</style>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+<style>
+    .link-title{
+        color: #480047;
+    }
+    .page-item.active .page-link{
+        background-color:#480047;
+        border-color:#480047;
+    }
+
+    #hero_in{
+            min-height:40vh;
+            height: auto!important;
+            background-image:url("https://hubnet.kemenhub.go.id/./portal_assets_rd/Home Hubnet.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+
+        #hero_in.general .wrapper{
+       
+            background-color:rgba(11, 1, 36,0.8);
+            min-height:40vh;
+            height: auto!important;
+        }
+</style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-98BKBXRJ2W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-98BKBXRJ2W');
+    </script>
+</head>
+
+<body>
+    <div id="page">
+        <!-- header-area-start -->
+        <header class="header menu_2 dark d-flex justify-content-between px-md-5">
+   <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+   <div id="logo">
+      <a class="logo-white" href="https://hubnet.kemenhub.go.id"><img src="https://hubnet.kemenhub.go.id/portal_assets_rd/logo-hubnet-kemenhub.png" height="52" alt="Hubnet Kementerian Perhubungan"></a>
+      <a class="logo-black" href="https://hubnet.kemenhub.go.id"><img src="https://hubnet.kemenhub.go.id/images/logo-black.svg" height="52" alt=""></a>
+   </div>
+   
+   <a href="#menu" class="btn_mobile">
+      <div class="hamburger hamburger--spin" id="hamburger">
+         <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+         </div>
+      </div>
+   </a>
+   
+   <nav id="menu" class="main-menu background-glass">
+      
+                <ul>
+                <li class=""><span><a href="https://hubnet.kemenhub.go.id">Beranda</a></span></li><li class=""><span><a href="https://hubnet.kemenhub.go.id/portal/page/layanan">Layanan</a></span></li><li class=""><span><a href="https://hubnet.kemenhub.go.id/dataset/search">Repositori</a></span></li><li class=""><span><a href="https://hubnet.kemenhub.go.id/portal/page/splt">SPLT</a></span></li><li class=""><span><a href="https://hubnet.kemenhub.go.id/portal/page/faq">FAQ</a></span></li>
+            </ul>
+        
+   </nav>
+
+   
+   <ul id="top_menu">
+               <li><a href="https://hubnet.kemenhub.go.id/sso-v2" class="btn btn-dark text-white shadow-sm glass-white" style="border:1px solid #cfcfcf; font-size:13px; ;text-transform:none; "> <i class="fa-solid fa-user"></i> Login</a></li>
+         </ul>
+
+   <!-- /top_menu -->
+
+   <!-- Search Menu -->
+   <div class="search-overlay-menu">
+      <span class="search-overlay-close"><span class="closebt"><i class="ti-close"></i></span></span>
+      <form role="search" id="searchform" method="get">
+         <input value="" name="q" type="search" placeholder="Search..." />
+         <button type="submit"><i class="icon_search"></i>
+         </button>
+      </form>
+   </div><!-- End Search Menu -->
+</header>
+<!-- /header -->        <!-- header-area-end -->
+        <main>
+            
+
+<section id="hero_in" class="general moda" style="height:100px;" >
+    <div class="wrapper">
+        <div class="container">
+           <div class="text-center ">
+                <h1 style="font-weight: 600;
+                    font-size: 62px;
+                    text-transform: none;
+                    color: #fff;">Detail Repositori</h1>
+                <p style="font-size: 18px;
+                        color: #fff;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                    }"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/hero_in-->
+
+<div class="w-100 bg-white white-section margin_60_35" >
+    <div class="container">
+       
+          
+            <form  action="https://hubnet.kemenhub.go.id/dataset/search" name="search" id="search">
+            
+                <div class="container margin_60_35">
+                    <div class="row">
+                        <aside class="col-lg-2 d-flex flex-column align-items-center" id="">
+                            <div>
+                                                                                            <img style="max-width:40px;max-height:40px;" src="https://hubnet.kemenhub.go.id/dashboard_assets/images/icon-svg/dataset.png" />
+                                                                        </div>
+                            <div>
+                                <span class="text-capitalize badge badge bg-primary">dataset</span>
+                            </div>
+                        
+                        
+                            
+                        </aside>
+                        <!-- /aside -->
+
+                        <div class="col-lg-10 wrapper" id="list_sidebar">
+                            <h2 style="font-size:22px;line-height: 32px;" class="border-bottom pb-2">Jumlah Bongkar Muat Pada Pelabuhan Utama Petikemas</h2>
+                            
+                            <h5 class="h6">
+                                <span class="text-muted" style="font-size:14px;"><i class="icon_clock_alt"></i> 07.07.2026</span>
+                    
+                            </h5>
+                        
+                            <div class="mt-3">
+                                <p >Dataset berisi Jumlah Bongkar Muat Pada Pelabuhan Utama Petikemas</p>
+                            </div>
+
+                            <h4 style="font-size:18px;" class="mt-2">Moda : </h4>
+                            <div> <span class="badge rounded-pill bg-info"></span></div>
+
+                            <h4 style="font-size:18px;" class="mt-3">Organisasi : </h4>
+                            <div><span class="text-capitalize badge badge bg-secondary">Direktorat Jenderal Perhubungan Laut</span></div>
+
+                            <h4 style="font-size:18px;" class="mt-3">Tag : </h4>
+                            <div>
+                                                                    <span class="badge rounded-pill bg-warning text-dark">Data Prioritas 2025</span>
+                                 
+                            </div>
+
+                            
+                                                    
+                        
+
+                                                            <h4 style="font-size:18px;" class="pb-2 mt-2">Data and Resources : </h4>
+                                <table class="table table-sm table-hover">
+                                
+                                                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            Jumlah Bongkar Muat Pada Pelabuhan Utama Petikemas
+                                        </td>
+                                        <td align="right" width="225px">
+                                           
+                                        
+                                                                                                                                                <a  href="#" onclick="showModalLogin()" type="button" class="btn btn-outline-primary btn-sm">JSON</a>
+                                                    <a  href="#" onclick="showModalLogin()" type="button" class="btn btn-outline-secondary btn-sm">EXCEL</a>
+                                                                                                
+                                                                                        
+                                        
+                                        </td>
+                                    </tr>
+                                                                </table>
+                                                    
+
+                            <h4 style="font-size:18px;" class="pb-2 mt-3">Data Information : </h4>
+                            <table class="table table-sm table-bordered">
+                                <tr>
+                                    <td style="vertical-align: top; width:40%;">
+                                        Identifier
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        dp25_12
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align: top; width:40%;">
+                                        Publisher
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align: top; width:40%;">
+                                        Date Created
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                    07.07.2026
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align: top; width:40%;">
+                                        Date Modified
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        07.07.2026
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="vertical-align: top; width:40%;">
+                                        Dilihat
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        142
+                                    </td>
+                                </tr>
+                        
+                            </table>
+                        
+                        </div>
+                        <!-- /col -->
+                    </div>
+                    <!-- /row -->
+                </div>
+        
+            </form>
+    </div>
+   
+
+   
+
+  
+</div>
+
+
+
+
+        </main>
+        <!-- footer-area-start -->
+        <footer style="background-color:#0E1937;" class="text-white">
+   <div class="container margin_30_95">
+      <div class="row justify-content-between mt-4">
+         <div class="mb-1 col-lg-4 col-md-12">
+            <p class="text-center">
+               <img src="https://hubnet.kemenhub.go.id/images/logo-kemenhub.png" class="me-3" width="80px" alt="">
+               <img src="https://hubnet.kemenhub.go.id/portal_assets_rd/logo-hubnet-kemenhub.png" height="50px" alt="Hubnet Kementerian Perhubungan">
+            </p>
+            <h6 class="text-center m-0 p-0 mb-2 text-white">Pusat Data dan Teknologi Informasi</h6>
+            <h6 class="text-center m-0 p-0 text-white">KEMENTERIAN PERHUBUNGAN</h6>
+
+            <p class="text-center">
+              <div class="bg-white p-1 rounded d-inline-block">
+                
+                  <img src="https://pse.layanan.go.id/api/storage/badge/2026/100/badge_1707.png" style="width: auto; height: 120px;" alt="Logo Kedua">
+              </div>
+            </p>
+            
+
+         </div>
+                  <div class="mb-1 col-lg-3 col-md-6 ml-lg-auto  mb-4 mb-lg-0">
+            <h5 class="text-white">Statistik Pengunjung</h5>
+            <table style="width:200px">
+               <tbody>
+                        <tr>
+                           <td class="ps-0" width="80px">Hari ini</td>
+                           <td class="text-center" width="50px">:</td>
+                           <td class="text-end" width="50px">185</td>
+                           <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                           <td class="ps-0">Bulan Ini</td>
+                           <td class="text-center">:</td>
+                           <td class="text-end">125.740</td>
+                           <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                           <td class="ps-0">Total</td>
+                           <td class="text-center">:</td>
+                           <td class="text-end">14.375.862</td>
+                           <td class="text-end"></td>
+                        </tr>
+               </tbody>
+            </table>
+
+            <div id="newsletter" class="mt-4 d-none">
+               <div id="message-newsletter"></div>
+               <form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+                  <div class="form-group">
+                     <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
+                     <input type="submit" value="Kirim" id="submit-newsletter">
+                  </div>
+               </form>
+            </div>
+         </div>
+
+         <div class="mb-1 col-lg-4 col-md-8 mb-4 mb-lg-0">
+            <h5 class="text-white">Hubungi Kami</h5>
+            <ul class="contacts">
+               <li><a class="text-white" href="https://g.co/kgs/6p13Lx6"><i class="ti-map" style="color:#3E92FF;"></i> Jl. Medan Merdeka Barat No. 8, Jakarta </a></li>
+               <li><a class="text-white" href="tel://151"><i class="ti-mobile" style="color:#3E92FF;"></i> 151</a></li>
+               <li><a class="text-white" href="pusdatin@kemenhub.go.id"><i class="ti-email" style="color:#3E92FF;"></i> pusdatin@kemenhub.go.id</a></li>
+            </ul>
+            <div class="d-flex gap-2">
+               <a style="background-color:#3E92FF; width:30px; height:30px ; line-height:30px; color:#0E1937; text-align:center; border-radius:50%;" href="https://www.facebook.com/kemenhub151">
+                  <i class="fa-brands fa-facebook-f"></i>
+               </a>
+               <a style="background-color:#3E92FF; width:30px; height:30px ; line-height:30px; color:#0E1937; text-align:center; border-radius:50%;" href="https://twitter.com/kemenhub151">
+                  <i class="fa-brands fa-square-x-twitter"></i>
+               </a>
+               <a style="background-color:#3E92FF; width:30px; height:30px ; line-height:30px; color:#0E1937; text-align:center; border-radius:50%;" href="https://www.linkedin.com/company/kementerian-perhubungan-republik-indonesia/about/">
+                  <i class="fa-brands fa-linkedin-in"></i>
+               </a>
+               <a style="background-color:#3E92FF; width:30px; height:30px ; line-height:30px; color:#0E1937; text-align:center; border-radius:50%;" href="https://www.instagram.com/kemenhub151/">
+                  <i class="fa-brands fa-instagram"></i>
+               </a>
+            </div>
+          
+            
+         </div>
+
+
+      </div>
+      <!--/row-->
+      <hr class="px-0 mx-0">
+      <div class="row ">
+         <div class="col-md-6">
+            <ul id="additional_links text-white">
+               <li><a class="text-white" href="https://hubnet.kemenhub.go.id/portal/page/privacy-policy">Terms and conditions</a></li>
+               <li><a class="text-white" href="https://hubnet.kemenhub.go.id/portal/page/term-condition">Privacy</a></li>
+            </ul>
+         </div>
+         <div class="col-md-6">
+            <div id="copy" class="text-white"><script>document.write(new Date().getFullYear())</script> © Pusat Data dan Teknologi Informasi Kementerian Perhubungan</div>
+         </div>
+      </div>
+   </div>
+</footer>
+<!--/footer-->        <!-- footer-area-end -->
+    </div>
+        <!-- COMMON SCRIPTS -->
+   <script src="https://hubnet.kemenhub.go.id/portal_assets/js/jquery-3.6.0.min.js"></script>
+   <script src="https://hubnet.kemenhub.go.id/portal_assets/js/common_scripts.js"></script>
+   <script src="https://hubnet.kemenhub.go.id/portal_assets/js/main.js"></script>
+	<script src="https://hubnet.kemenhub.go.id/portal_assets/assets/validate.js"></script>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.9.1/cdn.js" integrity="sha512-krsrcFkLt1cQg/l2vo7TJf4HyUz0CYhLikOqM1EFSmaVxI9Ijy7EbEhs4Oo9zJrS6RzPfZPPurtPmZVSPZRI0A==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/dayjs.min.js" integrity="sha512-FwNWaxyfy2XlEINoSnZh1JQ5TRRtGow0D6XcmAWmYCRgvqOUTnzCxPc9uF35u5ZEpirk1uhlPVA19tflhvnW1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+   <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+   
+   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+   <script src="https://hubnet.kemenhub.go.id/lib/sweetalert2/sweetalert2.all.min.js"></script>
+   <script src="https://hubnet.kemenhub.go.id/lib/fn.js"></script>
+   
+   <script>
+    var base_url = "https://hubnet.kemenhub.go.id"
+      
+        var isSafariBrowser = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        numeral.register('locale', 'id', {
+            delimiters: {
+                thousands: '.',
+                decimal: ','
+            },
+            abbreviations: {
+                thousand: 'rb',
+                million: 'miliar',
+                billion: 'triliun',
+                trillion: 't'
+            },
+            ordinal : function (number) {
+                return number === 1 ? 'er' : 'ème';
+            },
+            currency: {
+                symbol: ''
+            }
+        });
+
+        // switch between locales
+        numeral.locale('id');
+
+        var colorChart = ['#180153', '#4d3885', '#0779B7', '#019ADD', '#6BC2ED', '#A7CCE0', '#a9d5eb'];
+       
+        var defaultOptionPieChart = {
+            chart: { height: 300, type: "pie" },dataLabels: { dropShadow: { enabled: !1 } },
+           
+            colors: (barchartColors = colorChart),
+            dataLabels: {
+                enabled: false // Set to false to hide the percentage label
+            },
+            legend: {
+                containerClass: 'legend-container',
+                position: 'right',
+                formatter: function(seriesName, opts) {
+                    if(isSafariBrowser){
+                        $(".apexcharts-legend").addClass("apexcharts-legend-safari");
+                    }
+
+                    let classNone = seriesName == "-" && opts.w.globals.series[opts.seriesIndex] == 1 ? "d-none" : "";
+                    
+                    return `
+                        <div class="ms-2 ${classNone}">
+                            <div class="legend-item-label">
+                                ${seriesName}
+                            </div>
+                            <div class="legend-item-value">
+                                ${fn.formatNumber(opts.w.globals.series[opts.seriesIndex])} Unit
+                            </div>
+                        </div>
+                        `;
+                }
+            },
+            tooltip: {
+                y: {
+                    formatter: function(value,opts) {
+                        let total = opts.globals.seriesTotals.reduce((a, b) => a + b, 0);
+                        var percentage = (value / total) * 100;
+                        percentage = percentage.toFixed(2);
+                        
+                        return fn.formatNumber(value) + " " + ` (${percentage}%)`;
+                    }
+                }
+            },
+        };
+
+        var defaultOptionLineChart = {
+            chart: {
+                height: 250,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            markers: { size: 4 },
+            dataLabels: { enabled: !1 },
+            stroke: { curve: "straight",size: 1 },
+            colors: (barchartColors = ["#149DFF","#8BFBFE"]),
+            title: {
+                align: "left",
+                style: { fontWeight: 500 },
+            },
+            markers: {
+                size: 6,
+                colors: "#fff",
+                strokeColors: ["#149DFF","#8BFBFE"],
+                strokeWidth: 3,
+                fillOpacity: 1,
+                shape: "circle",
+                
+            },
+            yaxis: {
+                labels: {
+                    formatter: function (value) {
+                        return fn.formatNumber(value);
+                    }
+                },
+                min: 0, // Set minimum value for y-axis
+                tickAmount: 5, // Set the number of ticks
+            },
+        };
+
+
+       
+
+        function getChartColorsArray(e) {
+            if (null !== document.getElementById(e)) {
+                var t = document.getElementById(e).getAttribute("data-colors");
+                return (t = JSON.parse(t)).map(function (e) {
+                var t = e.replace(" ", "");
+                if (-1 == t.indexOf("--")) return t;
+                var a = getComputedStyle(document.documentElement).getPropertyValue(t);
+                return a || void 0;
+                });
+            }
+        }
+
+            const swiper_footer = new Swiper('.swiper-footer', {
+                loop: true,
+                slidesPerView: 5,
+                arrows:false,
+                
+                spaceBetween: 20,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: true,
+                },
+                breakpoints: {
+                    '1200': {
+                        slidesPerView: 5,
+                    },
+                    '992': {
+                        slidesPerView: 5,
+                    },
+                    '768': {
+                        slidesPerView: 3,
+                    },
+                    '576': {
+                        slidesPerView: 2,
+                    },
+                    '0': {
+                        slidesPerView: 1,
+                    },
+                },
+            });
+
+
+            let activePopover = null;
+            function createPopover(buttonId, popoverTitle,  popoverContent) {
+
+
+
+                var popoverTrigger = document.getElementById(buttonId);
+                var popover = new bootstrap.Popover(popoverTrigger, {
+                    title: popoverTitle + ' <button type="button" class="btn-close" aria-label="Close"></button>',
+                    content: popoverContent,
+                    html: true, // Enable HTML content
+                    trigger: 'click', // Trigger the popover on click
+                    placement: 'auto', // Automatically adjust placement based on available space
+                    container: 'body' // Append popover to body to avoid positioning issues
+                });
+
+                // Add event listener to close button within the popover
+                popoverTrigger.addEventListener('shown.bs.popover', function () {
+                    
+                    $('.popover-backdrop').remove();
+                    $('body').append('<div class="popover-backdrop"></div>');
+                  
+
+                    if (activePopover && activePopover !== popover) {
+                        activePopover.hide();
+                    }
+                    activePopover = popover;
+
+                    var closeButton = document.querySelector('.popover-header .btn-close');
+                    if (closeButton) {
+                        closeButton.addEventListener('click', function () {
+                            $('.popover-backdrop').remove();
+                            popover.hide();
+                        });
+                    }
+
+                    // Add event listener to document to close popover when clicking outside
+                    document.addEventListener('click', function (event) {
+                        $('.popover-backdrop').remove();
+                        var isClickInside = popoverTrigger.contains(event.target) || 
+                                            (document.querySelector('.popover') && document.querySelector('.popover').contains(event.target));
+                        if (!isClickInside) {
+                            popover.hide();
+                        }
+                    });
+                });
+
+                // Clear the active popover reference when the popover is hidden
+                popoverTrigger.addEventListener('hidden.bs.popover', function () {
+                    if (activePopover === popover) {
+                        activePopover = null;
+                    }
+                });
+            }
+
+            function createDataTable(dataSource, opt = {}) {
+                
+                $(opt.elTableWrapper).html("");
+
+                    if(dataSource.length <= 0){
+
+                        let el = `
+                            <div class="d-flex flex-column align-items-center justify-content-center mt-5 pt-5">
+                                <div><img src="${assets_base_url + 'dashboard_assets/images/no-data.png'}" style="height:200px;" /></div>
+                                <div class="mt-4"><p class="text-muted">Tidak ada data yang dapat ditampilkan</p></div>
+                            </div>
+                        `;
+                        $(opt.elTableWrapper).html(el);
+
+                        return;
+                    }
+
+                    let _columns = Object.keys(dataSource[0]).map(function(key) {
+                            return { title: fn.uWord(key.replaceAll("_", " ")), data: key };
+                        });
+
+                    if((opt.col_num || false) == true){
+                        _columns = [{title: 'No', orderable: false, searchable: false, width: "10px" , data : null}].concat(_columns);    
+                    }else{
+
+                    }
+
+                   
+
+                    $(opt.elTableWrapper).html("");
+
+                    let customClass = opt.customClass || 'display nowrap no-border';
+                    
+                    var table = $('<table>').addClass(`${customClass}`).css("width", "100%").appendTo(opt.elTableWrapper);
+                    return table.DataTable({
+                        
+                        data: dataSource,
+                        order: [[1, 'asc']],
+                        responsive: true,
+                        scrollX: true,
+                        columns: _columns,
+                        fnRowCallback : function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                            $('td:eq(0)', nRow).html(iDisplayIndexFull +1);
+                        },
+                        ...opt,
+                        
+                        pagingType: 'simple_numbers',
+                        language: {
+                            paginate: {
+                                first: " << ",
+                                last: " >> ",
+                                next: " > ",
+                                previous: " < "
+                            },
+                            search : "Pencarian : ",
+                            zeroRecords :"Tidak ditemukan data dengan kata kunci yang cocok",
+                            info: "Menampilkan _START_ s.d _END_ dari _TOTAL_ data"
+                        }
+                    });
+
+
+                // Initialize DataTable with data source option
+                // $('#example')
+                
+            }
+
+            
+
+            function createDataTableModal(dataSource, title = "", opt = {}) {
+                // Create a table element
+                let modaId = "modal-datatable-" + (opt.modalId || "");
+                let modaIdSel = "#modal-datatable-" + (opt.modalId || "");
+                let elModal = `
+                    <div class="modal modal-datatable" id="${modaId}" tabindex="-1">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">${title}</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                ${opt.content || ''}
+
+                                <div class="modal-body datatable-wrapper">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                if($(modaIdSel).length)   
+                {
+                    $(modaIdSel).remove();
+                }
+                $("body").append(elModal);
+            
+                setTimeout(() => {
+                    var modalDatatableEl = document.getElementById(modaId);
+                    var modalDatatable = new bootstrap.Modal(document.getElementById(modaId), {});
+
+                    modalDatatableEl.addEventListener('hidden.bs.modal', () => {
+                        $(".modal-datatable").removeClass("d-none");
+                        setTimeout(() => {
+                            modalDatatableEl.remove();
+
+                            setTimeout(() => {
+                                $(".modal-datatable").removeClass("d-none");
+                                if($(".modal-datatable").length > 1){
+                                    $('.modal-datatable').each(function(i) {
+                                        if(($(".modal-datatable").length - 1) != i){
+                                            $(this).addClass("d-none");
+                                        }
+                                    });
+                                }
+                            }, 1);
+
+
+                        }, 1);
+                    });
+
+                    modalDatatableEl.addEventListener('show.bs.modal', () => {
+                        setTimeout(() => {
+                            $(".modal-datatable").removeClass("d-none");
+                            if($(".modal-datatable").length > 1){
+                                $('.modal-datatable').each(function(i) {
+                                    if(($(".modal-datatable").length - 1) != i){
+                                        $(this).addClass("d-none");
+                                    }
+                                });
+                            }
+                        }, 10);
+                    });
+                    
+                    
+                    modalDatatable.show();
+                    
+
+                    let _columns = Object.keys(dataSource[0]).map(function(key) {
+                            return { title: fn.uWord(key.replaceAll("_", " ")), data: key };
+                    });
+
+                    _columns = [
+                        {title: 'No', orderable: false, searchable: false, width: "10px" , data : null}
+                    ].concat(_columns);    
+                    
+                    var table = $('<table>').addClass('display nowrap no-border').css("width", "100%").appendTo(modaIdSel + " .datatable-wrapper");
+                    table.DataTable({
+                        data: dataSource,
+                        order: [[1, 'asc']],
+                        responsive: true,
+                        scrollX: true,
+                        columns: _columns,
+                        fnRowCallback : function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                            $('td:eq(0)', nRow).html(iDisplayIndexFull +1);
+                        },
+                        columnDefs: [{ width: '1%', targets: 0 }],
+                        language: {
+                            paginate: {
+                                first: " << ",
+                                last: " >> ",
+                                next: " > ",
+                                previous: " < "
+                            },
+                            search : "Pencarian : ",
+                            zeroRecords :"Tidak ditemukan data dengan kata kunci yang cocok",
+                            info: "Menampilkan _START_ s.d _END_ dari _TOTAL_ data"
+                        },
+                        ...opt,
+                    });
+
+                }, 100);
+
+                // Initialize DataTable with data source option
+                // $('#example')
+            
+            }
+
+           
+        </script>
+       
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+
+<script>
+
+
+function showModalLogin(){
+    let el = `        
+        <div class="modal" id="modalLogin" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered" >
+                <div class="modal-content">
+                    <div class="modal-body">
+                   
+                        <p class="text-center mt-3 h6 mb-3">
+                            <img src=" https://hubnet.kemenhub.go.id/ng-dev-yondi/images/logo-black.svg" style="width:200px;" />
+                        </p>
+                        <p class="text-center mt-3 h6 mb-3">
+                            Untuk mengunduh data silahkan Login pada Aplikasi Hubnet
+                        </p>
+                        <p  class="text-center">
+                            <a href="https://hubnet.kemenhub.go.id/sso-v2" type="button" class="btn btn-outline-primary btn-sm">Login</a>
+                            <a href="https://hubnet.kemenhub.go.id/portal/page/formulir-permintaan-data" type="button" class="btn btn-outline-success btn-sm">Daftar Akun</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    $("body").append(el);
+    setTimeout(() => {
+        const modalLogin = new bootstrap.Modal(document.getElementById('modalLogin'), {});
+        modalLogin.show();
+    }, 100);
+    
+}
+
+$( document ).ready(function() {
+    $(".table-view").click(function() {
+        $("#tableModal .modal-body").html(`
+           <div class="d-flex justify-content-center p3">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+           </div>
+        `);
+        $.get( $(this).data("link") , function( data ) {
+            $("#tableModal .modal-body").html(data);
+            $('#tableModal .modal-body table').DataTable({
+                scrollY: '50vh',
+                scrollCollapse: true,
+                paging: false,
+                scrollX : true,
+            });
+        });
+    });
+});
+
+
+</script>
+</body>
+
+</html>

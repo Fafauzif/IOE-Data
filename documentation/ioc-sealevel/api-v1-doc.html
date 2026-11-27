@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/third_party_swaggerui.css" />
+    <link rel="stylesheet" href="/static/css/third_party.css">
+    <title>SEA LEVEL STATION MONITORING FACILITY</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16" />
+    <style> .swagger-ui .topbar { display: none !important; } </style>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-2 text-center">
+            <a href="/"><img src="/images/unescoiocsmall.png" class="img-fluid" alt="UNESCO IOC"></a>
+        </div>
+        <div class="col-md-8 text-center">
+            <h2>SEA LEVEL STATION MONITORING FACILITY</h2>
+        </div>
+        
+    </div>
+
+    <div class="row mt-5">
+        <div class="maincontent col-12">
+            <div><h3><a href=https://ioc-sealevelmonitoring.org/api.php>Request API key</a></h3></div><div id="swagger-ui"></div>
+        </div>
+    </div>
+</div>
+<script src="/static/js/third_party_swaggerui.js"></script>
+<script src="/static/js/third_party.js"></script>
+
+<script src="/static/js/third_party_swaggerui.js"></script>
+<script>
+    function getCookie() {
+        const value = document.cookie;
+        const parts = value.split(`;`);
+        const phpsessid = parts.filter(item => item.startsWith('PHPSESSID'))[0];
+        const result = phpsessid.split('PHPSESSID=').pop();
+        return result;
+    }
+    window.onload = function() {
+        // Begin Swagger UI call region
+        const ui = SwaggerUIBundle({
+            url: "https://api.ioc-sealevelmonitoring.org/v1/doc/json",
+            dom_id: '#swagger-ui',
+            validatorUrl: null,
+            deepLinking: true,
+            //docExpansion: "none",
+            persistAuthorization: true,
+            presets: [
+                SwaggerUIBundle.presets.apis,
+                SwaggerUIStandalonePreset
+            ],
+            layout: "StandaloneLayout",
+            plugins: [
+                SwaggerUIBundle.plugins.AuthorizeBtnContainer
+            ],
+            onComplete: function() {
+                // "basicAuth" is the key name of the security scheme in securityDefinitions
+
+                //const loggedin = ""
+                //if(loggedin){
+                    //const sessionId = getCookie();
+                    //if (sessionId) {
+                        //ui.preauthorizeApiKey('sessionAuth', sessionId);
+                    //}       
+                //}
+                // Remove hidden parameters, hides the accept header elements, used for API vallidation, but shows it twice in swagger ui. 
+            }
+        })
+        window.ui = ui
+    }
+</script>
+<script>
+
+</script>
+
+</body>
+</html>

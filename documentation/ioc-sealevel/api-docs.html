@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/third_party_swaggerui.css" />
+    <link rel="stylesheet" href="/static/css/third_party.css">
+    <title>SEA LEVEL STATION MONITORING FACILITY</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16" />
+    <style> .swagger-ui .topbar { display: none !important; } </style>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-2 text-center">
+            <a href="/"><img src="/images/unescoiocsmall.png" class="img-fluid" alt="UNESCO IOC"></a>
+        </div>
+        <div class="col-md-8 text-center">
+            <h2>SEA LEVEL STATION MONITORING FACILITY</h2>
+        </div>
+        
+    </div>
+
+    <div class="row mt-5">
+        <div class="maincontent col-12">
+                <h3>Welcome to the IOC SLSMF API</h3>
+    
+    <p>
+    This API provides access to sealevel monitoring data.
+    <br> To request API keys needed for version 2 of this API, please visit the <a href="https://ioc-sealevelmonitoring.org/api.php">SLSMF api page.</a>
+    <br> You will need to register for an account.
+    <br> If you already have an account, edit your account and request access to the "Access gauges API (gauges_API)" group.
+    <br> More documentation on this API can be found on <a href="https://github.com/SLSMF/API-Documentation" target="_blank">GitHub</a>.
+    </p>
+    <p>Available Versions:</p>
+    <ul>
+        <li><a href="/v1/doc">Version 1 Documentation</a></li>
+        <li><a href="/v2/doc">Version 2 Documentation (Latest)</a></li>
+    </ul>
+    <p>Change log:</p>
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-bs-toggle="collapse" href="#changelogV1" aria-expanded="false" aria-controls="changelogV1">
+                    API version 1
+                </button>
+            </h5>
+        </div>
+
+        <div id="changelogV1" class="collapse">
+            <div class="card-body">
+                <ul>
+                    <li>2024-02-21
+                        <br>Added parameter skip_gaps_until
+                    </li>
+                    <li>2021-12-15
+                        <br>Fix documentation for "showall" parameter.
+                    </li>
+                    <li>2013-08-08
+                        <br>Bugfix for displaying the same sensor more than once on the 'stationlist' page. Date format changed to ISOdate consistently.
+                    </li>
+                    <li>2012-11-08
+                        <br>Added documentation about the 'includesensors' parameter.
+                    </li>
+                    <li>2011-12-12
+                        <br>Added documentation about missing values and 'nofilter' option.
+                    </li>
+                    <li>2011-04-18
+                        <br>Put all date formats to YYYY-MM-DD HH:MM,
+                        <br>added formats XTAB and HTML for data query, fixed chronology bug in bgraph output
+                    </li>
+                    <li>2011-03-22
+                        <br>Changed XML output to reduce size, fields are trimmed, dates sent as normal string with CDATA tag
+                    </li>
+                    <li>2011-03-14
+                        <br>Bug correction in XML output for query=station, first sensor was dropped
+                    </li>
+                    <li>2011-03-13
+                        <br>We simplified the ASCII output of the stationlist query by removing the message examples, url's and graph_urls. And removed tabs from all strings.
+                        <br>We added the optional =contacts and =performance formats for all formats of the stationlist query.
+                        <br>Added sensorid to the sensorlist output.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-bs-toggle="collapse" href="#changelogV2" aria-expanded="false" aria-controls="changelogV2">
+                    API version 2
+                </button>
+            </h5>
+        </div>
+
+        <div id="changelogV2" class="collapse show">
+            <div class="card-body">
+                <ul>
+                    <li>2026-11-12
+                        research data endpoint now returns data for one ioc station code, no longer connected to a ssc code.
+                    </li>
+                    <li>2026-02-10
+                        <br>Breaking changes for /v2/research/stations
+                        <ul>
+                            <li>
+                                original_stime is replaced by fit_to_sample_rate, which aligns the data to the sample rate, by adding extra records with slevel is set to NA and qc flag missing. Timestamps are rounded down to the expected time of measurement based on the sample rate.
+                            </li>
+                            <li>
+                                level_data renamed to subtract_30d_average
+                            </li>
+                            <li>
+                                Filters no longer remove records, only set slevel to NA
+                            </li>
+                            <li>
+                                For DART buoys without includesensors[]=prt, prte is now added to prt
+                            </li>
+                        </ul>
+                        <br>Other changes for /v2/research/stations 
+                        <ul>
+                            <li>
+                                Maximum lowered for days_per_page from 3650 to 365
+                            </li>
+                            <li>
+                                flag_qc now shows new columns: missing, distinctness, completeness, shift
+                            </li>
+                            <li>
+                                New filters added: filter_completeness, filter_distinctness, filter_shift on day level. Previously this was applied by default.
+                            </li>
+                        </ul>
+                        <br>Data changes
+                        <ul>
+                            <li>
+                                Clean up of research data by removing non-sealevel measuring sensor types: bat, prd, sw1, sw2, atm
+                            </li>
+                        </ul>
+                    </li>
+                    <li>2025-04-09
+                        <br>Removed duplicated code, lat and lon fields from /v2/stations and code field from /v2/stations/{code}
+                    </li>
+                    <li>2025-03-24
+                        <br>Public release of API V2 together with research dataset and endpoint. 
+                    </li>
+                    <li>2024-09-15
+                        <br>Beta release
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+<script src="/static/js/third_party_swaggerui.js"></script>
+<script src="/static/js/third_party.js"></script>
+
+
+</body>
+</html>

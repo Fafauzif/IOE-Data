@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+	/* =========================
+	LANGUAGE SWITCH FLEX SAFE
+	========================= */
+
+	.nav-lang-wrapper {
+		margin-left: 15px;
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
+    	border-left: 1px solid #ddd;
+	}
+
+	.nav-lang-switch {
+		display: flex;
+		gap: 6px;
+	}
+
+	.lang-btn {
+		padding: 4px 10px;
+		font-size: 12px;
+		font-weight: 600;
+		border-radius: 20px;
+		border: 1px solid #003366;
+		text-decoration: none;
+		color: #003366;
+		background: #ffffff;
+		transition: 0.2s ease;
+	}
+
+	.lang-btn:hover {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.lang-btn.active {
+		background: #003366;
+		color: #ffffff;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		background: none !important;
+	}
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: auto;
+		background: transparent !important;
+		border: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+	}
+
+	.carousel-control-prev:focus,
+	.carousel-control-next:focus,
+	.carousel-control-prev:active,
+	.carousel-control-next:active {
+		outline: none !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+</style>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/style.css">
+	<link rel="stylesheet" href="https://www.jict.co.id/assets/bootstrap/css/bootstrap.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700|Work+Sans&display=swap" rel="stylesheet">
+	<!-- Optional JavaScript -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<title>Jakarta International Container Terminal</title>
+</head>
+
+<body>
+	<section class="page-navbar" id="navbar">
+		<div class="page-navbar-wrapper wrapper">
+			<nav class="navbar-style fixed-top navbar-expand-xl">
+				<a class="navbar-brand pt-2 pb-2" href="https://www.jict.co.id/home">
+					<img class="navbar-logo" src="https://www.jict.co.id/assets/img/navbar/JICT-Logo.png" alt="JICT Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle Navigation">
+					<div class="navbar-toggler-menu center">
+						<img class="navbar-toggler-logo" src="https://www.jict.co.id/assets/img/navbar/menu.png" alt="Menu Icon">
+					</div>
+				</button>
+				<div class="navbar-link-area navbar-collapse collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav text-center">
+						<a class="nav-link link-text" href="https://www.jict.co.id/about">About JICT</a>
+						<a class="nav-link" href="https://www.jict.co.id/facilities-operations">Facilities & Operations Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/news">News</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/online-services">Online Services</a>
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/vgm-certificate">VGM Certificate</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/shipping-document">Shipping Document</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/rate">Rate (USD)</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id/simulasiTarif.php" target="_blank">Calculate</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/container-tracking">Container Tracking</a>
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/invoice-tracking">Invoice Tracking</a> -->
+								<!-- <a class="dropdown-link" href="https://www.jict.co.id/document-billing-tracking">Document Billing Tracking</a> -->
+								<a class="dropdown-link" href="https://www.jict.co.id/reprint-eir">Reprint EIR</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/vessel-schedule">Vessel Schedule</a>
+								<a class="dropdown-link" href="https://www.jict.co.id/e-do">e-DO</a>
+								<a class="dropdown-link" href="https://bcondemand.jict.co.id" target="_blank">KIOS</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/csr">CSR</a>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/id/gcg-overview">
+								GCG
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-overview">
+									Governance Overview
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-framework">
+									Governance Framework & Corporate Organs
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-policies">
+									Policies & Codes
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-board">
+									Board Committee
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-wbs">
+									WBS
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/gcg-gms">
+									GMS & Report
+								</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<a class="nav-link dropbtn" href="https://www.jict.co.id/id/sustainability-governance">
+								Sustainability
+							</a>
+
+							<div class="dropdown-content">
+								<a class="dropdown-link" href="https://www.jict.co.id/id/sustainability-governance">
+									Governance
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/sustainability-tjsl">
+									TJSL
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/id/sustainability-k3">
+									K3
+								</a>
+								
+								<a class="dropdown-link" href="https://www.jict.co.id/id/sustainability-environment">
+									Environment
+								</a>
+
+								<a class="dropdown-link" href="https://www.jict.co.id/id/sustainability-publication">
+									Publication
+								</a>
+							</div>
+						</div>
+						<a class="nav-link" href="https://www.jict.co.id/procurement">Procurement Information</a>
+						<a class="nav-link" href="https://www.jict.co.id/vacancy">Vacancy</a>
+													<div class="nav-item nav-lang-wrapper">
+								<div class="nav-lang-switch">
+									<a href="https://www.jict.co.id/id/sustainability-publication/"
+									class="lang-btn active">
+										ID
+									</a>
+									<a href="https://www.jict.co.id/en/sustainability-publication/"
+									class="lang-btn ">
+										EN
+									</a>
+								</div>
+							</div>
+											</div>
+				</div>
+			</nav>
+		</div>
+	</section><section class="about-jict-header" id="about-jict-header">
+
+<div class="about-jict-header-wrapper wrapper">
+
+<div class="about-jict-header about-jict-background"></div>
+
+<h3 class="about-jict-header-title">
+SUSTAINABILITY
+</h3>
+
+</div>
+
+</section>
+
+
+
+<section class="our-facilities" id="our-facilities">
+
+<div class="our-facilities-wrapper wrapper">
+<div class="our-facilities-container container">
+
+
+<div class="our-facilities-title text-center">
+
+<h4 class="our-facilities-title-text">
+
+PUBLIKASI
+</h4>
+
+</div>
+
+
+
+<div class="row">
+
+
+
+
+<div class="col-12 text-center">
+
+<p>
+Belum ada publikasi</p>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+</section><section class="footer" id="footer">
+	<div class="footer-credit">
+		<div class="footer-credit-container container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 footer-credit-logo-1-col pt-3 pb-3">
+					<a href="https://www.ckh.com.hk" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/CK-Logo.png" alt="CK Logo" style="max-width: 250px;">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-12 footer-credit-logo-1-col pt-3 pb-3" style="margin-left:20px;">
+					<a href="https://hutchisonports.com/" target="_blank">
+						<img class="footer-credit-logo-1" src="https://www.jict.co.id/assets/img/footer/hph-logo.png" alt="HPH Logo" style="max-width: 120px;">
+						<!-- <img class="footer-credit-logo-1" src="https://hutchisonports.com/media/g/src/logo-en.svg?key=000000000016965563510406Huc0" alt="HPH Logo" style="max-width: 120px;"> -->
+					</a>
+				</div>
+				<div class="col-lg-2 col-md-1 col-sm-1 col-12 footer-credit-logo-2-col pt-3 pb-3" style="margin-left:-20px;">
+					<a href="https://pelindo.co.id/" target="_blank">
+						<img class="footer-credit-logo-2" src="https://pelindo.co.id/uploads/config/MdO1jALfvFLVuhy81XVHr8LnxnHBI9riZImH7CCD.png" alt="IPC Logo" style="min-width: 80px;">
+						<!-- <img class="footer-credit-logo-2" src="" alt="IPC Logo"> -->
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-12 footer-credit-link-col" style="margin-left:-10px;margin-top:-12px;">
+					<a class="footer-credit-link footer-credit-link-1" href="https://www.jict.co.id/home">Home</a>
+					<a class="footer-credit-link" href="https://www.jict.co.id/contact-us">Contact Us</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright pt-3 pb-2 text-center">
+		<h6 class="footer-copyright-text">Copyright @2019 Jakarta International Container Terminal</h6>
+	</div>
+</section>
+
+</body>
+
+</html>

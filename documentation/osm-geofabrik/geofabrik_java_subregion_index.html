@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="https://www.geofabrik.de/favicon.ico" />
+<meta name="description" content="Download OpenStreetMap data for Java, one of the regions served on Geofabrik&#39;s free download server. OSM PBF and Shapefiles available.">
+<meta name="og:description" property="og:description" content="Download OpenStreetMap data for Java, one of the regions served on Geofabrik&#39;s free download server. OSM PBF and Shapefiles available.">
+<meta property="og:image" content="https://www.geofabrik.de/img/geofabrik_logo_notext.svg">
+<meta property="og:site_name" content="Geofabrik Download Server">
+<meta property="og:title" content="Download OpenStreetMap for Java | Geofabrik Download Server">
+<title>Download OpenStreetMap for Java | Geofabrik Download Server</title>
+<link rel="stylesheet" href="/static/leaflet/leaflet.css" />
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+<script type="importmap">
+{ "imports": { "leaflet": "/static/leaflet/leaflet.js" } }
+</script>
+</head>
+<body>
+<div id="donation">
+Do you find OpenStreetMap data useful? Consider giving something back in the OSMF's <a href="//supporting.openstreetmap.org">funding campaign!</a>
+</div>
+<div id="download-top">
+   <div id="download-top-right">
+      <img alt="header image" src="/static/img/geofabrik-downloads.png" height="20">
+   </div>
+</div>
+<div id="download-titlebar">
+<div class="download-main">
+<div class="leftColumn">
+
+<a href="/search.html" class="search">🔍</a>
+<h1 googl="true">Download OpenStreetMap data for this region:</h1>
+<h2>Java</h2>
+<nav class="breadcrumb">
+   <ol>
+      <li><a href="/">World</a></li>
+      
+      <li><a href="/asia">Asia</a></li>
+      
+      <li><a href="/asia/indonesia">Indonesia (with East Timor)</a></li>
+      
+      <li><b>Java</b></li>
+   </ol>
+</nav>
+
+
+
+<p class="isPublicInfo">
+   The OpenStreetMap data files provided on this server do <b>not</b> contain the user names, user IDs and changeset IDs of the OSM objects because these fields are assumed to contain personal information about the OpenStreetMap contributors and are therefore subject to data protection regulations in the European Union.
+   <br>
+   Extracts with full metadata are only available to OpenStreetMap contributors on the <a href="https://osm-internal.download.geofabrik.de/asia/indonesia/java.html">internal download server</a>.
+</p>
+
+
+
+
+
+<h3>Commonly Used Formats</h3>
+<ul>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/java/java-latest.osm.pbf">java-latest.osm.pbf</a>,
+
+   suitable for Osmium, Osmosis, imposm, osm2pgsql, mkgmap, and others.
+
+This file was last modified <time title="Friday, 27.11.2026, 03:40:35 UTC", datetime="2026-11-27T03:40:35+00:00">8 hours ago</time> and contains all OSM data up to <time title="Thursday, 26.11.2026, 21:21:01 UTC", datetime="2026-11-26T21:21:01+00:00">15 hours ago</time>. File size: 858&nbsp;MB.
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/java/java-latest-free.shp.zip">java-latest-free.shp.zip</a>,
+
+   yields a number of ESRI compatible shape files when unzipped.
+   <a href="/static/osm-data-in-gis-formats-free.pdf">(Format description PDF)</a>
+
+   This file was last modified on <time title="Friday, 27.11.2026, 05:50:53 UTC", datetime="2026-11-27T05:50:53+00:00">6 hours ago</time>. File size: 2.2&nbsp;GB.
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/java/java-latest-free.gpkg.zip">java-latest-free.gpkg.zip</a>,
+
+   same as shape file but in more modern Geopackage format.
+
+   This file was last modified <time title="Friday, 27.11.2026, 05:57:07 UTC", datetime="2026-11-27T05:57:07+00:00">6 hours ago</time>. File size: 2.2&nbsp;GB.
+
+</li>
+
+</ul>
+
+<h3>Other Formats and Auxiliary Files</h3>
+<ul>
+
+
+<li>
+
+   <s>java-internal.osh.pbf</s>
+
+
+   The history file contains personal data and is available on the <a href="https://osm-internal.download.geofabrik.de/asia/indonesia/java.html">internal server</a> only.
+   See notice above for further information.
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/java/java.geojson">.geojson file</a>
+
+   that describes the extent of this region.
+</li>
+
+
+<li>
+
+   <font color="green" googl="true">experimental</font>
+   <a href="https://download.geofabrik.de/asia/indonesia/java/java-shortbread-1.0.mbtiles">vector tile package</a>
+
+   conforming to
+   <a href="https://shortbread-tiles.org/">Shortbread schema</a>
+   for use with MapLibre and other MVT capable software
+
+   Last modified: <time title="Thursday, 19.11.2026, 03:54:09 UTC", datetime="2026-11-19T03:54:09+00:00">1 week ago</time> ago, file size: 558&nbsp;MB
+
+</li>
+
+
+<li>
+
+   <a href="https://download.geofabrik.de/asia/indonesia/java/updates">.osc.gz files</a>
+
+   that contain all changes in this region, suitable e.g. for Osmosis updates
+</li>
+
+
+
+<li><a href="https://taginfo.geofabrik.de/asia:indonesia:java">Taginfo statistics for this region</a></li>
+
+
+
+<li>
+   <a href="#" onclick="document.getElementById('details').style.display = document.getElementById('details').style.display === 'inline' ? 'none' : 'inline'">
+      raw directory index
+   </a>
+   allowing you to see and download older files
+</li>
+
+
+</ul>
+
+
+<div id="details" style="display: none;">
+   <table id="file_index">
+      <tbody>
+         <tr><th class="filename">Filename</th><th>Last modified</th><th>Filesize</th></tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-220101-free.shp.zip">java-220101-free.shp.zip</a></td>
+            <td ><time title="Sunday, 02.01.2022, 02:51:41 UTC", datetime="2022-01-02T02:51:41+00:00">4 years ago</time></td>
+            <td>1.8&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-220101.osm.pbf">java-220101.osm.pbf</a></td>
+            <td ><time title="Sunday, 02.01.2022, 02:30:23 UTC", datetime="2022-01-02T02:30:23+00:00">4 years ago</time></td>
+            <td>704&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-230101-free.shp.zip">java-230101-free.shp.zip</a></td>
+            <td ><time title="Monday, 02.01.2023, 01:34:50 UTC", datetime="2023-01-02T01:34:50+00:00">3 years ago</time></td>
+            <td>1.9&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-230101.osm.pbf">java-230101.osm.pbf</a></td>
+            <td ><time title="Monday, 02.01.2023, 01:15:02 UTC", datetime="2023-01-02T01:15:02+00:00">3 years ago</time></td>
+            <td>759&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-240101-free.shp.zip">java-240101-free.shp.zip</a></td>
+            <td ><time title="Tuesday, 02.01.2024, 02:28:21 UTC", datetime="2024-01-02T02:28:21+00:00">2 years ago</time></td>
+            <td>2.0&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-240101.osm.pbf">java-240101.osm.pbf</a></td>
+            <td ><time title="Tuesday, 02.01.2024, 01:10:30 UTC", datetime="2024-01-02T01:10:30+00:00">2 years ago</time></td>
+            <td>794&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-250101-free.shp.zip">java-250101-free.shp.zip</a></td>
+            <td ><time title="Thursday, 02.01.2025, 03:18:59 UTC", datetime="2025-01-02T03:18:59+00:00">1 year ago</time></td>
+            <td>2.1&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-250101.osm.pbf">java-250101.osm.pbf</a></td>
+            <td ><time title="Thursday, 02.01.2025, 02:26:36 UTC", datetime="2025-01-02T02:26:36+00:00">1 year ago</time></td>
+            <td>817&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260101-free.shp.zip">java-260101-free.shp.zip</a></td>
+            <td ><time title="Friday, 02.01.2026, 02:05:14 UTC", datetime="2026-01-02T02:05:14+00:00">10 months ago</time></td>
+            <td>2.1&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260101.osm.pbf">java-260101.osm.pbf</a></td>
+            <td ><time title="Thursday, 01.01.2026, 23:38:52 UTC", datetime="2026-01-01T23:38:52+00:00">10 months ago</time></td>
+            <td>844&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260101.osm.pbf.md5">java-260101.osm.pbf.md5</a></td>
+            <td ><time title="Thursday, 01.01.2026, 23:38:53 UTC", datetime="2026-01-01T23:38:53+00:00">10 months ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260901-free.gpkg.zip">java-260901-free.gpkg.zip</a></td>
+            <td ><time title="Saturday, 05.09.2026, 12:48:26 UTC", datetime="2026-09-05T12:48:26+00:00">2 months ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260901-free.shp.zip">java-260901-free.shp.zip</a></td>
+            <td ><time title="Saturday, 05.09.2026, 12:43:35 UTC", datetime="2026-09-05T12:43:35+00:00">2 months ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260901.osm.pbf">java-260901.osm.pbf</a></td>
+            <td ><time title="Wednesday, 02.09.2026, 05:29:42 UTC", datetime="2026-09-02T05:29:42+00:00">2 months ago</time></td>
+            <td>855&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-260901.osm.pbf.md5">java-260901.osm.pbf.md5</a></td>
+            <td ><time title="Wednesday, 02.09.2026, 05:29:45 UTC", datetime="2026-09-02T05:29:45+00:00">2 months ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261001-free.gpkg.zip">java-261001-free.gpkg.zip</a></td>
+            <td ><time title="Friday, 02.10.2026, 00:37:31 UTC", datetime="2026-10-02T00:37:31+00:00">1 month ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261001-free.shp.zip">java-261001-free.shp.zip</a></td>
+            <td ><time title="Friday, 02.10.2026, 00:32:12 UTC", datetime="2026-10-02T00:32:12+00:00">1 month ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261001.osm.pbf">java-261001.osm.pbf</a></td>
+            <td ><time title="Friday, 02.10.2026, 12:45:13 UTC", datetime="2026-10-02T12:45:13+00:00">1 month ago</time></td>
+            <td>856&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261001.osm.pbf.md5">java-261001.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 02.10.2026, 12:45:14 UTC", datetime="2026-10-02T12:45:14+00:00">1 month ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261101-free.gpkg.zip">java-261101-free.gpkg.zip</a></td>
+            <td ><time title="Monday, 02.11.2026, 01:02:20 UTC", datetime="2026-11-02T01:02:20+00:00">3 weeks ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261101-free.shp.zip">java-261101-free.shp.zip</a></td>
+            <td ><time title="Monday, 02.11.2026, 01:02:10 UTC", datetime="2026-11-02T01:02:10+00:00">3 weeks ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261101.osm.pbf">java-261101.osm.pbf</a></td>
+            <td ><time title="Monday, 02.11.2026, 04:37:02 UTC", datetime="2026-11-02T04:37:02+00:00">3 weeks ago</time></td>
+            <td>857&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261101.osm.pbf.md5">java-261101.osm.pbf.md5</a></td>
+            <td ><time title="Monday, 02.11.2026, 04:37:04 UTC", datetime="2026-11-02T04:37:04+00:00">3 weeks ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261120.osm.pbf">java-261120.osm.pbf</a></td>
+            <td ><time title="Saturday, 21.11.2026, 01:03:45 UTC", datetime="2026-11-21T01:03:45+00:00">6 days ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261120.osm.pbf.md5">java-261120.osm.pbf.md5</a></td>
+            <td ><time title="Saturday, 21.11.2026, 01:03:46 UTC", datetime="2026-11-21T01:03:46+00:00">6 days ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261121-free.gpkg.zip">java-261121-free.gpkg.zip</a></td>
+            <td ><time title="Sunday, 22.11.2026, 02:32:21 UTC", datetime="2026-11-22T02:32:21+00:00">5 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261121-free.shp.zip">java-261121-free.shp.zip</a></td>
+            <td ><time title="Sunday, 22.11.2026, 02:34:19 UTC", datetime="2026-11-22T02:34:19+00:00">5 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261121.osm.pbf">java-261121.osm.pbf</a></td>
+            <td ><time title="Sunday, 22.11.2026, 07:45:46 UTC", datetime="2026-11-22T07:45:46+00:00">5 days ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261121.osm.pbf.md5">java-261121.osm.pbf.md5</a></td>
+            <td ><time title="Sunday, 22.11.2026, 07:45:47 UTC", datetime="2026-11-22T07:45:47+00:00">5 days ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261122-free.gpkg.zip">java-261122-free.gpkg.zip</a></td>
+            <td ><time title="Monday, 23.11.2026, 05:32:38 UTC", datetime="2026-11-23T05:32:38+00:00">4 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261122-free.shp.zip">java-261122-free.shp.zip</a></td>
+            <td ><time title="Monday, 23.11.2026, 05:32:27 UTC", datetime="2026-11-23T05:32:27+00:00">4 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261122.osm.pbf">java-261122.osm.pbf</a></td>
+            <td ><time title="Sunday, 22.11.2026, 23:38:19 UTC", datetime="2026-11-22T23:38:19+00:00">4 days ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261122.osm.pbf.md5">java-261122.osm.pbf.md5</a></td>
+            <td ><time title="Sunday, 22.11.2026, 23:38:20 UTC", datetime="2026-11-22T23:38:20+00:00">4 days ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261123-free.gpkg.zip">java-261123-free.gpkg.zip</a></td>
+            <td ><time title="Tuesday, 24.11.2026, 03:03:16 UTC", datetime="2026-11-24T03:03:16+00:00">3 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261123-free.shp.zip">java-261123-free.shp.zip</a></td>
+            <td ><time title="Tuesday, 24.11.2026, 02:32:25 UTC", datetime="2026-11-24T02:32:25+00:00">3 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261123.osm.pbf">java-261123.osm.pbf</a></td>
+            <td ><time title="Monday, 23.11.2026, 23:46:17 UTC", datetime="2026-11-23T23:46:17+00:00">3 days ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261123.osm.pbf.md5">java-261123.osm.pbf.md5</a></td>
+            <td ><time title="Monday, 23.11.2026, 23:46:18 UTC", datetime="2026-11-23T23:46:18+00:00">3 days ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261124-free.gpkg.zip">java-261124-free.gpkg.zip</a></td>
+            <td ><time title="Wednesday, 25.11.2026, 00:42:35 UTC", datetime="2026-11-25T00:42:35+00:00">2 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261124-free.shp.zip">java-261124-free.shp.zip</a></td>
+            <td ><time title="Wednesday, 25.11.2026, 00:34:57 UTC", datetime="2026-11-25T00:34:57+00:00">2 days ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261124.osm.pbf">java-261124.osm.pbf</a></td>
+            <td ><time title="Wednesday, 25.11.2026, 00:04:07 UTC", datetime="2026-11-25T00:04:07+00:00">2 days ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261124.osm.pbf.md5">java-261124.osm.pbf.md5</a></td>
+            <td ><time title="Wednesday, 25.11.2026, 00:04:08 UTC", datetime="2026-11-25T00:04:08+00:00">2 days ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261125.osm.pbf">java-261125.osm.pbf</a></td>
+            <td ><time title="Thursday, 26.11.2026, 13:21:04 UTC", datetime="2026-11-26T13:21:04+00:00">23 hours ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261125.osm.pbf.md5">java-261125.osm.pbf.md5</a></td>
+            <td ><time title="Thursday, 26.11.2026, 13:21:05 UTC", datetime="2026-11-26T13:21:05+00:00">23 hours ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261126-free.gpkg.zip">java-261126-free.gpkg.zip</a></td>
+            <td ><time title="Friday, 27.11.2026, 05:57:07 UTC", datetime="2026-11-27T05:57:07+00:00">6 hours ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261126-free.shp.zip">java-261126-free.shp.zip</a></td>
+            <td ><time title="Friday, 27.11.2026, 05:50:53 UTC", datetime="2026-11-27T05:50:53+00:00">6 hours ago</time></td>
+            <td>2.2&nbsp;GB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261126.osm.pbf">java-261126.osm.pbf</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:40:35 UTC", datetime="2026-11-27T03:40:35+00:00">8 hours ago</time></td>
+            <td>858&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-261126.osm.pbf.md5">java-261126.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:40:36 UTC", datetime="2026-11-27T03:40:36+00:00">8 hours ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-latest.osm.pbf.md5">java-latest.osm.pbf.md5</a></td>
+            <td ><time title="Friday, 27.11.2026, 11:45:24 UTC", datetime="2026-11-27T11:45:24+00:00">15 minutes ago</time></td>
+            <td>54.0&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java-shortbread-1.0.mbtiles">java-shortbread-1.0.mbtiles</a></td>
+            <td ><time title="Thursday, 19.11.2026, 03:54:09 UTC", datetime="2026-11-19T03:54:09+00:00">1 week ago</time></td>
+            <td>558&nbsp;MB</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java.geojson">java.geojson</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:40:08 UTC", datetime="2026-11-27T03:40:08+00:00">8 hours ago</time></td>
+            <td>602&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java.kml">java.kml</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:40:09 UTC", datetime="2026-11-27T03:40:09+00:00">8 hours ago</time></td>
+            <td>930&nbsp;B</td>
+         </tr>
+         
+         <tr>
+            <td class="filename"><a href="https://download.geofabrik.de/asia/indonesia/java/java.poly">java.poly</a></td>
+            <td ><time title="Friday, 27.11.2026, 03:40:15 UTC", datetime="2026-11-27T03:40:15+00:00">8 hours ago</time></td>
+            <td>783&nbsp;B</td>
+         </tr>
+         
+      </tbody>
+   </table>
+</div>
+
+
+
+
+
+
+</div>
+<div id="download-right">
+   <div id="noscroll">
+      
+      <div id="map"></div>
+      <script type="module">
+         import map from '/static/map.js';
+         import { GeoJSON } from 'leaflet';
+         
+   const geojson = {"coordinates": [[[[106.842, -4.932249], [109.0558, -3.951935], [110.2862, -4.532613], [113.9502, -5.069052], [114.5737, -4.882992], [116.5814, -5.304294], [116.4304, -7.623884], [114.9802, -7.558544], [114.5088, -8.032714], [114.4338, -8.093901], [114.4202, -8.164255], [114.4295, -8.275367], [114.5483, -8.443167], [114.8209, -8.597313], [114.9719, -8.985459], [115.0351, -9.541155], [105.4578, -7.917782], [104.1394, -6.511804], [105.179, -6.256601], [105.5717, -6.236124], [105.7324, -6.064086], [105.7928, -5.911799], [106.3229, -5.194891], [106.842, -4.932249]]]], "type": "MultiPolygon"};
+   const layer = new GeoJSON(geojson, {
+      style: { fillColor: '#ffcc66', color: '#ff9933', weight: 2, fillOpacity: 0.5 }
+   }).addTo(map);
+   map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+   const childrenGeo = {};
+   
+   
+
+   let activeLayer = null;
+   document.querySelectorAll('#subregions tr[data-child-id], #special_regions tr[data-child-id]').forEach(row => {
+      row.addEventListener('mouseover', () => {
+         const id = row.getAttribute('data-child-id');
+         if (!childrenGeo[id]) return;
+         if (activeLayer) map.removeLayer(activeLayer);
+         activeLayer = new GeoJSON(childrenGeo[id], {
+            style: { color: '#ff0000', weight: 0, fillOpacity: 0.6 }
+         }).addTo(map);
+      });
+      row.addEventListener('mouseout', () => {
+         if (activeLayer) { map.removeLayer(activeLayer); activeLayer = null; }
+      });
+   });
+
+      </script>
+      
+
+      <div class="customized_shapes">
+         <p>
+         <img alt="small flag of UK" src="/static/img/en.png">
+         Not what you were looking for?
+         Geofabrik is a consulting and software development firm based in Karlsruhe, Germany
+         specializing in OpenStreetMap services. We're happy to help you with data
+         preparation, processing, server setup and the like. <a href="http://www.geofabrik.de/data/shapefiles.html">Check out our web site</a>
+         and contact us if we can be of service.
+         </p>
+      </div>
+      <div class="customized_shapes">
+         <p>
+         <img alt="small flag of Germany" src="/static/img/de.png">
+         Nicht das Richtige dabei?
+         Die Geofabrik ist ein auf OpenStreetMap spezialisiertes Beratungs- und Softwareentwicklungsunternehmen in Karlsruhe.
+         Gern helfen wir Ihnen bei der Datenaufbereitung, Datenkonvertierung, Serverinstallation und &auml;hnlichen Aufgaben.
+         <a href="http://www.geofabrik.de/data/shapefiles.html">Besuchen Sie unsere Webseite</a> und sprechen Sie mit uns, wenn wir Ihnen
+         helfen k&ouml;nnen.
+         </p>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+<div id="download-copyright">
+Data processed by
+<a href="http://www.geofabrik.de/">Geofabrik GmbH</a>
+and created by
+<a href="http://www.openstreetmap.org/">OpenStreetMap Contributors</a>
+|
+<a href="http://opendatacommons.org/licenses/odbl/">License: ODbL 1.0</a>
+|
+<a href="http://www.geofabrik.de/geofabrik/contact.html">Contact</a>
+|
+<a href="http://www.geofabrik.de/geofabrik/imprint.html">Legal Notice/Privacy Policy</a>
+</div>
+</body>
+</html>

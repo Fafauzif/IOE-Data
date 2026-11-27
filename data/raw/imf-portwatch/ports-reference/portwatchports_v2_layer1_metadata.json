@@ -1,0 +1,566 @@
+{
+  "currentVersion" : 12, 
+  "id" : 1, 
+  "name" : "PortWatchPorts_v2", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "423c70d5443f4b818acdaba0d98e0252", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "portname", 
+  "description" : "", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1693593122071, 
+    "schemaLastEditDate" : 1688397130837, 
+    "dataLastEditDate" : 1678768165502
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsColumnStoreIndex" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsReturningQueryGeometry" : true, 
+  "enableNullGeometry" : false, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsOutDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsTimeRelation" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsApproxPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : false, 
+    "supportsReturningGeometryEnvelope" : false, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated", 
+      "queryBins", 
+      "queryPivot"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsQueryPivot" : true, 
+    "supportsQueryBins" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsTranslations" : false, 
+    "supportsAggIds" : true, 
+    "supportsQueryWithCollation" : true, 
+    "supportsISODOW" : true, 
+    "supportsISOWeek" : true, 
+    "supportsFullTextSearch" : true, 
+    "fullTextSearchCapabilities" : {
+      "supportsAccentSensitivity" : true, 
+      "supportsStopWords" : true, 
+      "supportsSearchOperator" : true, 
+      "supportsOperator" : true
+    }
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsTrendlineRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "queryBinsCapabilities" : {
+    "supportsAsync" : true, 
+    "supportsAutoIntervalBin" : true, 
+    "supportsFixedIntervalBin" : true, 
+    "supportsFixedBoundariesBin" : true, 
+    "supportsDateBin" : true, 
+    "supportsClassificationBin" : true, 
+    "supportsStackBy" : true, 
+    "supportsSplitBy" : true, 
+    "supportsFirstDayOfWeek" : true, 
+    "supportsSnapToData" : true, 
+    "supportsReturnFullIntervalBin" : true, 
+    "supportsReturnStackValueRange" : true, 
+    "supportsNormalization" : true, 
+    "supportedStatisticTypes" : [
+      "COUNT", 
+      "SUM", 
+      "AVG", 
+      "VAR", 
+      "VAR_SAMP", 
+      "VAR_POP", 
+      "STDDEV", 
+      "STDDEV_SAMP", 
+      "STDDEV_POP", 
+      "MIN", 
+      "MAX", 
+      "PERCENTILE_CONT", 
+      "PERCENTILE_DISC", 
+      "APPROX_PERCENTILE_CONT", 
+      "APPROX_PERCENTILE_DISC", 
+      "CentroidAggregate", 
+      "EnvelopeAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportedNormalizationTypes" : [
+      "boxCox", 
+      "field", 
+      "inverse", 
+      "log", 
+      "naturalLog", 
+      "percentOfTotal", 
+      "squareRoot"
+    ]
+  }, 
+  "supportedOperationsWithCollation" : "query,addField,updateField", 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON,PBF", 
+    "supportsTranslation" : false, 
+    "supportsMaxTranslations" : 10
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPoint", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -19501078.585500002, 
+    "ymin" : -7007142.1195, 
+    "xmax" : 19966589.636200003, 
+    "ymax" : 11287669.948200002, 
+    "spatialReference" : {
+      "wkid" : 102100, 
+      "latestWkid" : 3857
+    }
+  }, 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriPMS","url":"4670fb08bed6294cb9b330f40f5130b5","imageData":"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","contentType":"image/png","width":57,"height":57,"angle":0,"xoffset":0,"yoffset":0}},"scaleSymbols":true,"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasMetadata" : true, 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "", 
+  "collation" : {
+    "locale" : "neutral", 
+    "caseSensitive" : false, 
+    "accentSensitive" : true
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "portid", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "portid", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "portname", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "portname", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "country", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "country", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ISO3", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ISO3", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "countrydisplayname", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "countrydisplayname", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "continent", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "continent", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "fullname", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "fullname", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "lat", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "lat", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "long", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "long", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_total", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_total", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_container", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_container", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_dry_bulk", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_dry_bulk", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_general_cargo", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_general_cargo", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_roro", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_roro", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "vessel_count_tanker", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "vessel_count_tanker", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "industry_top1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "industry_top1", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "industry_top2", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "industry_top2", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "industry_top3", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "industry_top3", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "share_country_maritime_import", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "share_country_maritime_import", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "share_country_maritime_export", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "share_country_maritime_export", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "LOCODE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "LOCODE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "portclass", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "portclass", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4000, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__PORTWATC__F4B70D859A3A43D0", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_29433.PORTWATCH_PORTS_PORTWATCHPORTS_V22_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }, 
+    {
+      "name" : "ISO3_Index", 
+      "fields" : "ISO3", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "ISO3_Index", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "portid_Index", 
+      "fields" : "portid", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "portid_Index", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "portname_Index", 
+      "fields" : "portname", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "portname_Index", 
+      "indexType" : "Attribute"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "timeZoneIANA" : "Etc/UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [], 
+  "templates" : [
+    {
+      "name" : "PortWatchPorts_v2", 
+      "description" : "", 
+      "drawingTool" : "esriFeatureEditToolPoint", 
+      "prototype" : {
+        "attributes" : {
+          "LOCODE" : null, 
+          "portclass" : null, 
+          "portid" : null, 
+          "portname" : null, 
+          "country" : null, 
+          "ISO3" : null, 
+          "countrydisplayname" : null, 
+          "continent" : null, 
+          "fullname" : null, 
+          "lat" : null, 
+          "long" : null, 
+          "vessel_count_total" : null, 
+          "vessel_count_container" : null, 
+          "vessel_count_dry_bulk" : null, 
+          "vessel_count_general_cargo" : null, 
+          "vessel_count_roro" : null, 
+          "vessel_count_tanker" : null, 
+          "industry_top1" : null, 
+          "industry_top2" : null, 
+          "industry_top3" : null, 
+          "share_country_maritime_import" : null, 
+          "share_country_maritime_export" : null
+        }
+      }
+    }
+  ], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf", 
+  "supportedAppendSourceFilterFormats" : "sqlite,geoPackage,shapefile,filegdb,featureService", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet", 
+  "supportedConvertFileFormats" : "JSON,PBF,Parquet", 
+  "supportedConvertContentFormats" : "LayerEditCollection,FeatureCollection", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "guidFormat" : "", 
+  "supportsContingentValues" : true, 
+  "supportsEditingContingentValues" : true, 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportsFieldGroups" : true, 
+  "supportedSyncDataOptions" : 49412, 
+  "hasStaticData" : false, 
+  "maxRecordCount" : 1000, 
+  "standardMaxRecordCount" : 16000, 
+  "maxIdsCount" : 1000000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 8000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query"
+}
